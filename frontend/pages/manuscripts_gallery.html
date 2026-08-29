@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Manuscripts - Akhmim Coptic Archive</title>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Arimo:wght@400;500;700&amp;family=Domine:wght@400;700&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Coptic&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "surface-dim": "#e9d6d0",
+                    "tertiary": "#005f6f",
+                    "secondary-fixed": "#c5e7ff",
+                    "on-primary-fixed-variant": "#802a09",
+                    "surface-variant": "#f2ded9",
+                    "secondary-fixed-dim": "#97cdf0",
+                    "on-secondary-fixed-variant": "#034c69",
+                    "surface-container": "#feeae4",
+                    "on-primary-container": "#fff0eb",
+                    "outline": "#8a726b",
+                    "tertiary-fixed-dim": "#7ad3e8",
+                    "primary-fixed-dim": "#ffb59e",
+                    "outline-variant": "#ddc0b8",
+                    "primary": "#953918",
+                    "on-secondary-fixed": "#001e2d",
+                    "inverse-on-surface": "#ffede8",
+                    "on-tertiary": "#ffffff",
+                    "on-error-container": "#93000a",
+                    "surface": "#fff8f6",
+                    "inverse-surface": "#392e2a",
+                    "on-surface-variant": "#56423c",
+                    "surface-bright": "#fff8f6",
+                    "on-secondary-container": "#26617f",
+                    "tertiary-fixed": "#a8edff",
+                    "on-tertiary-container": "#def8ff",
+                    "surface-container-lowest": "#ffffff",
+                    "on-background": "#231916",
+                    "primary-fixed": "#ffdbd0",
+                    "on-tertiary-fixed": "#001f25",
+                    "error-container": "#ffdad6",
+                    "on-secondary": "#ffffff",
+                    "secondary": "#296483",
+                    "secondary-container": "#a4dbfe",
+                    "on-tertiary-fixed-variant": "#004e5b",
+                    "primary-container": "#b5502e",
+                    "surface-container-high": "#f8e4de",
+                    "on-primary-fixed": "#3a0b00",
+                    "background": "#fff8f6",
+                    "error": "#ba1a1a",
+                    "on-primary": "#ffffff",
+                    "on-surface": "#231916",
+                    "surface-tint": "#a04020",
+                    "on-error": "#ffffff",
+                    "surface-container-highest": "#f2ded9",
+                    "surface-container-low": "#fff1ed",
+                    "tertiary-container": "#007a8d",
+                    "inverse-primary": "#ffb59e"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.125rem",
+                    "lg": "0.25rem",
+                    "xl": "0.5rem",
+                    "full": "0.75rem"
+            },
+            "spacing": {
+                    "gutter": "24px",
+                    "margin-mobile": "16px",
+                    "unit": "8px",
+                    "margin-desktop": "48px",
+                    "container-max": "1200px"
+            },
+            "fontFamily": {
+                    "body-md": [
+                            "Arimo"
+                    ],
+                    "script-display": [
+                            "Arimo"
+                    ],
+                    "headline-lg-mobile": [
+                            "Domine"
+                    ],
+                    "label-caps": [
+                            "JetBrains Mono"
+                    ],
+                    "headline-md": [
+                            "Domine"
+                    ],
+                    "body-lg": [
+                            "Arimo"
+                    ],
+                    "headline-lg": [
+                            "Domine"
+                    ]
+            },
+            "fontSize": {
+                    "body-md": [
+                            "16px",
+                            {
+                                    "lineHeight": "24px",
+                                    "fontWeight": "400"
+                            }
+                    ],
+                    "script-display": [
+                            "22px",
+                            {
+                                    "lineHeight": "32px",
+                                    "fontWeight": "500"
+                            }
+                    ],
+                    "headline-lg-mobile": [
+                            "30px",
+                            {
+                                    "lineHeight": "36px",
+                                    "fontWeight": "700"
+                            }
+                    ],
+                    "label-caps": [
+                            "12px",
+                            {
+                                    "lineHeight": "16px",
+                                    "letterSpacing": "0.1em",
+                                    "fontWeight": "500"
+                            }
+                    ],
+                    "headline-md": [
+                            "24px",
+                            {
+                                    "lineHeight": "32px",
+                                    "fontWeight": "700"
+                            }
+                    ],
+                    "body-lg": [
+                            "18px",
+                            {
+                                    "lineHeight": "28px",
+                                    "fontWeight": "400"
+                            }
+                    ],
+                    "headline-lg": [
+                            "40px",
+                            {
+                                    "lineHeight": "48px",
+                                    "letterSpacing": "-0.02em",
+                                    "fontWeight": "700"
+                            }
+                    ]
+            }
+    },
+        },
+      }
+    </script>
+<style>
+        .papyrus-bg {
+            background-color: #EDE0C8;
+        }
+        .sandstone-card {
+            background-color: #F5EEDF;
+        }
+        .guilloche-border {
+            border: 1px solid theme('colors.outline');
+            position: relative;
+        }
+        .guilloche-border::before, .guilloche-border::after {
+            content: '';
+            position: absolute;
+            width: 8px;
+            height: 8px;
+            border: 1px solid theme('colors.outline');
+        }
+        .guilloche-border::before { top: -4px; left: -4px; }
+        .guilloche-border::after { bottom: -4px; right: -4px; }
+        .guilloche-border-inner::before { top: -4px; right: -4px; }
+        .guilloche-border-inner::after { bottom: -4px; left: -4px; }
+        
+        .woven-border {
+            border: 1px solid theme('colors.primary');
+        }
+        .recessed {
+            box-shadow: inset 0 0 0 1px theme('colors.outline-variant');
+        }
+        .scribe-input {
+            border-bottom: 2px solid theme('colors.on-surface-variant');
+            transition: all 0.2s ease;
+        }
+        .scribe-input:focus {
+            border-bottom-color: theme('colors.primary');
+            outline: none;
+        }
+        .coptic-glyphs {
+            font-family: 'Noto Sans Coptic', serif;
+        }
+        .manuscript-swatch {
+            background: repeating-linear-gradient(135deg, rgba(0,0,0,0.05) 0 2px, transparent 2px 6px);
+        }
+    </style>
+</head>
+<body class="bg-background text-on-surface font-body-md antialiased min-h-screen flex">
+<!-- SideNavBar -->
+<nav class="bg-primary text-on-primary w-64 h-screen fixed left-0 top-0 border-r-2 border-on-primary-fixed-variant flex flex-col py-gutter z-50">
+<div class="px-6 mb-8 flex flex-col gap-2">
+<div class="w-12 h-12 rounded-full overflow-hidden mb-2">
+<img class="object-cover w-full h-full" data-alt="A small, circular profile picture depicting a scholarly figure in a minimalist setting. The portrait is simple, well-lit, and set against a flat earth-toned background, fitting the linguistic archive aesthetic." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAzPmOMlqKLvs-AYSSoSvbEm-NIc-FaEOijXRBagPI5-zXDMdX6z2z-CQysknhObGzCeezC77mLbmCBkjcR_JLgXewJ7sPqwBwpb7eFmvf6BGmtDWB1FCsEPHG5b_bUz6ZQynxnct4lcwcyEyOI_-L8bZ6eGqGsTNvAS1a3hXAfx13twWi2IvH7B_Y_HaXnBqBMjTPL0-b89Bk5lH2IjmwJ_PqBb2e12wbCDzNBda2YBFXI1L0zVwNs"/>
+</div>
+<h1 class="text-headline-md font-headline-md text-on-primary">Coptic Lab</h1>
+<p class="text-label-caps font-label-caps opacity-80">Linguistics Archive</p>
+</div>
+<div class="flex-1 flex flex-col gap-2 px-2 mt-4">
+<a class="text-primary-fixed opacity-80 pl-4 py-3 flex items-center gap-3 hover:bg-primary-container hover:text-on-primary-container transition-colors rounded-r-lg group" href="coptic_translator.html">
+<span class="material-symbols-outlined group-active:scale-95 duration-150">translate</span>
+<span class="text-body-md font-body-md">Translator</span>
+</a>
+<a class="text-primary-fixed opacity-80 pl-4 py-3 flex items-center gap-3 hover:bg-primary-container hover:text-on-primary-container transition-colors rounded-r-lg group" href="coptic_lexicon.html">
+<span class="material-symbols-outlined group-active:scale-95 duration-150">menu_book</span>
+<span class="text-body-md font-body-md">Lexicon</span>
+</a>
+<a class="text-tertiary-fixed font-bold border-l-4 border-tertiary-fixed pl-4 py-3 flex items-center gap-3 hover:bg-primary-container hover:text-on-primary-container transition-colors rounded-r-lg group bg-primary-container/20" href="manuscripts_gallery.html">
+<span class="material-symbols-outlined group-active:scale-95 duration-150">history_edu</span>
+<span class="text-body-md font-body-md">Manuscripts</span>
+</a>
+<a class="text-primary-fixed opacity-80 pl-4 py-3 flex items-center gap-3 hover:bg-primary-container hover:text-on-primary-container transition-colors rounded-r-lg group" href="lab_notes_metrics.html">
+<span class="material-symbols-outlined group-active:scale-95 duration-150">science</span>
+<span class="text-body-md font-body-md">Lab Notes</span>
+</a>
+</div>
+<div class="px-2 mt-auto">
+<a class="text-primary-fixed opacity-80 pl-4 py-3 flex items-center gap-3 hover:bg-primary-container hover:text-on-primary-container transition-colors rounded-r-lg group" href="#">
+<span class="material-symbols-outlined group-active:scale-95 duration-150">settings</span>
+<span class="text-body-md font-body-md">Settings</span>
+</a>
+</div>
+</nav>
+<!-- Main Content Area -->
+<main class="flex-1 ml-64 min-h-screen flex flex-col papyrus-bg relative z-0">
+<!-- TopAppBar -->
+<header class="bg-surface text-primary border-b-2 border-outline-variant flex justify-between items-center px-margin-desktop h-20 sticky top-0 z-40">
+<h2 class="text-headline-md font-headline-md">Akhmim Coptic Archive</h2>
+<div class="flex-1 max-w-xl mx-8 relative flex items-center justify-center">
+<input class="bg-transparent scribe-input w-full py-2 px-0 text-body-md font-body-md text-on-surface placeholder:text-on-surface-variant/50 focus:ring-0 border-0 border-b-2" id="manuscripts-search-input" placeholder="Search manuscripts..." type="text"/>
+<span class="material-symbols-outlined absolute right-2 text-on-surface-variant">search</span>
+</div>
+<div class="flex gap-4">
+<button class="text-on-surface-variant hover:text-tertiary transition-colors flex items-center justify-center w-10 h-10 rounded">
+<span class="material-symbols-outlined">filter_list</span>
+</button>
+<button class="text-on-surface-variant hover:text-tertiary transition-colors flex items-center justify-center w-10 h-10 rounded">
+<span class="material-symbols-outlined">history</span>
+</button>
+</div>
+</header>
+<!-- Filters -->
+<section class="px-margin-desktop py-8 flex justify-center gap-4 border-b border-outline-variant/30" id="manuscripts-filters">
+<button class="px-4 py-1.5 text-label-caps font-label-caps bg-surface-tint text-on-primary border border-outline-variant recessed hover:bg-primary-container transition-colors" data-dialect="all">ALL DIALECTS</button>
+<button class="px-4 py-1.5 text-label-caps font-label-caps bg-surface-tint/10 text-on-surface border border-outline-variant recessed hover:bg-surface-tint/20 transition-colors" data-dialect="sahidic">SAHIDIC</button>
+<button class="px-4 py-1.5 text-label-caps font-label-caps bg-surface-tint/10 text-on-surface border border-outline-variant recessed hover:bg-surface-tint/20 transition-colors" data-dialect="bohairic">BOHAIRIC</button>
+<button class="px-4 py-1.5 text-label-caps font-label-caps bg-surface-tint/10 text-on-surface border border-outline-variant recessed hover:bg-surface-tint/20 transition-colors" data-dialect="akhmimic">AKHMIMIC</button>
+</section>
+<!-- Gallery Grid -->
+<section class="flex-1 p-margin-desktop max-w-[1400px] mx-auto w-full">
+<div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-8" id="manuscripts-grid">
+<p class="text-body-md font-body-md text-on-surface-variant col-span-4">Loading manuscripts…</p>
+</div>
+</section>
+<!-- Footer -->
+<footer class="bg-surface-container-low text-on-surface-variant w-full py-8 mt-auto border-t border-outline-variant flex flex-col items-center justify-center gap-unit px-margin-desktop relative z-10">
+<div class="text-label-caps font-label-caps uppercase tracking-widest text-primary mb-2">Akhmim Coptic Archive</div>
+<p class="text-label-caps font-label-caps text-center max-w-2xl opacity-70">© 2024 Institute of Coptic Studies. Archaeological Sources: UNESCO &amp; Coptic Museum Cairo.</p>
+<div class="flex gap-6 mt-4">
+<a class="text-label-caps font-label-caps text-on-surface-variant opacity-70 hover:text-primary hover:opacity-100 transition-opacity duration-200" href="#">Archives</a>
+<a class="text-label-caps font-label-caps text-on-surface-variant opacity-70 hover:text-primary hover:opacity-100 transition-opacity duration-200" href="#">Cite</a>
+<a class="text-label-caps font-label-caps text-on-surface-variant opacity-70 hover:text-primary hover:opacity-100 transition-opacity duration-200" href="#">Terms</a>
+</div>
+</footer>
+</main>
+<script src="/assets/js/common.js"></script>
+<script src="/assets/js/manuscripts.js"></script>
+</body></html>

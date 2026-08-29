@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Lab Notes - Akhmim Coptic Archive</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Arimo:wght@400;500;700&amp;family=Domine:wght@400;700&amp;family=JetBrains+Mono:wght@500&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "surface-dim": "#e9d6d0",
+                        "tertiary": "#005f6f",
+                        "secondary-fixed": "#c5e7ff",
+                        "on-primary-fixed-variant": "#802a09",
+                        "surface-variant": "#f2ded9",
+                        "secondary-fixed-dim": "#97cdf0",
+                        "on-secondary-fixed-variant": "#034c69",
+                        "surface-container": "#feeae4",
+                        "on-primary-container": "#fff0eb",
+                        "outline": "#8a726b",
+                        "tertiary-fixed-dim": "#7ad3e8",
+                        "primary-fixed-dim": "#ffb59e",
+                        "outline-variant": "#ddc0b8",
+                        "primary": "#953918",
+                        "on-secondary-fixed": "#001e2d",
+                        "inverse-on-surface": "#ffede8",
+                        "on-tertiary": "#ffffff",
+                        "on-error-container": "#93000a",
+                        "surface": "#fff8f6",
+                        "inverse-surface": "#392e2a",
+                        "on-surface-variant": "#56423c",
+                        "surface-bright": "#fff8f6",
+                        "on-secondary-container": "#26617f",
+                        "tertiary-fixed": "#a8edff",
+                        "on-tertiary-container": "#def8ff",
+                        "surface-container-lowest": "#ffffff",
+                        "on-background": "#231916",
+                        "primary-fixed": "#ffdbd0",
+                        "on-tertiary-fixed": "#001f25",
+                        "error-container": "#ffdad6",
+                        "on-secondary": "#ffffff",
+                        "secondary": "#296483",
+                        "secondary-container": "#a4dbfe",
+                        "on-tertiary-fixed-variant": "#004e5b",
+                        "primary-container": "#b5502e",
+                        "surface-container-high": "#f8e4de",
+                        "on-primary-fixed": "#3a0b00",
+                        "background": "#fff8f6",
+                        "error": "#ba1a1a",
+                        "on-primary": "#ffffff",
+                        "on-surface": "#231916",
+                        "surface-tint": "#a04020",
+                        "on-error": "#ffffff",
+                        "surface-container-highest": "#f2ded9",
+                        "surface-container-low": "#fff1ed",
+                        "tertiary-container": "#007a8d",
+                        "inverse-primary": "#ffb59e"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.125rem",
+                        "lg": "0.25rem",
+                        "xl": "0.5rem",
+                        "full": "0.75rem"
+                    },
+                    "spacing": {
+                        "gutter": "24px",
+                        "margin-mobile": "16px",
+                        "unit": "8px",
+                        "margin-desktop": "48px",
+                        "container-max": "1200px"
+                    },
+                    "fontFamily": {
+                        "body-md": ["Arimo"],
+                        "script-display": ["Arimo"],
+                        "headline-lg-mobile": ["Domine"],
+                        "label-caps": ["JetBrains Mono"],
+                        "headline-md": ["Domine"],
+                        "body-lg": ["Arimo"],
+                        "headline-lg": ["Domine"]
+                    },
+                    "fontSize": {
+                        "body-md": ["16px", {"lineHeight": "24px", "fontWeight": "400"}],
+                        "script-display": ["22px", {"lineHeight": "32px", "fontWeight": "500"}],
+                        "headline-lg-mobile": ["30px", {"lineHeight": "36px", "fontWeight": "700"}],
+                        "label-caps": ["12px", {"lineHeight": "16px", "letterSpacing": "0.1em", "fontWeight": "500"}],
+                        "headline-md": ["24px", {"lineHeight": "32px", "fontWeight": "700"}],
+                        "body-lg": ["18px", {"lineHeight": "28px", "fontWeight": "400"}],
+                        "headline-lg": ["40px", {"lineHeight": "48px", "letterSpacing": "-0.02em", "fontWeight": "700"}]
+                    }
+                }
+            }
+        }
+    </script>
+<style>
+        .papyrus-bg { background-color: #EDE0C8; }
+        .sandstone-bg { background-color: #F5EEDF; }
+        .guilloche-border { border: 1px solid #8a726b; position: relative; }
+        .guilloche-border::before, .guilloche-border::after,
+        .guilloche-corner::before, .guilloche-corner::after {
+            content: ''; position: absolute; width: 4px; height: 4px; background-color: #953918;
+        }
+        .guilloche-border::before { top: -2px; left: -2px; }
+        .guilloche-border::after { top: -2px; right: -2px; }
+        .guilloche-corner::before { bottom: -2px; left: -2px; }
+        .guilloche-corner::after { bottom: -2px; right: -2px; }
+        
+        .recessed-inner { box-shadow: inset 0 0 0 1px #8a726b; }
+        
+        /* Custom scrollbar for webkit */
+        ::-webkit-scrollbar { width: 8px; }
+        ::-webkit-scrollbar-track { background: #EDE0C8; }
+        ::-webkit-scrollbar-thumb { background: #8a726b; border-radius: 4px; }
+        ::-webkit-scrollbar-thumb:hover { background: #56423c; }
+    </style>
+</head>
+<body class="papyrus-bg text-on-surface font-body-md min-h-screen flex selection:bg-tertiary-fixed selection:text-on-tertiary-fixed">
+<!-- SideNavBar -->
+<nav class="bg-primary dark:bg-primary-container text-on-primary dark:text-on-primary-container text-headline-md font-headline-md w-64 h-screen fixed left-0 top-0 border-r-2 border-on-primary-fixed-variant flex flex-col py-gutter h-full z-50">
+<div class="px-6 mb-8 flex flex-col gap-2">
+<span class="text-headline-md font-headline-md text-on-primary dark:text-on-primary-fixed-variant tracking-tight">Coptic Lab</span>
+<span class="text-label-caps font-label-caps text-primary-fixed opacity-90 uppercase">Linguistics Archive</span>
+<div class="mt-4 w-12 h-12 rounded-none bg-surface-container-high border-2 border-primary-fixed overflow-hidden">
+<img alt="Scholarly Profile Avatar" class="w-full h-full object-cover" data-alt="A macro photograph of an ancient, weathered sandstone artifact fragment serving as a scholarly profile avatar. The stone texture is highly detailed, showing granular wear and subtle ochre pigmentation. Lighting is stark and directional, typical of museum archival photography, casting long shadows that emphasize the tactile surface. Minimalist, academic, and deeply historical aesthetic." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBuzAdL7knZmFcAbWfS9XWJWhNgcUxsHBIEagn-RwTuvAL6Y305OLj35p1VtnwUsAFMa_Hy0lwuW8-bcLzb8IZqZ4W9RFN1WSsma750Q5jGwr9n--YJ-g4_hRNZQU4LJ3gRJPyTgftaQ1u8AEM_Olwy_twd3M3ELm5z74pEXOiZgSKcTvDzw12GdDEOVqtfg6H7jhQU74kwP4rRGEbcj34QzxLjqLe1g7uvoI0qbm8RpJksY8J-B0f1"/>
+</div>
+</div>
+<ul class="flex flex-col gap-4 mt-8 flex-1">
+<li>
+<a class="flex items-center gap-4 py-2 hover:bg-primary-container hover:text-on-primary-container transition-colors active:scale-95 duration-150 text-primary-fixed opacity-80 pl-4" href="coptic_translator.html">
+<span class="material-symbols-outlined" data-weight="fill">translate</span>
+<span class="text-body-md font-body-md">Translator</span>
+</a>
+</li>
+<li>
+<a class="flex items-center gap-4 py-2 hover:bg-primary-container hover:text-on-primary-container transition-colors active:scale-95 duration-150 text-primary-fixed opacity-80 pl-4" href="coptic_lexicon.html">
+<span class="material-symbols-outlined" data-weight="fill">menu_book</span>
+<span class="text-body-md font-body-md">Lexicon</span>
+</a>
+</li>
+<li>
+<a class="flex items-center gap-4 py-2 hover:bg-primary-container hover:text-on-primary-container transition-colors active:scale-95 duration-150 text-primary-fixed opacity-80 pl-4" href="manuscripts_gallery.html">
+<span class="material-symbols-outlined" data-weight="fill">history_edu</span>
+<span class="text-body-md font-body-md">Manuscripts</span>
+</a>
+</li>
+<li>
+<a class="flex items-center gap-4 py-2 hover:bg-primary-container hover:text-on-primary-container transition-colors active:scale-95 duration-150 text-tertiary-fixed font-bold border-l-4 border-tertiary-fixed pl-4" href="lab_notes_metrics.html">
+<span class="material-symbols-outlined" data-weight="fill">science</span>
+<span class="text-body-md font-body-md">Lab Notes</span>
+</a>
+</li>
+</ul>
+<div class="mt-auto pb-4">
+<a class="flex items-center gap-4 py-2 hover:bg-primary-container hover:text-on-primary-container transition-colors active:scale-95 duration-150 text-primary-fixed opacity-80 pl-4" href="#">
+<span class="material-symbols-outlined" data-weight="fill">settings</span>
+<span class="text-body-md font-body-md">Settings</span>
+</a>
+</div>
+</nav>
+<!-- Main Content Wrapper -->
+<div class="ml-64 flex-1 flex flex-col min-h-screen">
+<!-- TopAppBar -->
+<header class="bg-surface dark:bg-surface-dim text-primary dark:text-primary-fixed-dim docked full-width top-0 sticky z-40 border-b-2 border-outline-variant flex justify-between items-center px-margin-desktop h-20">
+<h1 class="text-headline-md font-headline-md text-primary dark:text-primary-fixed-dim">Akhmim Coptic Archive</h1>
+<div class="flex items-center gap-6">
+<!-- Search on right -->
+<div class="relative group">
+<input class="bg-transparent border-0 border-b-2 border-outline-variant focus:ring-0 focus:border-primary text-body-md font-body-md text-on-surface placeholder:text-on-surface-variant py-1 px-0 w-64 transition-colors" placeholder="Search archive..." type="text"/>
+<span class="material-symbols-outlined absolute right-0 top-1/2 -translate-y-1/2 text-on-surface-variant group-focus-within:text-primary pointer-events-none">search</span>
+</div>
+<div class="flex gap-4">
+<button aria-label="filter_list" class="text-on-surface-variant hover:text-tertiary transition-colors">
+<span class="material-symbols-outlined">filter_list</span>
+</button>
+<button aria-label="history" class="text-on-surface-variant hover:text-tertiary transition-colors">
+<span class="material-symbols-outlined">history</span>
+</button>
+</div>
+</div>
+</header>
+<!-- Main Canvas -->
+<main class="flex-1 p-margin-desktop max-w-container-max mx-auto w-full">
+<!-- Page Header Controls -->
+<div class="flex flex-col items-center mb-12 gap-8">
+<!-- New Note Cartouche Button -->
+<button class="bg-secondary text-on-secondary px-8 py-3 rounded-none relative group border border-transparent overflow-hidden hover:bg-on-secondary-container transition-colors duration-300" id="new-note-btn">
+<div class="absolute inset-x-2 top-1 border-t-2 border-tertiary-fixed opacity-50"></div>
+<div class="absolute inset-x-2 bottom-1 border-b-2 border-tertiary-fixed opacity-50"></div>
+<div class="flex items-center gap-2 relative z-10">
+<span class="material-symbols-outlined text-tertiary-fixed">add</span>
+<span class="text-label-caps font-label-caps tracking-widest text-on-secondary uppercase">New Log Entry</span>
+</div>
+</button>
+<!-- New Note Form (hidden until the button above is clicked) -->
+<form class="sandstone-bg guilloche-border p-6 w-full max-w-2xl flex flex-col gap-4 hidden" id="new-note-form">
+<div class="flex gap-4">
+<input class="flex-1 bg-transparent border-0 border-b-2 border-outline-variant focus:ring-0 focus:border-primary text-body-md font-body-md py-1" id="new-note-title" placeholder="Entry title" required type="text"/>
+<select class="bg-transparent border-0 border-b-2 border-outline-variant focus:ring-0 focus:border-primary text-body-md font-body-md py-1" id="new-note-category">
+<option value="Model">Model</option>
+<option value="Corpus">Corpus</option>
+<option value="Grammar">Grammar</option>
+<option value="Eval">Eval</option>
+</select>
+</div>
+<textarea class="w-full bg-transparent border-0 border-b-2 border-outline-variant focus:ring-0 focus:border-primary text-body-md font-body-md py-1 resize-none" id="new-note-content" placeholder="What did you observe?" required rows="3"></textarea>
+<div class="flex gap-4">
+<input class="flex-1 bg-transparent border-0 border-b-2 border-outline-variant focus:ring-0 focus:border-primary text-body-md font-body-md py-1" id="new-note-metric-label" placeholder="Metric label (optional)" type="text"/>
+<input class="w-32 bg-transparent border-0 border-b-2 border-outline-variant focus:ring-0 focus:border-primary text-body-md font-body-md py-1" id="new-note-metric-value" max="1" min="0" placeholder="0-1" step="0.01" type="number"/>
+</div>
+<div class="flex gap-4 justify-end">
+<button class="px-4 py-1 text-label-caps font-label-caps uppercase border border-outline-variant hover:bg-surface-variant transition-colors" id="cancel-note-btn" type="button">Cancel</button>
+<button class="bg-secondary text-on-secondary px-4 py-1 text-label-caps font-label-caps uppercase hover:bg-tertiary transition-colors" type="submit">Save Entry</button>
+</div>
+</form>
+<!-- Symmetrical Filter Chips -->
+<div class="flex gap-4 justify-center flex-wrap" id="note-filters">
+<button class="bg-surface-tint text-on-primary px-4 py-1 text-label-caps font-label-caps uppercase rounded-none border border-outline-variant hover:bg-primary-container transition-colors recessed-inner" data-category="all">All Notes</button>
+<button class="sandstone-bg text-on-surface-variant px-4 py-1 text-label-caps font-label-caps uppercase rounded-none border border-outline-variant hover:bg-surface-variant transition-colors" data-category="Model">Model Analysis</button>
+<button class="sandstone-bg text-on-surface-variant px-4 py-1 text-label-caps font-label-caps uppercase rounded-none border border-outline-variant hover:bg-surface-variant transition-colors" data-category="Corpus">Corpus Align</button>
+<button class="sandstone-bg text-on-surface-variant px-4 py-1 text-label-caps font-label-caps uppercase rounded-none border border-outline-variant hover:bg-surface-variant transition-colors" data-category="Grammar">Grammar Spec</button>
+<button class="sandstone-bg text-on-surface-variant px-4 py-1 text-label-caps font-label-caps uppercase rounded-none border border-outline-variant hover:bg-surface-variant transition-colors" data-category="Eval">Eval Metrics</button>
+</div>
+</div>
+<!-- Grid Content -->
+<div class="grid grid-cols-1 md:grid-cols-2 gap-gutter" id="notes-grid">
+<p class="text-body-md font-body-md text-on-surface-variant col-span-2">Loading notes…</p>
+</div>
+</main>
+<!-- Footer -->
+<footer class="bg-surface-container-low dark:bg-surface-container-highest w-full py-8 border-t border-outline-variant flex flex-col items-center justify-center gap-unit px-margin-desktop mt-auto z-10">
+<p class="text-on-surface-variant font-body-md text-body-md text-center max-w-2xl opacity-80 mb-4">
+                © 2024 Institute of Coptic Studies. Archaeological Sources: UNESCO &amp; Coptic Museum Cairo.
+            </p>
+<ul class="flex gap-8">
+<li><a class="text-label-caps font-label-caps uppercase tracking-widest text-on-surface-variant opacity-70 hover:text-primary transition-opacity duration-200" href="#">Archives</a></li>
+<li><a class="text-label-caps font-label-caps uppercase tracking-widest text-on-surface-variant opacity-70 hover:text-primary transition-opacity duration-200" href="#">Cite</a></li>
+<li><a class="text-label-caps font-label-caps uppercase tracking-widest text-on-surface-variant opacity-70 hover:text-primary transition-opacity duration-200" href="#">Terms</a></li>
+</ul>
+</footer>
+</div>
+<script src="/assets/js/common.js"></script>
+<script src="/assets/js/lab-notes.js"></script>
+</body></html>

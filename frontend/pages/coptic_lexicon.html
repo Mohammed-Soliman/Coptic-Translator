@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Lexicon - Akhmim Coptic Archive</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&amp;family=Domine:wght@400..700&amp;family=JetBrains+Mono:wght@100..800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Coptic&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "surface-dim": "#e9d6d0",
+                        "tertiary": "#005f6f",
+                        "secondary-fixed": "#c5e7ff",
+                        "on-primary-fixed-variant": "#802a09",
+                        "surface-variant": "#f2ded9",
+                        "secondary-fixed-dim": "#97cdf0",
+                        "on-secondary-fixed-variant": "#034c69",
+                        "surface-container": "#feeae4",
+                        "on-primary-container": "#fff0eb",
+                        "outline": "#8a726b",
+                        "tertiary-fixed-dim": "#7ad3e8",
+                        "primary-fixed-dim": "#ffb59e",
+                        "outline-variant": "#ddc0b8",
+                        "primary": "#953918",
+                        "on-secondary-fixed": "#001e2d",
+                        "inverse-on-surface": "#ffede8",
+                        "on-tertiary": "#ffffff",
+                        "on-error-container": "#93000a",
+                        "surface": "#fff8f6",
+                        "inverse-surface": "#392e2a",
+                        "on-surface-variant": "#56423c",
+                        "surface-bright": "#fff8f6",
+                        "on-secondary-container": "#26617f",
+                        "tertiary-fixed": "#a8edff",
+                        "on-tertiary-container": "#def8ff",
+                        "surface-container-lowest": "#ffffff",
+                        "on-background": "#231916",
+                        "primary-fixed": "#ffdbd0",
+                        "on-tertiary-fixed": "#001f25",
+                        "error-container": "#ffdad6",
+                        "on-secondary": "#ffffff",
+                        "secondary": "#296483",
+                        "secondary-container": "#a4dbfe",
+                        "on-tertiary-fixed-variant": "#004e5b",
+                        "primary-container": "#b5502e",
+                        "surface-container-high": "#f8e4de",
+                        "on-primary-fixed": "#3a0b00",
+                        "background": "#fff8f6",
+                        "error": "#ba1a1a",
+                        "on-primary": "#ffffff",
+                        "on-surface": "#231916",
+                        "surface-tint": "#a04020",
+                        "on-error": "#ffffff",
+                        "surface-container-highest": "#f2ded9",
+                        "surface-container-low": "#fff1ed",
+                        "tertiary-container": "#007a8d",
+                        "inverse-primary": "#ffb59e"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.125rem",
+                        "lg": "0.25rem",
+                        "xl": "0.5rem",
+                        "full": "0.75rem"
+                    },
+                    "spacing": {
+                        "gutter": "24px",
+                        "margin-mobile": "16px",
+                        "unit": "8px",
+                        "margin-desktop": "48px",
+                        "container-max": "1200px"
+                    },
+                    "fontFamily": {
+                        "body-md": ["Arimo"],
+                        "script-display": ["Arimo"],
+                        "headline-lg-mobile": ["Domine"],
+                        "label-caps": ["JetBrains Mono"],
+                        "headline-md": ["Domine"],
+                        "body-lg": ["Arimo"],
+                        "headline-lg": ["Domine"]
+                    },
+                    "fontSize": {
+                        "body-md": ["16px", { "lineHeight": "24px", "fontWeight": "400" }],
+                        "script-display": ["22px", { "lineHeight": "32px", "fontWeight": "500" }],
+                        "headline-lg-mobile": ["30px", { "lineHeight": "36px", "fontWeight": "700" }],
+                        "label-caps": ["12px", { "lineHeight": "16px", "letterSpacing": "0.1em", "fontWeight": "500" }],
+                        "headline-md": ["24px", { "lineHeight": "32px", "fontWeight": "700" }],
+                        "body-lg": ["18px", { "lineHeight": "28px", "fontWeight": "400" }],
+                        "headline-lg": ["40px", { "lineHeight": "48px", "letterSpacing": "-0.02em", "fontWeight": "700" }]
+                    }
+                }
+            }
+        }
+    </script>
+<style>
+        .interlace-corner {
+            background-image: radial-gradient(circle at 2px 2px, theme('colors.primary') 1px, transparent 1px);
+            background-size: 4px 4px;
+        }
+        .coptic-glyphs {
+            font-family: 'Noto Sans Coptic', serif;
+        }
+    </style>
+</head>
+<body class="bg-background text-on-background font-body-md min-h-screen flex antialiased">
+<!-- SideNavBar -->
+<nav class="hidden md:flex w-64 h-screen fixed left-0 top-0 bg-primary dark:bg-primary-container border-r-2 border-on-primary-fixed-variant flex flex-col py-gutter h-full z-50">
+<div class="px-gutter mb-12">
+<h1 class="text-headline-md font-headline-md text-on-primary dark:text-on-primary-fixed-variant">Coptic Lab</h1>
+<p class="text-body-md font-body-md text-on-primary opacity-80 mt-1">Linguistics Archive</p>
+</div>
+<ul class="flex flex-col gap-2 flex-grow mt-4">
+<li>
+<a class="flex items-center gap-3 py-3 text-primary-fixed opacity-80 pl-4 hover:bg-primary-container hover:text-on-primary-container transition-colors active:scale-95 duration-150" href="coptic_translator.html">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 0;">translate</span>
+<span class="text-label-caps font-label-caps">Translator</span>
+</a>
+</li>
+<li>
+<a class="flex items-center gap-3 py-3 text-tertiary-fixed font-bold border-l-4 border-tertiary-fixed pl-4 bg-primary-container active:scale-95 duration-150" href="coptic_lexicon.html">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">menu_book</span>
+<span class="text-label-caps font-label-caps">Lexicon</span>
+</a>
+</li>
+<li>
+<a class="flex items-center gap-3 py-3 text-primary-fixed opacity-80 pl-4 hover:bg-primary-container hover:text-on-primary-container transition-colors active:scale-95 duration-150" href="manuscripts_gallery.html">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 0;">history_edu</span>
+<span class="text-label-caps font-label-caps">Manuscripts</span>
+</a>
+</li>
+<li>
+<a class="flex items-center gap-3 py-3 text-primary-fixed opacity-80 pl-4 hover:bg-primary-container hover:text-on-primary-container transition-colors active:scale-95 duration-150" href="lab_notes_metrics.html">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 0;">science</span>
+<span class="text-label-caps font-label-caps">Lab Notes</span>
+</a>
+</li>
+</ul>
+<div class="mt-auto pt-6 border-t border-on-primary-fixed-variant border-opacity-30">
+<a class="flex items-center gap-3 py-3 text-primary-fixed opacity-80 pl-4 hover:bg-primary-container hover:text-on-primary-container transition-colors active:scale-95 duration-150" href="#">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 0;">settings</span>
+<span class="text-label-caps font-label-caps">Settings</span>
+</a>
+<div class="px-gutter mt-6 flex items-center gap-3">
+<div class="w-10 h-10 rounded-full bg-surface-container-high border-2 border-tertiary-fixed overflow-hidden flex items-center justify-center">
+<span class="material-symbols-outlined text-primary">person</span>
+</div>
+</div>
+</div>
+</nav>
+<!-- Main Content Area -->
+<div class="flex-1 flex flex-col min-w-0 md:ml-64">
+<!-- TopAppBar -->
+<header class="bg-surface dark:bg-surface-dim docked full-width top-0 sticky z-40 border-b-2 border-outline-variant flex justify-between items-center px-margin-desktop h-20">
+<h2 class="text-headline-md font-headline-md text-primary dark:text-primary-fixed-dim">Akhmim Coptic Archive</h2>
+<div class="flex items-center gap-6">
+<!-- Search -->
+<div class="relative hidden lg:block group">
+<input class="w-64 bg-transparent border-0 border-b-2 border-outline text-body-md font-body-md focus:ring-0 focus:border-primary transition-colors py-2 pl-2 pr-8 placeholder-on-surface-variant group-hover:border-tertiary" placeholder="Search archive..." type="text"/>
+<span class="material-symbols-outlined absolute right-2 top-1/2 -translate-y-1/2 text-on-surface-variant group-hover:text-tertiary pointer-events-none">search</span>
+</div>
+<div class="flex items-center gap-4">
+<button aria-label="Filter List" class="text-on-surface-variant hover:text-tertiary transition-colors">
+<span class="material-symbols-outlined">filter_list</span>
+</button>
+<button aria-label="History" class="text-on-surface-variant hover:text-tertiary transition-colors">
+<span class="material-symbols-outlined">history</span>
+</button>
+</div>
+</div>
+</header>
+<!-- Page Content -->
+<main class="flex-1 p-margin-mobile md:p-margin-desktop max-w-container-max mx-auto w-full grid grid-cols-1 xl:grid-cols-12 gap-gutter">
+<!-- Lexicon Canvas (Left 8 cols) -->
+<div class="xl:col-span-8 flex flex-col gap-8">
+<!-- Search & Filters Toolbar -->
+<div class="bg-surface-container p-6 border border-outline-variant relative">
+<div class="absolute top-0 left-0 w-4 h-4 interlace-corner"></div>
+<div class="absolute top-0 right-0 w-4 h-4 interlace-corner"></div>
+<div class="absolute bottom-0 left-0 w-4 h-4 interlace-corner"></div>
+<div class="absolute bottom-0 right-0 w-4 h-4 interlace-corner"></div>
+<div class="flex flex-col md:flex-row gap-6 items-end">
+<div class="flex-1 w-full relative group">
+<label class="text-label-caps font-label-caps text-on-surface-variant mb-2 block uppercase tracking-widest">Lemmatic Search</label>
+<input class="w-full bg-transparent border-0 border-b-2 border-outline text-headline-md font-headline-md text-primary focus:ring-0 focus:border-primary transition-colors py-2 pl-0 placeholder-outline-variant group-hover:border-tertiary" id="lexicon-search-input" placeholder="Enter Coptic or English term..." type="text"/>
+</div>
+<div class="flex gap-4 w-full md:w-auto">
+<div class="flex-1 md:w-32">
+<label class="text-label-caps font-label-caps text-on-surface-variant mb-2 block uppercase tracking-widest">Dialect</label>
+<select class="w-full bg-transparent border-0 border-b-2 border-outline text-body-md font-body-md focus:ring-0 focus:border-primary py-2 pl-0" id="lexicon-dialect-select">
+<option value="all">All Dialects</option>
+<option value="sahidic">Sahidic</option>
+<option value="bohairic">Bohairic</option>
+<option value="akhmimic">Akhmimic</option>
+</select>
+</div>
+<div class="flex-1 md:w-32">
+<label class="text-label-caps font-label-caps text-on-surface-variant mb-2 block uppercase tracking-widest">PoS</label>
+<select class="w-full bg-transparent border-0 border-b-2 border-outline text-body-md font-body-md focus:ring-0 focus:border-primary py-2 pl-0" id="lexicon-pos-select">
+<option value="any">Any</option>
+<option value="noun">Noun</option>
+<option value="verb">Verb</option>
+<option value="adj">Adj</option>
+</select>
+</div>
+</div>
+</div>
+</div>
+<!-- Results Grid -->
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6" id="lexicon-results">
+<p class="text-body-md font-body-md text-on-surface-variant col-span-2">Loading lexicon…</p>
+</div>
+</div>
+<!-- Detail Panel (Right 4 cols) -->
+<aside class="xl:col-span-4 h-full sticky top-28">
+<div class="bg-surface border-2 border-outline-variant p-8 flex flex-col h-full min-h-[600px] shadow-[inset_0_0_0_2px_theme(colors.surface)]" id="lexicon-detail-panel">
+<p class="text-body-md font-body-md text-on-surface-variant">Select an entry to see its full record.</p>
+</div>
+</aside>
+</main>
+<!-- Footer -->
+<footer class="bg-surface-container-low dark:bg-surface-container-highest w-full py-8 border-t border-outline-variant flex flex-col items-center justify-center gap-unit px-margin-desktop mt-auto">
+<div class="flex gap-6 mb-4">
+<a class="text-label-caps font-label-caps text-on-surface-variant opacity-70 hover:text-primary transition-opacity duration-200" href="#">Archives</a>
+<a class="text-label-caps font-label-caps text-on-surface-variant opacity-70 hover:text-primary transition-opacity duration-200" href="#">Cite</a>
+<a class="text-label-caps font-label-caps text-on-surface-variant opacity-70 hover:text-primary transition-opacity duration-200" href="#">Terms</a>
+</div>
+<p class="text-label-caps font-label-caps text-on-surface-variant uppercase tracking-widest text-center max-w-2xl">
+                © 2024 Institute of Coptic Studies. Archaeological Sources: UNESCO &amp; Coptic Museum Cairo.
+            </p>
+</footer>
+</div>
+<script src="/assets/js/common.js"></script>
+<script src="/assets/js/lexicon.js"></script>
+</body></html>

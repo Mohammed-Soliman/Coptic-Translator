@@ -4,11 +4,25 @@ Thin wrapper around the baseline Hugging Face English<->Coptic models.
 This is the Phase 1 MVP translation layer described in ARCHITECTURE.md:
 just the neural baseline, no retrieval/grammar/validation yet. Those get
 layered on in later phases without changing this interface.
+
+IMPORTANT: these models ship their own custom pipeline handlers
+(`trust_remote_code=True`), not the generic HF "translation" task. Per the
+model cards:
+
+    pipe = pipeline(model="megalaa/english-coptic-translator", trust_remote_code=True)
+    output = pipe("Jesus Christ", to_bohairic=True, output_confidence=True)
+    # {'translation': 'ⲓⲏⲥⲟⲩⲥ ⲡⲓⲭⲣⲓⲥⲧⲟⲥ', 'confidence': 0.9277...}
+
+Loading it as a plain "translation" pipeline (as an earlier version of this
+file did) skips that custom handler and produces garbled, low-quality
+output. Always re-check the model card if translation quality regresses -
+these are community models and their calling convention can change.
 """
 
 from __future__ import annotations
 
 import logging
+from dataclasses import dataclass
 from functools import lru_cache
 from typing import Optional
 
@@ -16,6 +30,24 @@ logger = logging.getLogger(__name__)
 
 EN2COP_MODEL_NAME = "megalaa/english-coptic-translator"
 COP2EN_MODEL_NAME = "megalaa/coptic-english-translator"
+
+# IMPORTANT: as of writing, `main` for the EN->Coptic model replaced the
+# file that made `trust_remote_code=True` work locally
+# (english_coptic_pipeline.py) with handler.py - the format used by
+# Hugging Face's *hosted* Inference Endpoints, which a local
+# transformers.pipeline() call cannot use. Loading `main` silently falls
+# back to the generic pipeline and errors on to_bohairic/output_confidence.
+# This pinned revision is the last commit that still ships the working
+# local pipeline file. Re-check the model's commit history periodically -
+# if the maintainer restores local support on `main`, this pin can be
+# removed. https://huggingface.co/megalaa/english-coptic-translator/commits/main
+EN2COP_MODEL_REVISION = "c1cae17da007165feeb3699d3c7a11bcb2aa9665"
+
+
+@dataclass
+class TranslationResult:
+    text: str
+    confidence: Optional[float] = None
 
 
 class Translator:
@@ -31,9 +63,15 @@ class Translator:
         if self._en2cop_pipeline is None:
             from transformers import pipeline
 
-            logger.info("Loading EN->Coptic model: %s", EN2COP_MODEL_NAME)
+            logger.info(
+                "Loading EN->Coptic model: %s (revision %s)",
+                EN2COP_MODEL_NAME,
+                EN2COP_MODEL_REVISION,
+            )
             self._en2cop_pipeline = pipeline(
-                "translation", model=EN2COP_MODEL_NAME
+                model=EN2COP_MODEL_NAME,
+                revision=EN2COP_MODEL_REVISION,
+                trust_remote_code=True,
             )
         return self._en2cop_pipeline
 
@@ -43,7 +81,7 @@ class Translator:
 
             logger.info("Loading Coptic->EN model: %s", COP2EN_MODEL_NAME)
             self._cop2en_pipeline = pipeline(
-                "translation", model=COP2EN_MODEL_NAME
+                model=COP2EN_MODEL_NAME, trust_remote_code=True
             )
         return self._cop2en_pipeline
 
@@ -55,25 +93,51 @@ class Translator:
     def cop2en_loaded(self) -> bool:
         return self._cop2en_pipeline is not None
 
+    # -- output parsing -------------------------------------------------
+
+    @staticmethod
+    def _parse_output(result) -> TranslationResult:
+        """Handle both the custom-handler dict output and, as a fallback,
+        the generic HF pipeline list-of-dicts output, in case a model's
+        calling convention changes upstream."""
+        if isinstance(result, dict):
+            text = result.get("translation") or result.get("translation_text") or ""
+            confidence = result.get("confidence")
+            return TranslationResult(text=text, confidence=confidence)
+        if isinstance(result, list) and result:
+            first = result[0]
+            text = first.get("translation") or first.get("translation_text") or ""
+            confidence = first.get("confidence")
+            return TranslationResult(text=text, confidence=confidence)
+        raise ValueError(f"Unexpected pipeline output shape: {result!r}")
+
     # -- public API -----------------------------------------------------
 
-    def translate_en_to_coptic(self, text: str, dialect: str = "bohairic") -> str:
-        """Translate English text to Coptic.
-
-        NOTE: check the model card for `megalaa/english-coptic-translator`
-        for the exact way it expects dialect to be specified (e.g. a prefix
-        token vs. a separate parameter) and adjust the call below to match.
-        """
+    def translate_en_to_coptic(
+        self, text: str, dialect: str = "bohairic"
+    ) -> TranslationResult:
         translator = self._load_en2cop()
-        result = translator(text)
-        return result[0]["translation_text"]
+        # Model defaults to Sahidic; pass to_bohairic=True explicitly for Bohairic.
+        result = translator(
+            text, to_bohairic=(dialect == "bohairic"), output_confidence=True
+        )
+        return self._parse_output(result)
 
-    def translate_coptic_to_en(self, text: str, dialect: Optional[str] = None) -> str:
+    def translate_coptic_to_en(
+        self, text: str, dialect: Optional[str] = None
+    ) -> TranslationResult:
         translator = self._load_cop2en()
-        result = translator(text)
-        return result[0]["translation_text"]
+        try:
+            result = translator(text, output_confidence=True)
+        except TypeError:
+            # Fall back in case this model's handler doesn't accept
+            # output_confidence - check its model card if this triggers.
+            result = translator(text)
+        return self._parse_output(result)
 
-    def translate(self, text: str, direction: str, dialect: str = "bohairic") -> str:
+    def translate(
+        self, text: str, direction: str, dialect: str = "bohairic"
+    ) -> TranslationResult:
         if direction == "en2cop":
             return self.translate_en_to_coptic(text, dialect=dialect)
         if direction == "cop2en":

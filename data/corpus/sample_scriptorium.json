@@ -1,0 +1,21 @@
+[
+  {
+    "coptic": "ⲓⲏⲥⲟⲩⲥ ⲡⲉⲭⲣⲓⲥⲧⲟⲥ",
+    "english": "Jesus Christ",
+    "dialect": "sahidic",
+    "source": "VERIFIED - confirmed via megalaa/english-coptic-translator model card example output",
+    "tokens": [
+      {"surface": "ⲓⲏⲥⲟⲩⲥ", "lemma": "ⲓⲏⲥⲟⲩⲥ", "pos": "PROPN"},
+      {"surface": "ⲡⲉⲭⲣⲓⲥⲧⲟⲥ", "lemma": "ⲭⲣⲓⲥⲧⲟⲥ", "pos": "PROPN"}
+    ]
+  },
+  {
+    "coptic": "PLACEHOLDER - replace with a real converted SCRIPTORIUM sentence",
+    "english": "The man went to the house",
+    "dialect": "sahidic",
+    "source": "UNVERIFIED - illustrative only, demonstrates the schema shape, not a real corpus sentence",
+    "tokens": [
+      {"surface": "PLACEHOLDER", "lemma": "PLACEHOLDER", "pos": "NOUN"}
+    ]
+  }
+]

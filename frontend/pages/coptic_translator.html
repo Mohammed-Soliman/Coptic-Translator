@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Coptic Lab - Translator</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Domine:wght@400;700&amp;family=Arimo:wght@400;500;700&amp;family=JetBrains+Mono:wght@500&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<!-- Noto Sans Coptic actually covers the Coptic Unicode block (U+2C80-U+2CFF);
+     decorative "Coptic-style" fonts elsewhere are usually restyled Latin
+     letters and silently fall back for real Coptic text. -->
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Coptic&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "tertiary-container": "#007a8d",
+                        "surface-container": "#feeae4",
+                        "inverse-on-surface": "#ffede8",
+                        "surface-container-low": "#fff1ed",
+                        "on-surface-variant": "#56423c",
+                        "on-secondary-fixed-variant": "#034c69",
+                        "on-primary-fixed-variant": "#802a09",
+                        "on-tertiary-fixed-variant": "#004e5b",
+                        "surface-variant": "#f2ded9",
+                        "on-error": "#ffffff",
+                        "on-secondary-fixed": "#001e2d",
+                        "on-tertiary-container": "#def8ff",
+                        "outline-variant": "#ddc0b8",
+                        "secondary-fixed": "#c5e7ff",
+                        "surface-bright": "#fff8f6",
+                        "surface-container-highest": "#f2ded9",
+                        "on-tertiary-fixed": "#001f25",
+                        "surface-tint": "#a04020",
+                        "primary-container": "#b5502e",
+                        "secondary": "#296483",
+                        "error-container": "#ffdad6",
+                        "on-primary-container": "#fff0eb",
+                        "surface": "#fff8f6",
+                        "on-primary-fixed": "#3a0b00",
+                        "on-tertiary": "#ffffff",
+                        "inverse-surface": "#392e2a",
+                        "background": "#fff8f6",
+                        "secondary-container": "#a4dbfe",
+                        "error": "#ba1a1a",
+                        "on-primary": "#ffffff",
+                        "primary-fixed-dim": "#ffb59e",
+                        "on-secondary": "#ffffff",
+                        "surface-container-high": "#f8e4de",
+                        "on-error-container": "#93000a",
+                        "tertiary-fixed": "#a8edff",
+                        "secondary-fixed-dim": "#97cdf0",
+                        "surface-dim": "#e9d6d0",
+                        "surface-container-lowest": "#ffffff",
+                        "on-secondary-container": "#26617f",
+                        "on-surface": "#231916",
+                        "on-background": "#231916",
+                        "tertiary-fixed-dim": "#7ad3e8",
+                        "primary-fixed": "#ffdbd0",
+                        "tertiary": "#005f6f",
+                        "inverse-primary": "#ffb59e",
+                        "primary": "#953918",
+                        "outline": "#8a726b",
+                        
+                        "papyrus": "#EDE0C8",
+                        "sandstone": "#F5EEDF",
+                        "lapis": "#1F5C7A",
+                        "terracotta": "#B5502E",
+                        "charcoal": "#231916",
+                        "ochre": "#D69F4C"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.125rem",
+                        "lg": "0.25rem",
+                        "xl": "0.5rem",
+                        "full": "0.75rem"
+                    },
+                    "spacing": {
+                        "gutter": "24px",
+                        "container-max": "1200px",
+                        "margin-desktop": "48px",
+                        "unit": "8px",
+                        "margin-mobile": "16px"
+                    },
+                    "fontFamily": {
+                        "headline-lg": ["Domine", "serif"],
+                        "label-caps": ["JetBrains Mono", "monospace"],
+                        "headline-md": ["Domine", "serif"],
+                        "script-display": ["Arimo", "sans-serif"],
+                        "body-md": ["Arimo", "sans-serif"],
+                        "headline-lg-mobile": ["Domine", "serif"],
+                        "body-lg": ["Arimo", "sans-serif"]
+                    },
+                    "fontSize": {
+                        "headline-lg": ["40px", { "lineHeight": "48px", "letterSpacing": "-0.02em", "fontWeight": "700" }],
+                        "label-caps": ["12px", { "lineHeight": "16px", "letterSpacing": "0.1em", "fontWeight": "500" }],
+                        "headline-md": ["24px", { "lineHeight": "32px", "fontWeight": "700" }],
+                        "script-display": ["22px", { "lineHeight": "32px", "fontWeight": "500" }],
+                        "body-md": ["16px", { "lineHeight": "24px", "fontWeight": "400" }],
+                        "headline-lg-mobile": ["30px", { "lineHeight": "36px", "fontWeight": "700" }],
+                        "body-lg": ["18px", { "lineHeight": "28px", "fontWeight": "400" }]
+                    }
+                }
+            }
+        }
+    </script>
+<style>
+        body { background-color: theme('colors.papyrus'); color: theme('colors.charcoal'); }
+        .guilloche-border {
+            position: relative;
+        }
+        .guilloche-border::before {
+            content: '';
+            position: absolute;
+            top: -2px; left: -2px; right: -2px; bottom: -2px;
+            border: 1px solid theme('colors.terracotta');
+            z-index: -1;
+            pointer-events: none;
+        }
+        .guilloche-corner {
+            position: absolute;
+            width: 8px; height: 8px;
+            border: 1px solid theme('colors.terracotta');
+        }
+        .guilloche-border::after {
+            content: '';
+            position: absolute; top: -4px; left: -4px; width: 8px; height: 8px; border: 1px solid theme('colors.terracotta'); z-index: -1;
+        }
+        .recessed {
+            background-color: theme('colors.sandstone');
+            border: 1px solid theme('colors.terracotta');
+            box-shadow: inset 0 2px 4px rgba(0,0,0,0.05);
+        }
+        .scribe-input {
+            background: transparent;
+            border: none;
+            border-bottom: 2px solid theme('colors.charcoal');
+            border-radius: 0;
+            padding-left: 0;
+        }
+        .scribe-input:focus {
+            outline: none;
+            border-bottom-color: theme('colors.terracotta');
+            box-shadow: none;
+        }
+        .coptic-glyphs {
+            font-family: 'Noto Sans Coptic', serif;
+        }
+    </style>
+</head>
+<body class="min-h-screen flex flex-col font-body-md text-body-md">
+<!-- TopAppBar -->
+<header class="bg-surface border-b-2 border-outline-variant docked full-width top-0 sticky z-40 flex justify-between items-center px-margin-desktop h-20 ml-64">
+<div class="text-headline-md font-headline-md text-primary">Akhmim Coptic Archive</div>
+<!-- Dialect Toggle (Centered) -->
+<div class="flex items-center space-x-unit border border-outline-variant p-1 bg-surface-container-low">
+<button class="px-4 py-1 text-label-caps font-label-caps bg-terracotta text-white transition-colors uppercase" data-dialect="bohairic" id="dialect-bohairic-btn">Bohairic</button>
+<button class="px-4 py-1 text-label-caps font-label-caps text-on-surface-variant hover:bg-surface-variant transition-colors uppercase" data-dialect="sahidic" id="dialect-sahidic-btn">Sahidic</button>
+</div>
+<div class="flex items-center space-x-unit text-primary">
+<button class="hover:text-tertiary p-2"><span class="material-symbols-outlined" data-icon="filter_list">filter_list</span></button>
+<button class="hover:text-tertiary p-2"><span class="material-symbols-outlined" data-icon="history">history</span></button>
+</div>
+</header>
+<!-- SideNavBar -->
+<nav class="bg-primary text-on-primary w-64 h-screen fixed left-0 top-0 bg-primary border-r-2 border-on-primary-fixed-variant flex flex-col py-gutter h-full z-50">
+<div class="px-4 mb-8 text-center">
+<img alt="Scholarly Profile Avatar" class="w-16 h-16 mx-auto mb-4 border border-on-primary-fixed-variant p-1 object-cover" data-alt="A highly detailed, flat-shaded minimalist vector illustration of an ancient Egyptian scribe palette in terracotta and sandstone tones, set against a pristine white background. The composition is symmetrical and archival, evoking a modern museum catalog aesthetic." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCb2E1wEjaczD4Mz9YwE1OwjYhiemAasdPaXaGKB6F9nr29gqUsSYd0EvLOf8_C2eRPHb2QsulFkauLFRz4f5Bjcy9LwmEs6DVy-b8YHTm-ccRCKqaOPLHwtxY9awnHDTrhX0Av4WqF0Mq2nkACPkroSDwnWHqs98kPTi0pqBoIqdaF4v8BaksGYlwVcQkrCNLPy4DEXqy5vnF9dOC-sbKrarxQM2s8DbKIWzbBOS7vZ-noEXfly4tX"/>
+<h1 class="text-headline-md font-headline-md text-on-primary">Coptic Lab</h1>
+<p class="text-label-caps font-label-caps mt-2 opacity-80 uppercase tracking-widest">Linguistics Archive</p>
+</div>
+<div class="flex-grow flex flex-col space-y-2 mt-8">
+<a class="flex items-center space-x-4 py-3 text-tertiary-fixed font-bold border-l-4 border-tertiary-fixed pl-4 hover:bg-primary-container hover:text-on-primary-container transition-colors" href="coptic_translator.html">
+<span class="material-symbols-outlined" data-icon="translate">translate</span>
+<span class="text-label-caps font-label-caps uppercase tracking-widest">Translator</span>
+</a>
+<a class="flex items-center space-x-4 py-3 text-primary-fixed opacity-80 pl-4 hover:bg-primary-container hover:text-on-primary-container transition-colors" href="coptic_lexicon.html">
+<span class="material-symbols-outlined" data-icon="menu_book">menu_book</span>
+<span class="text-label-caps font-label-caps uppercase tracking-widest">Lexicon</span>
+</a>
+<a class="flex items-center space-x-4 py-3 text-primary-fixed opacity-80 pl-4 hover:bg-primary-container hover:text-on-primary-container transition-colors" href="manuscripts_gallery.html">
+<span class="material-symbols-outlined" data-icon="history_edu">history_edu</span>
+<span class="text-label-caps font-label-caps uppercase tracking-widest">Manuscripts</span>
+</a>
+<a class="flex items-center space-x-4 py-3 text-primary-fixed opacity-80 pl-4 hover:bg-primary-container hover:text-on-primary-container transition-colors" href="lab_notes_metrics.html">
+<span class="material-symbols-outlined" data-icon="science">science</span>
+<span class="text-label-caps font-label-caps uppercase tracking-widest">Lab Notes</span>
+</a>
+</div>
+<div class="mt-auto px-4 pb-4">
+<a class="flex items-center space-x-4 py-3 text-primary-fixed opacity-80 hover:bg-primary-container hover:text-on-primary-container transition-colors" href="#">
+<span class="material-symbols-outlined" data-icon="settings">settings</span>
+<span class="text-label-caps font-label-caps uppercase tracking-widest">Settings</span>
+</a>
+</div>
+</nav>
+<!-- Main Content Area -->
+<main class="flex-grow ml-64 p-margin-desktop bg-papyrus flex flex-col items-center justify-center">
+<div class="w-full max-w-container-max relative">
+<!-- 2-Column CSS Grid Panel -->
+<div class="grid grid-cols-2 gap-0 relative bg-sandstone border-2 border-terracotta guilloche-border h-[500px]">
+<!-- Left: Source Panel -->
+<div class="p-8 flex flex-col h-full border-r border-terracotta/30">
+<div class="flex justify-between items-center mb-6">
+<span class="text-label-caps font-label-caps text-terracotta uppercase tracking-widest" id="source-label">Source (English)</span>
+<div class="flex space-x-2 text-outline-variant">
+<button class="hover:text-terracotta transition-colors"><span class="material-symbols-outlined" data-icon="volume_up">volume_up</span></button>
+<button class="hover:text-terracotta transition-colors" id="copy-source-btn"><span class="material-symbols-outlined" data-icon="content_copy">content_copy</span></button>
+</div>
+</div>
+<textarea class="w-full flex-grow bg-transparent border-none resize-none text-headline-md font-headline-md text-charcoal focus:ring-0 p-0 placeholder-outline-variant" id="source-input" placeholder="Enter text to translate..."></textarea>
+</div>
+<!-- Right: Target Panel -->
+<div class="p-8 flex flex-col h-full bg-sandstone/50">
+<div class="flex justify-between items-center mb-6">
+<span class="text-label-caps font-label-caps text-lapis uppercase tracking-widest" id="target-label">Target (Coptic)</span>
+<div class="flex space-x-2 text-outline-variant">
+<button class="hover:text-lapis transition-colors"><span class="material-symbols-outlined" data-icon="volume_up">volume_up</span></button>
+<button class="hover:text-lapis transition-colors" id="copy-target-btn"><span class="material-symbols-outlined" data-icon="content_copy">content_copy</span></button>
+</div>
+</div>
+<div class="w-full flex-grow text-script-display font-script-display text-lapis coptic-glyphs" id="target-output"></div>
+</div>
+<!-- Central Swap Icon -->
+<div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-papyrus border-2 border-terracotta p-2 hover:bg-surface-variant cursor-pointer transition-colors z-10 rounded-none" id="swap-btn">
+<span class="material-symbols-outlined text-terracotta" data-icon="swap_horiz">swap_horiz</span>
+</div>
+</div>
+<!-- Confidence Bar -->
+<div class="mt-8 bg-sandstone border border-terracotta p-4 flex items-center justify-between">
+<div class="flex items-center space-x-4 w-full">
+<span class="text-label-caps font-label-caps text-charcoal uppercase tracking-widest whitespace-nowrap">Translation Confidence</span>
+<div class="flex-grow h-2 bg-surface-variant relative">
+<div class="absolute top-0 left-0 h-full bg-lapis w-0 transition-all duration-300" id="confidence-fill"></div>
+</div>
+<span class="text-label-caps font-label-caps text-lapis uppercase" id="confidence-label">—</span>
+</div>
+</div>
+</div>
+</main>
+<!-- Footer -->
+<footer class="bg-surface-container-low w-full py-8 ml-64 border-t border-outline-variant flex flex-col items-center justify-center gap-unit px-margin-desktop">
+<p class="text-label-caps font-label-caps text-on-surface-variant uppercase tracking-widest text-center">
+            © 2024 Institute of Coptic Studies. Archaeological Sources: UNESCO &amp; Coptic Museum Cairo.
+        </p>
+<div class="flex space-x-6 mt-4">
+<a class="text-label-caps font-label-caps text-on-surface-variant opacity-70 hover:text-primary transition-opacity duration-200 uppercase tracking-widest" href="manuscripts_gallery.html">Archives</a>
+<a class="text-label-caps font-label-caps text-on-surface-variant opacity-70 hover:text-primary transition-opacity duration-200 uppercase tracking-widest" href="coptic_lexicon.html">Cite</a>
+<a class="text-label-caps font-label-caps text-on-surface-variant opacity-70 hover:text-primary transition-opacity duration-200 uppercase tracking-widest" href="#">Terms</a>
+</div>
+</footer>
+<script src="/assets/js/common.js"></script>
+<script src="/assets/js/translator.js"></script>
+</body></html>

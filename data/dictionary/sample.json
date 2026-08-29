@@ -6,6 +6,41 @@
     "dialect": ["sahidic", "bohairic"],
     "part_of_speech": "noun",
     "gender": "masculine",
-    "sources": ["placeholder - cite a real lexicon, e.g. Crum's Coptic Dictionary"]
+    "sources": ["UNVERIFIED - cross-check against Crum's Coptic Dictionary before relying on this"]
+  },
+  {
+    "coptic": "ⲛⲟⲩⲧⲉ",
+    "lemma": "ⲛⲟⲩⲧⲉ",
+    "english": ["god"],
+    "dialect": ["sahidic"],
+    "part_of_speech": "noun",
+    "gender": "masculine",
+    "sources": ["UNVERIFIED - cross-check against Crum's Coptic Dictionary and Coptic Scriptorium before relying on this"]
+  },
+  {
+    "coptic": "ϫⲟⲉⲓⲥ",
+    "lemma": "ϫⲟⲉⲓⲥ",
+    "english": ["lord", "master"],
+    "dialect": ["sahidic"],
+    "part_of_speech": "noun",
+    "gender": "masculine",
+    "sources": ["UNVERIFIED - cross-check against Crum's Coptic Dictionary and Coptic Scriptorium before relying on this"]
+  },
+  {
+    "coptic": "ⲏⲓ",
+    "lemma": "ⲏⲓ",
+    "english": ["house"],
+    "dialect": ["sahidic"],
+    "part_of_speech": "noun",
+    "gender": "masculine",
+    "sources": ["UNVERIFIED - cross-check against Crum's Coptic Dictionary and Coptic Scriptorium before relying on this"]
+  },
+  {
+    "coptic": "ⲙⲟⲟⲩ",
+    "lemma": "ⲙⲟⲟⲩ",
+    "english": ["water"],
+    "dialect": ["sahidic"],
+    "part_of_speech": "noun",
+    "sources": ["UNVERIFIED - cross-check against Crum's Coptic Dictionary and Coptic Scriptorium before relying on this"]
   }
 ]

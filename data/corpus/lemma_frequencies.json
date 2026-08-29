@@ -1,0 +1,7717 @@
+[
+  {
+    "lemma": "ⲡ",
+    "upos": "DET",
+    "count": 1715
+  },
+  {
+    "lemma": "ⲛ",
+    "upos": "ADP",
+    "count": 1490
+  },
+  {
+    "lemma": "ⲛⲧⲟϥ",
+    "upos": "PRON",
+    "count": 1167
+  },
+  {
+    "lemma": "ⲛⲧⲟⲟⲩ",
+    "upos": "PRON",
+    "count": 791
+  },
+  {
+    "lemma": "ⲁ",
+    "upos": "AUX",
+    "count": 672
+  },
+  {
+    "lemma": "ⲉⲧⲉⲣⲉ",
+    "upos": "SCONJ",
+    "count": 475
+  },
+  {
+    "lemma": "ⲁⲩⲱ",
+    "upos": "CCONJ",
+    "count": 413
+  },
+  {
+    "lemma": "ⲉ",
+    "upos": "ADP",
+    "count": 388
+  },
+  {
+    "lemma": "ⲟⲩ",
+    "upos": "DET",
+    "count": 373
+  },
+  {
+    "lemma": "ϩⲛ",
+    "upos": "ADP",
+    "count": 361
+  },
+  {
+    "lemma": "ⲉⲣⲉ",
+    "upos": "SCONJ",
+    "count": 348
+  },
+  {
+    "lemma": "ϫⲉ",
+    "upos": "SCONJ",
+    "count": 309
+  },
+  {
+    "lemma": "ⲛⲧⲟⲥ",
+    "upos": "PRON",
+    "count": 273
+  },
+  {
+    "lemma": "ⲇⲉ",
+    "upos": "PART",
+    "count": 239
+  },
+  {
+    "lemma": "ⲁⲛⲟⲕ",
+    "upos": "PRON",
+    "count": 236
+  },
+  {
+    "lemma": "ⲙⲛ",
+    "upos": "ADP",
+    "count": 235
+  },
+  {
+    "lemma": "ⲛⲧⲱⲧⲛ",
+    "upos": "PRON",
+    "count": 232
+  },
+  {
+    "lemma": "ⲉⲃⲟⲗ",
+    "upos": "ADV",
+    "count": 223
+  },
+  {
+    "lemma": "ⲛⲁ",
+    "upos": "ADP",
+    "count": 209
+  },
+  {
+    "lemma": "ⲁⲛⲟⲛ",
+    "upos": "PRON",
+    "count": 193
+  },
+  {
+    "lemma": "ⲡⲉ",
+    "upos": "PRON",
+    "count": 174
+  },
+  {
+    "lemma": "ⲡⲉϥ",
+    "upos": "DET",
+    "count": 163
+  },
+  {
+    "lemma": "ⲛⲟⲩⲧⲉ",
+    "upos": "NOUN",
+    "count": 153
+  },
+  {
+    "lemma": "ⲛⲁ",
+    "upos": "AUX",
+    "count": 137
+  },
+  {
+    "lemma": "ⲉ",
+    "upos": "PART",
+    "count": 134
+  },
+  {
+    "lemma": "ϫⲱ",
+    "upos": "VERB",
+    "count": 120
+  },
+  {
+    "lemma": "ⲛⲧⲉ",
+    "upos": "AUX",
+    "count": 120
+  },
+  {
+    "lemma": "ⲉⲣⲉ",
+    "upos": "PART",
+    "count": 118
+  },
+  {
+    "lemma": "ⲉⲓ",
+    "upos": "VERB",
+    "count": 116
+  },
+  {
+    "lemma": "ⲡⲁ",
+    "upos": "DET",
+    "count": 113
+  },
+  {
+    "lemma": "ⲡⲁⲓ",
+    "upos": "DET",
+    "count": 111
+  },
+  {
+    "lemma": "ⲉⲓⲣⲉ",
+    "upos": "VERB",
+    "count": 109
+  },
+  {
+    "lemma": "ⲛⲧⲟⲕ",
+    "upos": "PRON",
+    "count": 105
+  },
+  {
+    "lemma": "ⲁⲛ",
+    "upos": "ADV",
+    "count": 87
+  },
+  {
+    "lemma": "ⲛⲉⲣⲉ",
+    "upos": "AUX",
+    "count": 86
+  },
+  {
+    "lemma": "ⲛϭⲓ",
+    "upos": "PART",
+    "count": 84
+  },
+  {
+    "lemma": "ⲅⲁⲣ",
+    "upos": "PART",
+    "count": 82
+  },
+  {
+    "lemma": "ϣⲱⲡⲉ",
+    "upos": "VERB",
+    "count": 80
+  },
+  {
+    "lemma": "ϩⲉ",
+    "upos": "NOUN",
+    "count": 80
+  },
+  {
+    "lemma": "ⲣⲱⲙⲉ",
+    "upos": "NOUN",
+    "count": 74
+  },
+  {
+    "lemma": "ⲧⲏⲣ",
+    "upos": "NOUN",
+    "count": 74
+  },
+  {
+    "lemma": "ϯ",
+    "upos": "VERB",
+    "count": 74
+  },
+  {
+    "lemma": "ⲛⲧⲉⲣⲉ",
+    "upos": "AUX",
+    "count": 74
+  },
+  {
+    "lemma": "ⲛⲓⲙ",
+    "upos": "PRON",
+    "count": 71
+  },
+  {
+    "lemma": "ⲉⲧⲃⲉ",
+    "upos": "ADP",
+    "count": 69
+  },
+  {
+    "lemma": "ⲡⲉϫⲉ",
+    "upos": "VERB",
+    "count": 66
+  },
+  {
+    "lemma": "ⲡⲉⲛ",
+    "upos": "DET",
+    "count": 62
+  },
+  {
+    "lemma": "ⲧⲣⲉ",
+    "upos": "VERB",
+    "count": 61
+  },
+  {
+    "lemma": "ⲡⲉⲓ",
+    "upos": "DET",
+    "count": 60
+  },
+  {
+    "lemma": "ⲁⲗⲗⲁ",
+    "upos": "CCONJ",
+    "count": 60
+  },
+  {
+    "lemma": "ⲉϩⲟⲩⲛ",
+    "upos": "ADV",
+    "count": 59
+  },
+  {
+    "lemma": "ⲥⲟⲛ",
+    "upos": "NOUN",
+    "count": 58
+  },
+  {
+    "lemma": "ⲡⲉⲩ",
+    "upos": "DET",
+    "count": 57
+  },
+  {
+    "lemma": "ϩⲏⲧ",
+    "upos": "NOUN",
+    "count": 57
+  },
+  {
+    "lemma": "ⲃⲱⲕ",
+    "upos": "VERB",
+    "count": 57
+  },
+  {
+    "lemma": "ⲕⲱ",
+    "upos": "VERB",
+    "count": 56
+  },
+  {
+    "lemma": "ⲛⲁⲩ",
+    "upos": "VERB",
+    "count": 55
+  },
+  {
+    "lemma": "ⲉϩⲣⲁⲓ",
+    "upos": "ADV",
+    "count": 54
+  },
+  {
+    "lemma": "ⲙⲁ",
+    "upos": "NOUN",
+    "count": 54
+  },
+  {
+    "lemma": "ⲛⲥⲁ",
+    "upos": "ADP",
+    "count": 53
+  },
+  {
+    "lemma": "ϩⲓ",
+    "upos": "ADP",
+    "count": 52
+  },
+  {
+    "lemma": "ϫⲟⲉⲓⲥ",
+    "upos": "NOUN",
+    "count": 52
+  },
+  {
+    "lemma": "ϣⲏⲣⲉ",
+    "upos": "NOUN",
+    "count": 51
+  },
+  {
+    "lemma": "ⲛ",
+    "upos": "ADV",
+    "count": 51
+  },
+  {
+    "lemma": "ⲓⲏⲥⲟⲩⲥ",
+    "upos": "PROPN",
+    "count": 51
+  },
+  {
+    "lemma": "ϣⲁⲣⲉ",
+    "upos": "AUX",
+    "count": 50
+  },
+  {
+    "lemma": "ⲙⲡⲉ",
+    "upos": "AUX",
+    "count": 48
+  },
+  {
+    "lemma": "ⲗⲁⲁⲩ",
+    "upos": "NOUN",
+    "count": 45
+  },
+  {
+    "lemma": "ⲟⲛ",
+    "upos": "ADV",
+    "count": 43
+  },
+  {
+    "lemma": "ⲙⲙⲁⲩ",
+    "upos": "ADV",
+    "count": 42
+  },
+  {
+    "lemma": "ⲟⲩⲁ",
+    "upos": "NUM",
+    "count": 41
+  },
+  {
+    "lemma": "ⲥⲱⲧⲙ",
+    "upos": "VERB",
+    "count": 41
+  },
+  {
+    "lemma": "ⲉⲓⲱⲧ",
+    "upos": "NOUN",
+    "count": 41
+  },
+  {
+    "lemma": "ⲭⲣⲓⲥⲧⲟⲥ",
+    "upos": "NOUN",
+    "count": 40
+  },
+  {
+    "lemma": "ⲛⲟϭ",
+    "upos": "NOUN",
+    "count": 37
+  },
+  {
+    "lemma": "ϣⲁϫⲉ",
+    "upos": "NOUN",
+    "count": 37
+  },
+  {
+    "lemma": "ⲏ",
+    "upos": "CCONJ",
+    "count": 35
+  },
+  {
+    "lemma": "ϩⲱⲃ",
+    "upos": "NOUN",
+    "count": 35
+  },
+  {
+    "lemma": "ⲕⲁⲧⲁ",
+    "upos": "ADP",
+    "count": 35
+  },
+  {
+    "lemma": "ⲉϫⲛ",
+    "upos": "ADP",
+    "count": 35
+  },
+  {
+    "lemma": "ϩⲟⲟⲩ",
+    "upos": "NOUN",
+    "count": 35
+  },
+  {
+    "lemma": "ϣⲁ",
+    "upos": "ADP",
+    "count": 35
+  },
+  {
+    "lemma": "ⲕⲉ",
+    "upos": "DET",
+    "count": 35
+  },
+  {
+    "lemma": "ϩⲓⲧⲛ",
+    "upos": "ADP",
+    "count": 34
+  },
+  {
+    "lemma": "ⲛⲧⲉ",
+    "upos": "ADP",
+    "count": 34
+  },
+  {
+    "lemma": "ⲙⲏⲏϣⲉ",
+    "upos": "NOUN",
+    "count": 33
+  },
+  {
+    "lemma": "ϫⲓ",
+    "upos": "VERB",
+    "count": 33
+  },
+  {
+    "lemma": "ⲟⲩⲛⲟⲩ",
+    "upos": "NOUN",
+    "count": 32
+  },
+  {
+    "lemma": "ⲡⲉⲕ",
+    "upos": "DET",
+    "count": 31
+  },
+  {
+    "lemma": "ⲁⲡⲁ",
+    "upos": "NOUN",
+    "count": 31
+  },
+  {
+    "lemma": "ϫⲉⲕⲁⲁⲥ",
+    "upos": "SCONJ",
+    "count": 31
+  },
+  {
+    "lemma": "ⲣⲣⲟ",
+    "upos": "NOUN",
+    "count": 31
+  },
+  {
+    "lemma": "ⲙⲟⲟϣⲉ",
+    "upos": "VERB",
+    "count": 30
+  },
+  {
+    "lemma": "ⲛⲛⲉ",
+    "upos": "AUX",
+    "count": 30
+  },
+  {
+    "lemma": "ⲡⲛⲉⲩⲙⲁ",
+    "upos": "NOUN",
+    "count": 30
+  },
+  {
+    "lemma": "ⲉⲓⲧⲉ",
+    "upos": "CCONJ",
+    "count": 29
+  },
+  {
+    "lemma": "ⲛⲟⲩϫⲉ",
+    "upos": "VERB",
+    "count": 27
+  },
+  {
+    "lemma": "ⲧⲙ",
+    "upos": "ADV",
+    "count": 25
+  },
+  {
+    "lemma": "ⲟⲩ",
+    "upos": "PRON",
+    "count": 25
+  },
+  {
+    "lemma": "ⲥⲟⲟⲩⲛ",
+    "upos": "VERB",
+    "count": 25
+  },
+  {
+    "lemma": "ⲟⲩⲱϣ",
+    "upos": "VERB",
+    "count": 25
+  },
+  {
+    "lemma": "ϥⲓ",
+    "upos": "VERB",
+    "count": 25
+  },
+  {
+    "lemma": "ϩⲁ",
+    "upos": "ADP",
+    "count": 25
+  },
+  {
+    "lemma": "ⲏⲓ",
+    "upos": "NOUN",
+    "count": 24
+  },
+  {
+    "lemma": "ⲟⲩⲱⲙ",
+    "upos": "VERB",
+    "count": 23
+  },
+  {
+    "lemma": "ⲙⲁⲁⲩ",
+    "upos": "NOUN",
+    "count": 22
+  },
+  {
+    "lemma": "ⲙⲉⲣⲉ",
+    "upos": "AUX",
+    "count": 21
+  },
+  {
+    "lemma": "ⲟⲩⲟⲡ",
+    "upos": "VERB",
+    "count": 21
+  },
+  {
+    "lemma": "ⲙⲁⲣⲉ",
+    "upos": "AUX",
+    "count": 21
+  },
+  {
+    "lemma": "ϩⲓϫⲛ",
+    "upos": "ADP",
+    "count": 21
+  },
+  {
+    "lemma": "ⲥϩⲁⲓ",
+    "upos": "VERB",
+    "count": 20
+  },
+  {
+    "lemma": "ϣⲉⲉⲣⲉ",
+    "upos": "NOUN",
+    "count": 20
+  },
+  {
+    "lemma": "ⲉⲣⲏⲩ",
+    "upos": "NOUN",
+    "count": 20
+  },
+  {
+    "lemma": "ⲡⲁⲙⲃⲱ",
+    "upos": "PROPN",
+    "count": 20
+  },
+  {
+    "lemma": "ϩⲁϩ",
+    "upos": "NOUN",
+    "count": 20
+  },
+  {
+    "lemma": "ⲟⲩⲛⲧⲉ",
+    "upos": "VERB",
+    "count": 20
+  },
+  {
+    "lemma": "ⲙⲁⲑⲏⲧⲏⲥ",
+    "upos": "NOUN",
+    "count": 20
+  },
+  {
+    "lemma": "ⲕⲟⲥⲙⲟⲥ",
+    "upos": "NOUN",
+    "count": 20
+  },
+  {
+    "lemma": "ⲉⲣϣⲁⲛ",
+    "upos": "AUX",
+    "count": 19
+  },
+  {
+    "lemma": "ⲉⲣⲉ_ⲛⲧⲟⲟⲩ",
+    "upos": "PRON",
+    "count": 19
+  },
+  {
+    "lemma": "ⲡⲉⲧⲛ",
+    "upos": "DET",
+    "count": 19
+  },
+  {
+    "lemma": "ϣ",
+    "upos": "AUX",
+    "count": 19
+  },
+  {
+    "lemma": "ⲧⲱⲟⲩⲛ",
+    "upos": "VERB",
+    "count": 19
+  },
+  {
+    "lemma": "ⲙⲛ",
+    "upos": "VERB",
+    "count": 18
+  },
+  {
+    "lemma": "ϭⲟⲙ",
+    "upos": "NOUN",
+    "count": 18
+  },
+  {
+    "lemma": "ⲉⲓⲥ",
+    "upos": "PART",
+    "count": 18
+  },
+  {
+    "lemma": "ϭⲉ",
+    "upos": "PART",
+    "count": 18
+  },
+  {
+    "lemma": "ϩⲣⲁⲓ",
+    "upos": "ADV",
+    "count": 17
+  },
+  {
+    "lemma": "ⲑⲁⲗⲁⲥⲥⲁ",
+    "upos": "NOUN",
+    "count": 17
+  },
+  {
+    "lemma": "ⲥⲟⲫⲓⲁ",
+    "upos": "NOUN",
+    "count": 17
+  },
+  {
+    "lemma": "ⲟⲩⲇⲉ",
+    "upos": "CCONJ",
+    "count": 17
+  },
+  {
+    "lemma": "ⲙ",
+    "upos": "ADP",
+    "count": 17
+  },
+  {
+    "lemma": "ⲉⲙⲁⲧⲉ",
+    "upos": "ADV",
+    "count": 16
+  },
+  {
+    "lemma": "ϫⲱⲕ",
+    "upos": "VERB",
+    "count": 16
+  },
+  {
+    "lemma": "ⲥⲟⲡ",
+    "upos": "NOUN",
+    "count": 16
+  },
+  {
+    "lemma": "ⲣⲁⲛ",
+    "upos": "NOUN",
+    "count": 16
+  },
+  {
+    "lemma": "ⲟⲩⲱϩ",
+    "upos": "VERB",
+    "count": 16
+  },
+  {
+    "lemma": "ϣⲁϫⲉ",
+    "upos": "VERB",
+    "count": 16
+  },
+  {
+    "lemma": "ⲣⲟ",
+    "upos": "NOUN",
+    "count": 16
+  },
+  {
+    "lemma": "ϩⲱⲱ",
+    "upos": "NOUN",
+    "count": 15
+  },
+  {
+    "lemma": "ϭⲓϫ",
+    "upos": "NOUN",
+    "count": 15
+  },
+  {
+    "lemma": "ϩⲱⲥⲧⲉ",
+    "upos": "SCONJ",
+    "count": 15
+  },
+  {
+    "lemma": "ⲡⲉⲥ",
+    "upos": "DET",
+    "count": 15
+  },
+  {
+    "lemma": "ⲙⲡⲣ",
+    "upos": "ADV",
+    "count": 15
+  },
+  {
+    "lemma": "ⲓⲱϩⲁⲛⲛⲏⲥ",
+    "upos": "PROPN",
+    "count": 15
+  },
+  {
+    "lemma": "ⲟⲩⲛ",
+    "upos": "VERB",
+    "count": 15
+  },
+  {
+    "lemma": "ⲙⲉⲉⲩⲉ",
+    "upos": "NOUN",
+    "count": 15
+  },
+  {
+    "lemma": "ⲱϩⲉ",
+    "upos": "VERB",
+    "count": 15
+  },
+  {
+    "lemma": "ⲛⲧⲛ",
+    "upos": "ADP",
+    "count": 14
+  },
+  {
+    "lemma": "ⲛⲟⲃⲉ",
+    "upos": "NOUN",
+    "count": 14
+  },
+  {
+    "lemma": "ⲉϣⲱⲡⲉ",
+    "upos": "SCONJ",
+    "count": 14
+  },
+  {
+    "lemma": "ⲥϩⲓⲙⲉ",
+    "upos": "NOUN",
+    "count": 14
+  },
+  {
+    "lemma": "ϫⲱϩⲙ",
+    "upos": "VERB",
+    "count": 14
+  },
+  {
+    "lemma": "ⲕⲁⲕⲉ",
+    "upos": "NOUN",
+    "count": 14
+  },
+  {
+    "lemma": "ⲟⲩⲟⲉⲓⲛ",
+    "upos": "NOUN",
+    "count": 14
+  },
+  {
+    "lemma": "ⲡⲱⲧ",
+    "upos": "VERB",
+    "count": 14
+  },
+  {
+    "lemma": "ⲡⲉ",
+    "upos": "NOUN",
+    "count": 14
+  },
+  {
+    "lemma": "ϫⲟⲉⲓ",
+    "upos": "NOUN",
+    "count": 14
+  },
+  {
+    "lemma": "ϯⲥⲃⲱ",
+    "upos": "VERB",
+    "count": 14
+  },
+  {
+    "lemma": "ⲙⲟⲩⲧⲉ",
+    "upos": "VERB",
+    "count": 14
+  },
+  {
+    "lemma": "ⲥⲁ",
+    "upos": "NOUN",
+    "count": 14
+  },
+  {
+    "lemma": "ϩⲱⲥ",
+    "upos": "SCONJ",
+    "count": 14
+  },
+  {
+    "lemma": "ⲓⲁⲕⲱⲃ",
+    "upos": "PROPN",
+    "count": 14
+  },
+  {
+    "lemma": "ⲣⲁⲧ",
+    "upos": "NOUN",
+    "count": 13
+  },
+  {
+    "lemma": "ⲟⲩⲟⲛ",
+    "upos": "NOUN",
+    "count": 13
+  },
+  {
+    "lemma": "ϫⲁⲓⲉ",
+    "upos": "NOUN",
+    "count": 13
+  },
+  {
+    "lemma": "ⲟⲩⲟⲉⲓϣ",
+    "upos": "NOUN",
+    "count": 13
+  },
+  {
+    "lemma": "ⲡⲓ",
+    "upos": "DET",
+    "count": 13
+  },
+  {
+    "lemma": "ⲟⲩⲱⲧ",
+    "upos": "NOUN",
+    "count": 13
+  },
+  {
+    "lemma": "ϣⲧⲏⲛ",
+    "upos": "NOUN",
+    "count": 13
+  },
+  {
+    "lemma": "ϫⲟ",
+    "upos": "VERB",
+    "count": 13
+  },
+  {
+    "lemma": "ϫⲉ",
+    "upos": "CCONJ",
+    "count": 13
+  },
+  {
+    "lemma": "ⲉⲓⲛⲉ",
+    "upos": "VERB",
+    "count": 13
+  },
+  {
+    "lemma": "ϣⲉ",
+    "upos": "NUM",
+    "count": 13
+  },
+  {
+    "lemma": "ⲛⲟⲩⲃ",
+    "upos": "NOUN",
+    "count": 13
+  },
+  {
+    "lemma": "ⲟⲩϣⲏ",
+    "upos": "NOUN",
+    "count": 13
+  },
+  {
+    "lemma": "ϩⲙϩⲁⲗ",
+    "upos": "NOUN",
+    "count": 13
+  },
+  {
+    "lemma": "ⲙⲉⲣⲓⲧ",
+    "upos": "NOUN",
+    "count": 13
+  },
+  {
+    "lemma": "ϣⲏⲙ",
+    "upos": "ADJ",
+    "count": 12
+  },
+  {
+    "lemma": "ⲉⲓⲙⲉ",
+    "upos": "VERB",
+    "count": 12
+  },
+  {
+    "lemma": "ⲙⲟⲩ",
+    "upos": "VERB",
+    "count": 12
+  },
+  {
+    "lemma": "ϫⲁϫⲉ",
+    "upos": "NOUN",
+    "count": 12
+  },
+  {
+    "lemma": "ϩⲟⲩⲟ",
+    "upos": "NOUN",
+    "count": 12
+  },
+  {
+    "lemma": "ⲇⲁⲓⲙⲱⲛⲓⲟⲛ",
+    "upos": "NOUN",
+    "count": 12
+  },
+  {
+    "lemma": "ⲁⲙⲁϩⲧⲉ",
+    "upos": "VERB",
+    "count": 12
+  },
+  {
+    "lemma": "ⲥⲁⲃⲃⲁⲧⲟⲛ",
+    "upos": "NOUN",
+    "count": 12
+  },
+  {
+    "lemma": "ⲙⲛⲧⲣⲣⲟ",
+    "upos": "NOUN",
+    "count": 12
+  },
+  {
+    "lemma": "ⲕⲁϩ",
+    "upos": "NOUN",
+    "count": 12
+  },
+  {
+    "lemma": "ⲕⲉ",
+    "upos": "NOUN",
+    "count": 11
+  },
+  {
+    "lemma": "ⲥⲩⲛⲁⲅⲱⲅⲏ",
+    "upos": "NOUN",
+    "count": 11
+  },
+  {
+    "lemma": "ⲟⲩⲱϣ",
+    "upos": "NOUN",
+    "count": 11
+  },
+  {
+    "lemma": "ⲙⲉⲛ",
+    "upos": "PART",
+    "count": 11
+  },
+  {
+    "lemma": "ⲥⲙⲟⲩ",
+    "upos": "VERB",
+    "count": 11
+  },
+  {
+    "lemma": "ⲧⲁⲕⲟ",
+    "upos": "VERB",
+    "count": 11
+  },
+  {
+    "lemma": "ϩⲉ",
+    "upos": "VERB",
+    "count": 11
+  },
+  {
+    "lemma": "ⲗⲟ",
+    "upos": "VERB",
+    "count": 11
+  },
+  {
+    "lemma": "ⲉⲧⲛ",
+    "upos": "ADP",
+    "count": 11
+  },
+  {
+    "lemma": "ⲟⲉⲓⲕ",
+    "upos": "NOUN",
+    "count": 11
+  },
+  {
+    "lemma": "ⲡⲣⲉⲥⲃⲩⲧⲉⲣⲟⲥ",
+    "upos": "NOUN",
+    "count": 11
+  },
+  {
+    "lemma": "ⲣⲟⲉⲓⲥ",
+    "upos": "VERB",
+    "count": 11
+  },
+  {
+    "lemma": "ⲣⲡⲉ",
+    "upos": "NOUN",
+    "count": 11
+  },
+  {
+    "lemma": "ϩⲗⲗⲟ",
+    "upos": "NOUN",
+    "count": 10
+  },
+  {
+    "lemma": "ϩⲟⲟⲩⲧ",
+    "upos": "NOUN",
+    "count": 10
+  },
+  {
+    "lemma": "ⲙⲉ",
+    "upos": "VERB",
+    "count": 10
+  },
+  {
+    "lemma": "ⲟⲩⲱⲛϩ",
+    "upos": "VERB",
+    "count": 10
+  },
+  {
+    "lemma": "ⲕⲣⲟ",
+    "upos": "NOUN",
+    "count": 10
+  },
+  {
+    "lemma": "ⲁⲕⲁⲑⲁⲣⲧⲟⲛ",
+    "upos": "NOUN",
+    "count": 10
+  },
+  {
+    "lemma": "ⲡⲟⲗⲓⲥ",
+    "upos": "NOUN",
+    "count": 10
+  },
+  {
+    "lemma": "ϩⲙⲟⲟⲥ",
+    "upos": "VERB",
+    "count": 10
+  },
+  {
+    "lemma": "ⲣϩⲟⲧⲉ",
+    "upos": "VERB",
+    "count": 10
+  },
+  {
+    "lemma": "ⲥⲱⲟⲩϩ",
+    "upos": "VERB",
+    "count": 10
+  },
+  {
+    "lemma": "ⲧⲱⲣⲉ",
+    "upos": "NOUN",
+    "count": 10
+  },
+  {
+    "lemma": "ⲡⲁⲣⲁⲃⲟⲗⲏ",
+    "upos": "NOUN",
+    "count": 10
+  },
+  {
+    "lemma": "ⲉⲕⲕⲗⲏⲥⲓⲁ",
+    "upos": "NOUN",
+    "count": 10
+  },
+  {
+    "lemma": "ⲙⲏⲧ",
+    "upos": "NUM",
+    "count": 10
+  },
+  {
+    "lemma": "ⲧⲟⲛⲧⲛ",
+    "upos": "VERB",
+    "count": 9
+  },
+  {
+    "lemma": "ⲟⲩⲉϩⲥⲁϩⲛⲉ",
+    "upos": "VERB",
+    "count": 9
+  },
+  {
+    "lemma": "ⲣⲟⲙⲡⲉ",
+    "upos": "NOUN",
+    "count": 9
+  },
+  {
+    "lemma": "ⲕⲧⲟ",
+    "upos": "VERB",
+    "count": 9
+  },
+  {
+    "lemma": "ϩⲟⲟⲩ",
+    "upos": "VERB",
+    "count": 9
+  },
+  {
+    "lemma": "ⲡⲣⲟⲫⲏⲧⲏⲥ",
+    "upos": "NOUN",
+    "count": 9
+  },
+  {
+    "lemma": "ϫⲓⲟⲩⲉ",
+    "upos": "NOUN",
+    "count": 9
+  },
+  {
+    "lemma": "ⲙⲛⲧⲥⲟϭ",
+    "upos": "NOUN",
+    "count": 9
+  },
+  {
+    "lemma": "ⲉⲛⲧⲟⲗⲏ",
+    "upos": "NOUN",
+    "count": 9
+  },
+  {
+    "lemma": "ϫⲡⲟ",
+    "upos": "VERB",
+    "count": 9
+  },
+  {
+    "lemma": "ⲱϣ",
+    "upos": "VERB",
+    "count": 9
+  },
+  {
+    "lemma": "ⲣϣⲡⲏⲣⲉ",
+    "upos": "VERB",
+    "count": 9
+  },
+  {
+    "lemma": "ⲙⲛⲧⲥⲛⲟⲟⲩⲥ",
+    "upos": "NUM",
+    "count": 9
+  },
+  {
+    "lemma": "ϩⲓⲥⲉ",
+    "upos": "NOUN",
+    "count": 9
+  },
+  {
+    "lemma": "ϫⲱϩ",
+    "upos": "VERB",
+    "count": 9
+  },
+  {
+    "lemma": "ⲛⲕⲟⲧⲕ",
+    "upos": "VERB",
+    "count": 9
+  },
+  {
+    "lemma": "ϩⲱⲛ",
+    "upos": "VERB",
+    "count": 9
+  },
+  {
+    "lemma": "ϭⲓⲛⲉ",
+    "upos": "VERB",
+    "count": 9
+  },
+  {
+    "lemma": "ϩⲓⲏ",
+    "upos": "NOUN",
+    "count": 9
+  },
+  {
+    "lemma": "ⲁⲡⲟⲥⲧⲟⲗⲟⲥ",
+    "upos": "NOUN",
+    "count": 9
+  },
+  {
+    "lemma": "ⲡⲁⲩⲗⲟⲥ",
+    "upos": "PROPN",
+    "count": 9
+  },
+  {
+    "lemma": "ⲉϣϫⲉ",
+    "upos": "SCONJ",
+    "count": 9
+  },
+  {
+    "lemma": "ⲇⲓⲟⲕⲗⲏϯⲁⲛⲟⲥ",
+    "upos": "PROPN",
+    "count": 9
+  },
+  {
+    "lemma": "ⲑⲩⲥⲓⲁⲍⲉ",
+    "upos": "VERB",
+    "count": 9
+  },
+  {
+    "lemma": "ϫⲛⲟⲩ",
+    "upos": "VERB",
+    "count": 8
+  },
+  {
+    "lemma": "ⲉⲣϣⲁⲛ_ⲛⲧⲟⲟⲩ",
+    "upos": "PRON",
+    "count": 8
+  },
+  {
+    "lemma": "ϩⲟ",
+    "upos": "NOUN",
+    "count": 8
+  },
+  {
+    "lemma": "ⲕⲱⲧⲉ",
+    "upos": "VERB",
+    "count": 8
+  },
+  {
+    "lemma": "ⲙⲏⲧⲉ",
+    "upos": "NOUN",
+    "count": 8
+  },
+  {
+    "lemma": "ⲙⲉ",
+    "upos": "NOUN",
+    "count": 8
+  },
+  {
+    "lemma": "ϫⲓⲛ",
+    "upos": "ADP",
+    "count": 8
+  },
+  {
+    "lemma": "ⲡⲉⲧⲛⲁⲛⲟⲩϥ",
+    "upos": "NOUN",
+    "count": 8
+  },
+  {
+    "lemma": "ⲥⲁⲧⲁⲛⲁⲥ",
+    "upos": "PROPN",
+    "count": 8
+  },
+  {
+    "lemma": "ⲉⲣⲉ_ⲛⲧⲟϥ",
+    "upos": "PRON",
+    "count": 8
+  },
+  {
+    "lemma": "ϣⲗⲏⲗ",
+    "upos": "VERB",
+    "count": 8
+  },
+  {
+    "lemma": "ⲧⲉⲛⲟⲩ",
+    "upos": "ADV",
+    "count": 8
+  },
+  {
+    "lemma": "ϩⲁⲣⲉϩ",
+    "upos": "VERB",
+    "count": 8
+  },
+  {
+    "lemma": "ⲃⲟⲗ",
+    "upos": "NOUN",
+    "count": 8
+  },
+  {
+    "lemma": "ⲕⲟⲩⲓ",
+    "upos": "NOUN",
+    "count": 8
+  },
+  {
+    "lemma": "ⲱⲛϩ",
+    "upos": "VERB",
+    "count": 8
+  },
+  {
+    "lemma": "ϭⲙϭⲟⲙ",
+    "upos": "VERB",
+    "count": 8
+  },
+  {
+    "lemma": "ⲟⲩⲱϣⲧ",
+    "upos": "VERB",
+    "count": 8
+  },
+  {
+    "lemma": "ⲥⲟⲡⲥⲡ",
+    "upos": "VERB",
+    "count": 8
+  },
+  {
+    "lemma": "ϫⲟⲟⲩ",
+    "upos": "VERB",
+    "count": 8
+  },
+  {
+    "lemma": "ⲓⲁⲕⲱⲃⲟⲥ",
+    "upos": "PROPN",
+    "count": 8
+  },
+  {
+    "lemma": "ⲥⲓⲙⲱⲛ",
+    "upos": "PROPN",
+    "count": 8
+  },
+  {
+    "lemma": "ϣⲁⲛⲧⲉ",
+    "upos": "AUX",
+    "count": 8
+  },
+  {
+    "lemma": "ⲅⲁⲗⲓⲗⲁⲓⲁ",
+    "upos": "PROPN",
+    "count": 8
+  },
+  {
+    "lemma": "ⲛⲁⲩ",
+    "upos": "NOUN",
+    "count": 8
+  },
+  {
+    "lemma": "ⲟⲩⲱϣⲃ",
+    "upos": "VERB",
+    "count": 8
+  },
+  {
+    "lemma": "ϭⲗⲟϭ",
+    "upos": "NOUN",
+    "count": 8
+  },
+  {
+    "lemma": "ⲥⲙⲟⲧ",
+    "upos": "NOUN",
+    "count": 8
+  },
+  {
+    "lemma": "ⲥⲟⲫⲟⲥ",
+    "upos": "NOUN",
+    "count": 8
+  },
+  {
+    "lemma": "ⲁⲓⲱⲛ",
+    "upos": "NOUN",
+    "count": 8
+  },
+  {
+    "lemma": "ⲛⲏⲥⲧⲉⲩⲉ",
+    "upos": "VERB",
+    "count": 8
+  },
+  {
+    "lemma": "ⲥⲧⲣⲁⲧⲏⲗⲁⲧⲏⲥ",
+    "upos": "NOUN",
+    "count": 8
+  },
+  {
+    "lemma": "ⲱ",
+    "upos": "PART",
+    "count": 8
+  },
+  {
+    "lemma": "ⲁⲡⲟⲗⲗⲱⲛ",
+    "upos": "PROPN",
+    "count": 8
+  },
+  {
+    "lemma": "ⲙⲡⲁⲧⲉ",
+    "upos": "AUX",
+    "count": 8
+  },
+  {
+    "lemma": "ϭⲉ",
+    "upos": "DET",
+    "count": 7
+  },
+  {
+    "lemma": "ⲭⲱⲣⲓⲥ",
+    "upos": "ADP",
+    "count": 7
+  },
+  {
+    "lemma": "ⲥⲁϩⲟⲩ",
+    "upos": "VERB",
+    "count": 7
+  },
+  {
+    "lemma": "ⲅⲣⲁⲫⲏ",
+    "upos": "NOUN",
+    "count": 7
+  },
+  {
+    "lemma": "ⲥⲁⲃⲉ",
+    "upos": "NOUN",
+    "count": 7
+  },
+  {
+    "lemma": "ⲁϩⲣⲟ",
+    "upos": "VERB",
+    "count": 7
+  },
+  {
+    "lemma": "ⲉⲣϣⲁⲛ_ⲛⲧⲟϥ",
+    "upos": "PRON",
+    "count": 7
+  },
+  {
+    "lemma": "ⲙⲉⲉⲩⲉ",
+    "upos": "VERB",
+    "count": 7
+  },
+  {
+    "lemma": "ⲧⲁⲙⲓⲟ",
+    "upos": "VERB",
+    "count": 7
+  },
+  {
+    "lemma": "ⲥⲱⲧⲡ",
+    "upos": "VERB",
+    "count": 7
+  },
+  {
+    "lemma": "ⲧⲁⲉⲓⲟ",
+    "upos": "VERB",
+    "count": 7
+  },
+  {
+    "lemma": "ⲕⲱⲧ",
+    "upos": "VERB",
+    "count": 7
+  },
+  {
+    "lemma": "ⲱⲛⲉ",
+    "upos": "NOUN",
+    "count": 7
+  },
+  {
+    "lemma": "ⲡⲱϩⲧ",
+    "upos": "VERB",
+    "count": 7
+  },
+  {
+    "lemma": "ⲧⲱϣ",
+    "upos": "NOUN",
+    "count": 7
+  },
+  {
+    "lemma": "ϣⲱⲡ",
+    "upos": "VERB",
+    "count": 7
+  },
+  {
+    "lemma": "ⲥⲱⲙⲁ",
+    "upos": "NOUN",
+    "count": 7
+  },
+  {
+    "lemma": "ⲛⲧⲟ",
+    "upos": "PRON",
+    "count": 7
+  },
+  {
+    "lemma": "ⲡⲓⲥⲧⲉⲩⲉ",
+    "upos": "VERB",
+    "count": 7
+  },
+  {
+    "lemma": "ⲥⲛⲁⲩ",
+    "upos": "NUM",
+    "count": 7
+  },
+  {
+    "lemma": "ϩⲏⲣⲱⲇⲏⲥ",
+    "upos": "PROPN",
+    "count": 7
+  },
+  {
+    "lemma": "ⲙⲟⲩⲟⲩⲧ",
+    "upos": "VERB",
+    "count": 7
+  },
+  {
+    "lemma": "ϩⲟⲧⲉ",
+    "upos": "NOUN",
+    "count": 7
+  },
+  {
+    "lemma": "ⲫⲁⲣⲓⲥⲥⲁⲓⲟⲥ",
+    "upos": "NOUN",
+    "count": 7
+  },
+  {
+    "lemma": "ⲅⲣⲁⲙⲙⲁⲧⲉⲩⲥ",
+    "upos": "NOUN",
+    "count": 7
+  },
+  {
+    "lemma": "ϩⲏ",
+    "upos": "NOUN",
+    "count": 7
+  },
+  {
+    "lemma": "ϭⲱϣⲧ",
+    "upos": "VERB",
+    "count": 7
+  },
+  {
+    "lemma": "ϣⲟⲩϣⲟⲩ",
+    "upos": "VERB",
+    "count": 7
+  },
+  {
+    "lemma": "ⲟⲩⲧⲉ",
+    "upos": "CCONJ",
+    "count": 7
+  },
+  {
+    "lemma": "ⲁϣ",
+    "upos": "PRON",
+    "count": 7
+  },
+  {
+    "lemma": "ⲧⲁϩⲟ",
+    "upos": "VERB",
+    "count": 7
+  },
+  {
+    "lemma": "ⲛϩⲟⲩⲛ",
+    "upos": "ADV",
+    "count": 7
+  },
+  {
+    "lemma": "ⲓⲥⲁⲁⲕ",
+    "upos": "PROPN",
+    "count": 7
+  },
+  {
+    "lemma": "ϣⲓⲏⲧ",
+    "upos": "PROPN",
+    "count": 7
+  },
+  {
+    "lemma": "ⲉⲓⲙⲏⲧⲓ",
+    "upos": "SCONJ",
+    "count": 6
+  },
+  {
+    "lemma": "ⲕⲣⲟϥ",
+    "upos": "NOUN",
+    "count": 6
+  },
+  {
+    "lemma": "ⲟⲩⲟⲓ",
+    "upos": "NOUN",
+    "count": 6
+  },
+  {
+    "lemma": "ϩⲛⲉ",
+    "upos": "NOUN",
+    "count": 6
+  },
+  {
+    "lemma": "ⲧⲁⲙⲟ",
+    "upos": "VERB",
+    "count": 6
+  },
+  {
+    "lemma": "ϣⲟⲣⲡ",
+    "upos": "NOUN",
+    "count": 6
+  },
+  {
+    "lemma": "ⲧⲥⲟ",
+    "upos": "VERB",
+    "count": 6
+  },
+  {
+    "lemma": "ⲡⲟⲛⲏⲣⲓⲁ",
+    "upos": "NOUN",
+    "count": 6
+  },
+  {
+    "lemma": "ⲇⲓⲁⲃⲟⲗⲟⲥ",
+    "upos": "PROPN",
+    "count": 6
+  },
+  {
+    "lemma": "ⲙⲧⲟ",
+    "upos": "NOUN",
+    "count": 6
+  },
+  {
+    "lemma": "ⲙⲏ",
+    "upos": "CCONJ",
+    "count": 6
+  },
+  {
+    "lemma": "ⲥⲁⲣⲝ",
+    "upos": "NOUN",
+    "count": 6
+  },
+  {
+    "lemma": "ⲙⲟⲛⲁⲭⲟⲥ",
+    "upos": "NOUN",
+    "count": 6
+  },
+  {
+    "lemma": "ϩⲟⲉⲓⲧⲉ",
+    "upos": "NOUN",
+    "count": 6
+  },
+  {
+    "lemma": "ⲧⲟⲧⲉ",
+    "upos": "ADV",
+    "count": 6
+  },
+  {
+    "lemma": "ⲙⲟⲩⲣ",
+    "upos": "VERB",
+    "count": 6
+  },
+  {
+    "lemma": "ϩⲁⲣⲁⲧ",
+    "upos": "ADP",
+    "count": 6
+  },
+  {
+    "lemma": "ⲧⲟⲟⲩ",
+    "upos": "NOUN",
+    "count": 6
+  },
+  {
+    "lemma": "ⲉⲣⲁⲧ",
+    "upos": "ADP",
+    "count": 6
+  },
+  {
+    "lemma": "ⲡⲓⲥⲧⲓⲥ",
+    "upos": "NOUN",
+    "count": 6
+  },
+  {
+    "lemma": "ϣⲧⲟⲣⲧⲣ",
+    "upos": "VERB",
+    "count": 6
+  },
+  {
+    "lemma": "ϩⲟⲓⲛⲉ",
+    "upos": "NOUN",
+    "count": 6
+  },
+  {
+    "lemma": "ⲉⲝⲟⲩⲥⲓⲁ",
+    "upos": "NOUN",
+    "count": 6
+  },
+  {
+    "lemma": "ⲁⲡⲉ",
+    "upos": "NOUN",
+    "count": 6
+  },
+  {
+    "lemma": "ⲙⲟⲩϩ",
+    "upos": "VERB",
+    "count": 6
+  },
+  {
+    "lemma": "ⲧⲏⲩ",
+    "upos": "NOUN",
+    "count": 6
+  },
+  {
+    "lemma": "ⲟⲩⲃⲉ",
+    "upos": "ADP",
+    "count": 6
+  },
+  {
+    "lemma": "ϩⲱⲡ",
+    "upos": "VERB",
+    "count": 6
+  },
+  {
+    "lemma": "ⲛⲁⲛⲟⲩ",
+    "upos": "VERB",
+    "count": 6
+  },
+  {
+    "lemma": "ⲁⲡⲟⲗⲗⲱ",
+    "upos": "PROPN",
+    "count": 6
+  },
+  {
+    "lemma": "ⲃⲁⲡⲧⲓⲍⲉ",
+    "upos": "VERB",
+    "count": 6
+  },
+  {
+    "lemma": "ⲙⲛⲛⲥⲁ",
+    "upos": "ADP",
+    "count": 6
+  },
+  {
+    "lemma": "ⲧⲃⲃⲟ",
+    "upos": "NOUN",
+    "count": 6
+  },
+  {
+    "lemma": "ⲁⲛⲁⲕⲣⲓⲛⲉ",
+    "upos": "VERB",
+    "count": 6
+  },
+  {
+    "lemma": "ϩⲁⲧⲛ",
+    "upos": "ADP",
+    "count": 6
+  },
+  {
+    "lemma": "ⲙⲙⲓⲛⲙⲙⲟ",
+    "upos": "NOUN",
+    "count": 6
+  },
+  {
+    "lemma": "ⲟⲩⲛ",
+    "upos": "AUX",
+    "count": 6
+  },
+  {
+    "lemma": "ϩⲁⲧ",
+    "upos": "NOUN",
+    "count": 6
+  },
+  {
+    "lemma": "ⲥⲟⲟⲩⲧⲛ",
+    "upos": "VERB",
+    "count": 6
+  },
+  {
+    "lemma": "ϩⲛⲁⲁⲩ",
+    "upos": "NOUN",
+    "count": 5
+  },
+  {
+    "lemma": "ϣⲱⲛⲉ",
+    "upos": "VERB",
+    "count": 5
+  },
+  {
+    "lemma": "ⲙⲙⲁⲧⲉ",
+    "upos": "ADV",
+    "count": 5
+  },
+  {
+    "lemma": "ϣⲓⲛⲉ",
+    "upos": "VERB",
+    "count": 5
+  },
+  {
+    "lemma": "ⲙⲓⲛⲉ",
+    "upos": "NOUN",
+    "count": 5
+  },
+  {
+    "lemma": "ⲟⲩⲉⲣⲏⲧⲉ",
+    "upos": "NOUN",
+    "count": 5
+  },
+  {
+    "lemma": "ⲡⲱⲣϫ",
+    "upos": "VERB",
+    "count": 5
+  },
+  {
+    "lemma": "ⲇⲓⲕⲁⲓⲟⲥ",
+    "upos": "NOUN",
+    "count": 5
+  },
+  {
+    "lemma": "ϭⲱ",
+    "upos": "VERB",
+    "count": 5
+  },
+  {
+    "lemma": "ϩⲏⲃⲥ",
+    "upos": "NOUN",
+    "count": 5
+  },
+  {
+    "lemma": "ⲧⲉⲗⲱⲛⲏⲥ",
+    "upos": "NOUN",
+    "count": 5
+  },
+  {
+    "lemma": "ⲱⲡ",
+    "upos": "VERB",
+    "count": 5
+  },
+  {
+    "lemma": "ⲣⲉϥⲣⲛⲟⲃⲉ",
+    "upos": "NOUN",
+    "count": 5
+  },
+  {
+    "lemma": "ⲉⲛⲉϩ",
+    "upos": "ADV",
+    "count": 5
+  },
+  {
+    "lemma": "ⲙⲛⲛⲥⲁ",
+    "upos": "PART",
+    "count": 5
+  },
+  {
+    "lemma": "ⲣⲛⲟⲃⲉ",
+    "upos": "VERB",
+    "count": 5
+  },
+  {
+    "lemma": "ⲥⲛⲟϥ",
+    "upos": "NOUN",
+    "count": 5
+  },
+  {
+    "lemma": "ⲫⲟⲣⲉⲓ",
+    "upos": "VERB",
+    "count": 5
+  },
+  {
+    "lemma": "ϣⲟⲙⲛⲧ",
+    "upos": "NUM",
+    "count": 5
+  },
+  {
+    "lemma": "ⲙⲁⲩⲁⲁ",
+    "upos": "NOUN",
+    "count": 5
+  },
+  {
+    "lemma": "ϫⲓϣⲕⲁⲕ",
+    "upos": "VERB",
+    "count": 5
+  },
+  {
+    "lemma": "ϫⲓⲥⲉ",
+    "upos": "VERB",
+    "count": 5
+  },
+  {
+    "lemma": "ⲧⲁⲩⲟ",
+    "upos": "VERB",
+    "count": 5
+  },
+  {
+    "lemma": "ⲁⲣⲭⲉⲥⲑⲁⲓ",
+    "upos": "VERB",
+    "count": 5
+  },
+  {
+    "lemma": "ⲙⲟⲩⲕϩ",
+    "upos": "VERB",
+    "count": 5
+  },
+  {
+    "lemma": "ⲉⲧⲓ",
+    "upos": "ADV",
+    "count": 5
+  },
+  {
+    "lemma": "ⲧⲱⲛ",
+    "upos": "ADV",
+    "count": 5
+  },
+  {
+    "lemma": "ⲕⲏⲣⲩⲥⲥⲉ",
+    "upos": "VERB",
+    "count": 5
+  },
+  {
+    "lemma": "ⲁⲓⲧⲉⲓ",
+    "upos": "VERB",
+    "count": 5
+  },
+  {
+    "lemma": "ⲛⲧⲉ_ⲁⲛⲟⲕ",
+    "upos": "PRON",
+    "count": 5
+  },
+  {
+    "lemma": "ⲥⲃⲱ",
+    "upos": "NOUN",
+    "count": 5
+  },
+  {
+    "lemma": "ⲧⲃⲁ",
+    "upos": "NUM",
+    "count": 5
+  },
+  {
+    "lemma": "ⲡⲁⲣⲁⲇⲟⲥⲓⲥ",
+    "upos": "NOUN",
+    "count": 5
+  },
+  {
+    "lemma": "ⲙⲟⲩ",
+    "upos": "NOUN",
+    "count": 5
+  },
+  {
+    "lemma": "ϩⲱⲧ",
+    "upos": "NOUN",
+    "count": 5
+  },
+  {
+    "lemma": "ⲙⲁⲁϫⲉ",
+    "upos": "NOUN",
+    "count": 5
+  },
+  {
+    "lemma": "ⲟⲩⲱⲛ",
+    "upos": "VERB",
+    "count": 5
+  },
+  {
+    "lemma": "ⲧⲱϩⲙ",
+    "upos": "VERB",
+    "count": 5
+  },
+  {
+    "lemma": "ⲛⲁϣⲉ",
+    "upos": "VERB",
+    "count": 5
+  },
+  {
+    "lemma": "ϭⲱⲗⲡ",
+    "upos": "VERB",
+    "count": 5
+  },
+  {
+    "lemma": "ⲕⲁⲣⲡⲟⲥ",
+    "upos": "NOUN",
+    "count": 5
+  },
+  {
+    "lemma": "ⲁⲅⲁⲡⲏ",
+    "upos": "NOUN",
+    "count": 5
+  },
+  {
+    "lemma": "ϩⲩⲡⲟⲙⲟⲛⲏ",
+    "upos": "NOUN",
+    "count": 5
+  },
+  {
+    "lemma": "ⲣϩⲱⲃ",
+    "upos": "VERB",
+    "count": 5
+  },
+  {
+    "lemma": "ⲧⲱⲣⲡ",
+    "upos": "VERB",
+    "count": 5
+  },
+  {
+    "lemma": "ⲁϫⲛ",
+    "upos": "ADP",
+    "count": 5
+  },
+  {
+    "lemma": "ϩⲓⲣⲛ",
+    "upos": "ADP",
+    "count": 5
+  },
+  {
+    "lemma": "ϩⲣⲱⲙⲁⲛⲟⲥ",
+    "upos": "PROPN",
+    "count": 5
+  },
+  {
+    "lemma": "ⲕⲉⲛⲧⲏⲛⲁⲣⲓⲟⲛ",
+    "upos": "NOUN",
+    "count": 5
+  },
+  {
+    "lemma": "ⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ",
+    "upos": "NOUN",
+    "count": 5
+  },
+  {
+    "lemma": "ⲙⲁⲕⲁⲣⲓⲟⲥ",
+    "upos": "NOUN",
+    "count": 5
+  },
+  {
+    "lemma": "ⲕⲗⲏⲣⲟⲛⲟⲙⲉⲓ",
+    "upos": "VERB",
+    "count": 5
+  },
+  {
+    "lemma": "ⲁⲅⲅⲉⲗⲟⲥ",
+    "upos": "NOUN",
+    "count": 5
+  },
+  {
+    "lemma": "ⲉⲛⲉϩ",
+    "upos": "NOUN",
+    "count": 5
+  },
+  {
+    "lemma": "ⲁⲃⲣⲁϩⲁⲙ",
+    "upos": "PROPN",
+    "count": 5
+  },
+  {
+    "lemma": "UNKNOWN",
+    "upos": "X",
+    "count": 5
+  },
+  {
+    "lemma": "ⲙⲕⲁϩ",
+    "upos": "NOUN",
+    "count": 5
+  },
+  {
+    "lemma": "ⲙⲙⲟⲛ",
+    "upos": "PART",
+    "count": 5
+  },
+  {
+    "lemma": "ⲥⲱϭ",
+    "upos": "VERB",
+    "count": 5
+  },
+  {
+    "lemma": "ⲏⲣⲡ",
+    "upos": "NOUN",
+    "count": 5
+  },
+  {
+    "lemma": "ⲱⲛϩ",
+    "upos": "NOUN",
+    "count": 5
+  },
+  {
+    "lemma": "ⲭⲁⲓⲣⲉ",
+    "upos": "PART",
+    "count": 5
+  },
+  {
+    "lemma": "ⲟⲩⲱⲛϩ",
+    "upos": "NOUN",
+    "count": 4
+  },
+  {
+    "lemma": "ⲟⲩⲉ",
+    "upos": "VERB",
+    "count": 4
+  },
+  {
+    "lemma": "ⲡⲓⲥⲧⲟⲥ",
+    "upos": "NOUN",
+    "count": 4
+  },
+  {
+    "lemma": "ⲣⲱϩⲧ",
+    "upos": "VERB",
+    "count": 4
+  },
+  {
+    "lemma": "ⲉⲥⲏⲧ",
+    "upos": "NOUN",
+    "count": 4
+  },
+  {
+    "lemma": "ϩⲟⲧⲁⲛ",
+    "upos": "SCONJ",
+    "count": 4
+  },
+  {
+    "lemma": "ⲛⲛⲁϩⲣⲛ",
+    "upos": "ADP",
+    "count": 4
+  },
+  {
+    "lemma": "ⲡⲟⲛⲏⲣⲟⲥ",
+    "upos": "NOUN",
+    "count": 4
+  },
+  {
+    "lemma": "ϣⲓⲧⲉ",
+    "upos": "VERB",
+    "count": 4
+  },
+  {
+    "lemma": "ϫⲡⲓⲟ",
+    "upos": "VERB",
+    "count": 4
+  },
+  {
+    "lemma": "ⲙⲉⲧⲁⲛⲟⲉⲓ",
+    "upos": "VERB",
+    "count": 4
+  },
+  {
+    "lemma": "ⲥⲁϣϥ",
+    "upos": "NUM",
+    "count": 4
+  },
+  {
+    "lemma": "ϩⲟⲥⲟⲛ",
+    "upos": "NOUN",
+    "count": 4
+  },
+  {
+    "lemma": "ϩⲓⲉⲣⲟⲩⲥⲁⲗⲏⲙ",
+    "upos": "PROPN",
+    "count": 4
+  },
+  {
+    "lemma": "ⲁⲣⲁ",
+    "upos": "PART",
+    "count": 4
+  },
+  {
+    "lemma": "ⲛⲁⲙⲉ",
+    "upos": "ADV",
+    "count": 4
+  },
+  {
+    "lemma": "ⲁⲡⲟⲧⲁⲥⲥⲉ",
+    "upos": "VERB",
+    "count": 4
+  },
+  {
+    "lemma": "ⲭⲣⲏⲙⲁ",
+    "upos": "NOUN",
+    "count": 4
+  },
+  {
+    "lemma": "ϩⲏⲕⲉ",
+    "upos": "NOUN",
+    "count": 4
+  },
+  {
+    "lemma": "ⲭⲱⲣⲁ",
+    "upos": "NOUN",
+    "count": 4
+  },
+  {
+    "lemma": "ⲙϩⲁⲟⲩ",
+    "upos": "NOUN",
+    "count": 4
+  },
+  {
+    "lemma": "ⲙⲟⲟⲛⲉ",
+    "upos": "VERB",
+    "count": 4
+  },
+  {
+    "lemma": "ϣⲉ",
+    "upos": "NOUN",
+    "count": 4
+  },
+  {
+    "lemma": "ⲥⲱϣⲉ",
+    "upos": "NOUN",
+    "count": 4
+  },
+  {
+    "lemma": "ⲥⲙⲓⲛⲉ",
+    "upos": "VERB",
+    "count": 4
+  },
+  {
+    "lemma": "ⲧⲁϣⲉⲟⲉⲓϣ",
+    "upos": "NOUN",
+    "count": 4
+  },
+  {
+    "lemma": "ⲁⲣⲭⲓⲥⲩⲛⲁⲅⲱⲅⲟⲥ",
+    "upos": "NOUN",
+    "count": 4
+  },
+  {
+    "lemma": "ⲑⲗⲓⲃⲉ",
+    "upos": "VERB",
+    "count": 4
+  },
+  {
+    "lemma": "ϣⲟⲩⲟ",
+    "upos": "VERB",
+    "count": 4
+  },
+  {
+    "lemma": "ⲙⲧⲟⲛ",
+    "upos": "VERB",
+    "count": 4
+  },
+  {
+    "lemma": "ⲉⲓⲁ",
+    "upos": "NOUN",
+    "count": 4
+  },
+  {
+    "lemma": "ⲉⲓⲣⲏⲛⲏ",
+    "upos": "NOUN",
+    "count": 4
+  },
+  {
+    "lemma": "ϩⲁϩⲧⲛ",
+    "upos": "ADP",
+    "count": 4
+  },
+  {
+    "lemma": "ⲥⲕⲁⲛⲇⲁⲗⲓⲍⲉ",
+    "upos": "VERB",
+    "count": 4
+  },
+  {
+    "lemma": "ⲙⲛ",
+    "upos": "AUX",
+    "count": 4
+  },
+  {
+    "lemma": "ⲙⲛⲧⲙⲛⲧⲣⲉ",
+    "upos": "NOUN",
+    "count": 4
+  },
+  {
+    "lemma": "ⲉⲝⲉⲥⲧⲓ",
+    "upos": "VERB",
+    "count": 4
+  },
+  {
+    "lemma": "ϩⲟⲙⲟⲗⲟⲅⲉⲓ",
+    "upos": "VERB",
+    "count": 4
+  },
+  {
+    "lemma": "ⲙⲕⲁϩ",
+    "upos": "VERB",
+    "count": 4
+  },
+  {
+    "lemma": "ⲉⲥⲟⲟⲩ",
+    "upos": "NOUN",
+    "count": 4
+  },
+  {
+    "lemma": "ⲙⲛⲧⲉ",
+    "upos": "VERB",
+    "count": 4
+  },
+  {
+    "lemma": "ⲕⲱⲧⲉ",
+    "upos": "NOUN",
+    "count": 4
+  },
+  {
+    "lemma": "ⲧⲃⲧ",
+    "upos": "NOUN",
+    "count": 4
+  },
+  {
+    "lemma": "ⲁⲩⲏⲧ",
+    "upos": "NOUN",
+    "count": 4
+  },
+  {
+    "lemma": "ⲧⲁⲗⲟ",
+    "upos": "VERB",
+    "count": 4
+  },
+  {
+    "lemma": "ⲁⲗⲉ",
+    "upos": "VERB",
+    "count": 4
+  },
+  {
+    "lemma": "ⲛⲟⲉⲓ",
+    "upos": "VERB",
+    "count": 4
+  },
+  {
+    "lemma": "ⲕⲁⲗⲱⲥ",
+    "upos": "ADV",
+    "count": 4
+  },
+  {
+    "lemma": "ⲉⲣⲉ_ⲛⲧⲱⲧⲛ",
+    "upos": "PRON",
+    "count": 4
+  },
+  {
+    "lemma": "ⲉⲣϣⲁⲛ_ⲛⲧⲟⲕ",
+    "upos": "PRON",
+    "count": 4
+  },
+  {
+    "lemma": "ϩⲟⲩⲛ",
+    "upos": "NOUN",
+    "count": 4
+  },
+  {
+    "lemma": "ⲧⲃⲃⲟ",
+    "upos": "VERB",
+    "count": 4
+  },
+  {
+    "lemma": "ⲡⲁⲣⲁⲕⲁⲗⲉⲓ",
+    "upos": "VERB",
+    "count": 4
+  },
+  {
+    "lemma": "ϯⲧⲱⲛ",
+    "upos": "NOUN",
+    "count": 4
+  },
+  {
+    "lemma": "ⲙⲏ",
+    "upos": "SCONJ",
+    "count": 4
+  },
+  {
+    "lemma": "ⲥⲧⲁⲩⲣⲟⲩ",
+    "upos": "VERB",
+    "count": 4
+  },
+  {
+    "lemma": "ⲧⲛⲛⲟⲟⲩ",
+    "upos": "VERB",
+    "count": 4
+  },
+  {
+    "lemma": "ⲟⲩϫⲁⲓ",
+    "upos": "VERB",
+    "count": 4
+  },
+  {
+    "lemma": "ⲧⲁϣⲉⲟⲉⲓϣ",
+    "upos": "VERB",
+    "count": 4
+  },
+  {
+    "lemma": "ϫⲣⲟ",
+    "upos": "VERB",
+    "count": 4
+  },
+  {
+    "lemma": "ⲁⲣⲭⲱⲛ",
+    "upos": "NOUN",
+    "count": 4
+  },
+  {
+    "lemma": "ⲉⲟⲟⲩ",
+    "upos": "NOUN",
+    "count": 4
+  },
+  {
+    "lemma": "ⲧⲥⲁⲃⲟ",
+    "upos": "VERB",
+    "count": 4
+  },
+  {
+    "lemma": "ⲧⲏⲣϥ",
+    "upos": "NOUN",
+    "count": 4
+  },
+  {
+    "lemma": "ⲙⲓϣⲉ",
+    "upos": "NOUN",
+    "count": 4
+  },
+  {
+    "lemma": "ⲙⲟⲥⲧⲉ",
+    "upos": "VERB",
+    "count": 4
+  },
+  {
+    "lemma": "ϣⲟⲛⲧⲉ",
+    "upos": "NOUN",
+    "count": 4
+  },
+  {
+    "lemma": "ϭⲱⲧϩ",
+    "upos": "VERB",
+    "count": 4
+  },
+  {
+    "lemma": "ⲥⲙⲟⲩ",
+    "upos": "NOUN",
+    "count": 4
+  },
+  {
+    "lemma": "ⲃⲓⲕⲧⲱⲣ",
+    "upos": "PROPN",
+    "count": 4
+  },
+  {
+    "lemma": "ⲉⲃⲟⲧ",
+    "upos": "NOUN",
+    "count": 4
+  },
+  {
+    "lemma": "ϣⲙϣⲉ",
+    "upos": "VERB",
+    "count": 4
+  },
+  {
+    "lemma": "ⲥⲉⲉⲡⲉ",
+    "upos": "NOUN",
+    "count": 4
+  },
+  {
+    "lemma": "ⲡⲁⲗⲗⲁϯⲟⲛ",
+    "upos": "NOUN",
+    "count": 4
+  },
+  {
+    "lemma": "ϣⲏⲧ",
+    "upos": "NUM",
+    "count": 4
+  },
+  {
+    "lemma": "ϣⲃⲏⲣ",
+    "upos": "NOUN",
+    "count": 4
+  },
+  {
+    "lemma": "ⲃⲁⲥⲓⲗⲉⲓⲧⲏⲥ",
+    "upos": "PROPN",
+    "count": 4
+  },
+  {
+    "lemma": "ⲙⲁⲁⲃ",
+    "upos": "NUM",
+    "count": 4
+  },
+  {
+    "lemma": "ⲥⲉ",
+    "upos": "NUM",
+    "count": 4
+  },
+  {
+    "lemma": "ⲁⲛⲁⲭⲱⲣⲉⲓ",
+    "upos": "VERB",
+    "count": 4
+  },
+  {
+    "lemma": "ϣⲁϩⲣⲁⲓ",
+    "upos": "ADV",
+    "count": 4
+  },
+  {
+    "lemma": "ⲡⲗⲏⲛ",
+    "upos": "CCONJ",
+    "count": 4
+  },
+  {
+    "lemma": "ⲁⲩⲝⲁⲛⲉ",
+    "upos": "VERB",
+    "count": 4
+  },
+  {
+    "lemma": "ⲏⲥⲁⲩ",
+    "upos": "PROPN",
+    "count": 4
+  },
+  {
+    "lemma": "ϩⲣⲁⲭⲏⲗ",
+    "upos": "PROPN",
+    "count": 4
+  },
+  {
+    "lemma": "ⲉⲣⲏⲙⲟⲥ",
+    "upos": "NOUN",
+    "count": 4
+  },
+  {
+    "lemma": "ⲃⲣⲣⲉ",
+    "upos": "NOUN",
+    "count": 4
+  },
+  {
+    "lemma": "ϣⲉⲗⲉⲉⲧ",
+    "upos": "NOUN",
+    "count": 4
+  },
+  {
+    "lemma": "ⲡⲱϩ",
+    "upos": "VERB",
+    "count": 4
+  },
+  {
+    "lemma": "ⲧⲱⲱϭⲉ",
+    "upos": "VERB",
+    "count": 4
+  },
+  {
+    "lemma": "ϯϩⲉ",
+    "upos": "VERB",
+    "count": 4
+  },
+  {
+    "lemma": "ⲕⲩⲣⲟⲥ",
+    "upos": "PROPN",
+    "count": 4
+  },
+  {
+    "lemma": "ⲣⲁⲧ_ⲁⲛⲟⲕ",
+    "upos": "PRON",
+    "count": 4
+  },
+  {
+    "lemma": "ⲣⲟⲩⲱ",
+    "upos": "VERB",
+    "count": 4
+  },
+  {
+    "lemma": "ⲕⲁⲧⲁⲅⲉⲓⲟⲛ",
+    "upos": "NOUN",
+    "count": 4
+  },
+  {
+    "lemma": "ⲥⲟⲩⲣ",
+    "upos": "VERB",
+    "count": 3
+  },
+  {
+    "lemma": "ⲙⲟⲥⲧⲉ",
+    "upos": "NOUN",
+    "count": 3
+  },
+  {
+    "lemma": "ⲡⲟⲛⲏⲣⲟⲛ",
+    "upos": "NOUN",
+    "count": 3
+  },
+  {
+    "lemma": "ϭⲱⲛⲧ",
+    "upos": "VERB",
+    "count": 3
+  },
+  {
+    "lemma": "ϩⲱⲡ",
+    "upos": "NOUN",
+    "count": 3
+  },
+  {
+    "lemma": "ⲕⲱ",
+    "upos": "NOUN",
+    "count": 3
+  },
+  {
+    "lemma": "ⲗⲁⲟⲥ",
+    "upos": "NOUN",
+    "count": 3
+  },
+  {
+    "lemma": "ϣϣⲉ",
+    "upos": "VERB",
+    "count": 3
+  },
+  {
+    "lemma": "ⲉⲡⲓⲥⲧⲟⲗⲏ",
+    "upos": "NOUN",
+    "count": 3
+  },
+  {
+    "lemma": "ⲁⲧϩⲏⲧ",
+    "upos": "NOUN",
+    "count": 3
+  },
+  {
+    "lemma": "ⲣϩⲟⲩⲟ",
+    "upos": "VERB",
+    "count": 3
+  },
+  {
+    "lemma": "ⲛⲩⲕⲧⲉⲣⲓⲥ",
+    "upos": "NOUN",
+    "count": 3
+  },
+  {
+    "lemma": "ⲁⲅⲁⲑⲟⲛ",
+    "upos": "NOUN",
+    "count": 3
+  },
+  {
+    "lemma": "ϩⲕⲟ",
+    "upos": "VERB",
+    "count": 3
+  },
+  {
+    "lemma": "ⲉⲡⲉⲓⲇⲏ",
+    "upos": "SCONJ",
+    "count": 3
+  },
+  {
+    "lemma": "ⲡⲉⲧϩⲟⲟⲩ",
+    "upos": "NOUN",
+    "count": 3
+  },
+  {
+    "lemma": "ϣⲱⲱⲧ",
+    "upos": "VERB",
+    "count": 3
+  },
+  {
+    "lemma": "ⲧⲟⲉⲓⲥ",
+    "upos": "NOUN",
+    "count": 3
+  },
+  {
+    "lemma": "ⲭⲣⲉⲓⲁ",
+    "upos": "NOUN",
+    "count": 3
+  },
+  {
+    "lemma": "ϩⲁⲗⲩⲥⲓⲥ",
+    "upos": "NOUN",
+    "count": 3
+  },
+  {
+    "lemma": "ϩⲣⲟⲟⲩ",
+    "upos": "NOUN",
+    "count": 3
+  },
+  {
+    "lemma": "ⲱⲣⲕ",
+    "upos": "VERB",
+    "count": 3
+  },
+  {
+    "lemma": "ⲉϣⲱ",
+    "upos": "NOUN",
+    "count": 3
+  },
+  {
+    "lemma": "ϫⲟⲩⲱⲧ",
+    "upos": "NUM",
+    "count": 3
+  },
+  {
+    "lemma": "ⲧⲁⲗⲉ",
+    "upos": "VERB",
+    "count": 3
+  },
+  {
+    "lemma": "ⲡⲁϩⲟⲩ",
+    "upos": "NOUN",
+    "count": 3
+  },
+  {
+    "lemma": "ⲙⲁⲥⲧⲓⲅⲝ",
+    "upos": "NOUN",
+    "count": 3
+  },
+  {
+    "lemma": "ⲡⲟⲩ",
+    "upos": "DET",
+    "count": 3
+  },
+  {
+    "lemma": "ⲣⲓⲙⲉ",
+    "upos": "VERB",
+    "count": 3
+  },
+  {
+    "lemma": "ⲥⲱϣ",
+    "upos": "VERB",
+    "count": 3
+  },
+  {
+    "lemma": "ⲧⲁⲗϭⲟ",
+    "upos": "VERB",
+    "count": 3
+  },
+  {
+    "lemma": "ⲛⲉϩ",
+    "upos": "NOUN",
+    "count": 3
+  },
+  {
+    "lemma": "ϯⲃⲁⲡⲧⲓⲥⲙⲁ",
+    "upos": "VERB",
+    "count": 3
+  },
+  {
+    "lemma": "ϩⲏⲣⲱⲇⲓⲁⲥ",
+    "upos": "PROPN",
+    "count": 3
+  },
+  {
+    "lemma": "ⲟⲩⲕ",
+    "upos": "ADV",
+    "count": 3
+  },
+  {
+    "lemma": "ⲏⲇⲏ",
+    "upos": "ADV",
+    "count": 3
+  },
+  {
+    "lemma": "ⲟⲩⲏⲣ",
+    "upos": "PRON",
+    "count": 3
+  },
+  {
+    "lemma": "ϯⲟⲩ",
+    "upos": "NUM",
+    "count": 3
+  },
+  {
+    "lemma": "ⲭⲟⲣⲧⲟⲥ",
+    "upos": "NOUN",
+    "count": 3
+  },
+  {
+    "lemma": "ⲧⲁⲉⲓⲟⲩ",
+    "upos": "NUM",
+    "count": 3
+  },
+  {
+    "lemma": "ⲣⲟⲩϩⲉ",
+    "upos": "NOUN",
+    "count": 3
+  },
+  {
+    "lemma": "ϩⲓⲥⲉ",
+    "upos": "VERB",
+    "count": 3
+  },
+  {
+    "lemma": "ⲧⲱⲕ",
+    "upos": "VERB",
+    "count": 3
+  },
+  {
+    "lemma": "ϫⲓⲛϫⲏ",
+    "upos": "NOUN",
+    "count": 3
+  },
+  {
+    "lemma": "ⲙⲱⲩⲥⲏⲥ",
+    "upos": "PROPN",
+    "count": 3
+  },
+  {
+    "lemma": "ϯϩⲏⲩ",
+    "upos": "VERB",
+    "count": 3
+  },
+  {
+    "lemma": "ⲛⲕⲁ",
+    "upos": "NOUN",
+    "count": 3
+  },
+  {
+    "lemma": "ⲃⲁⲗ",
+    "upos": "NOUN",
+    "count": 3
+  },
+  {
+    "lemma": "ⲧⲩⲣⲟⲥ",
+    "upos": "PROPN",
+    "count": 3
+  },
+  {
+    "lemma": "ϩⲉⲗⲗⲏⲛ",
+    "upos": "NOUN",
+    "count": 3
+  },
+  {
+    "lemma": "ϩⲙⲟⲧ",
+    "upos": "NOUN",
+    "count": 3
+  },
+  {
+    "lemma": "ⲥⲟⲃⲧⲉ",
+    "upos": "VERB",
+    "count": 3
+  },
+  {
+    "lemma": "ϫⲓⲃⲁⲡⲧⲓⲥⲙⲁ",
+    "upos": "VERB",
+    "count": 3
+  },
+  {
+    "lemma": "ⲥⲟϭ",
+    "upos": "NOUN",
+    "count": 3
+  },
+  {
+    "lemma": "ⲓⲟⲩⲇⲁⲓ",
+    "upos": "PROPN",
+    "count": 3
+  },
+  {
+    "lemma": "ϯϣⲓⲡⲉ",
+    "upos": "VERB",
+    "count": 3
+  },
+  {
+    "lemma": "ϫⲱⲱⲣⲉ",
+    "upos": "VERB",
+    "count": 3
+  },
+  {
+    "lemma": "ⲙⲩⲥⲧⲏⲣⲓⲟⲛ",
+    "upos": "NOUN",
+    "count": 3
+  },
+  {
+    "lemma": "ⲡⲛⲉⲩⲙⲁⲧⲓⲕⲟⲥ",
+    "upos": "NOUN",
+    "count": 3
+  },
+  {
+    "lemma": "ⲛ",
+    "upos": "PART",
+    "count": 3
+  },
+  {
+    "lemma": "ⲁⲣⲭⲏ",
+    "upos": "NOUN",
+    "count": 3
+  },
+  {
+    "lemma": "ⲙⲟⲩⲛ",
+    "upos": "VERB",
+    "count": 3
+  },
+  {
+    "lemma": "ϯⲉⲟⲟⲩ",
+    "upos": "VERB",
+    "count": 3
+  },
+  {
+    "lemma": "ⲃⲓⲟⲥ",
+    "upos": "NOUN",
+    "count": 3
+  },
+  {
+    "lemma": "ϫⲓϭⲟⲗ",
+    "upos": "VERB",
+    "count": 3
+  },
+  {
+    "lemma": "ϣⲡϩⲓⲥⲉ",
+    "upos": "VERB",
+    "count": 3
+  },
+  {
+    "lemma": "ⲑⲗⲓⲯⲓⲥ",
+    "upos": "NOUN",
+    "count": 3
+  },
+  {
+    "lemma": "ϩⲁⲙⲏⲛ",
+    "upos": "PART",
+    "count": 3
+  },
+  {
+    "lemma": "ⲙⲉϣϣⲉ",
+    "upos": "VERB",
+    "count": 3
+  },
+  {
+    "lemma": "ⲕⲉⲗⲉⲩⲉ",
+    "upos": "VERB",
+    "count": 3
+  },
+  {
+    "lemma": "ⲉⲡⲁⲣⲭⲟⲥ",
+    "upos": "NOUN",
+    "count": 3
+  },
+  {
+    "lemma": "ⲭⲣⲓⲥϯⲁⲛⲟⲥ",
+    "upos": "NOUN",
+    "count": 3
+  },
+  {
+    "lemma": "ⲇⲓⲁⲧⲁⲅⲙⲁ",
+    "upos": "NOUN",
+    "count": 3
+  },
+  {
+    "lemma": "ϩⲧⲟⲟⲩⲉ",
+    "upos": "NOUN",
+    "count": 3
+  },
+  {
+    "lemma": "ϥⲧⲟⲟⲩϣⲉ",
+    "upos": "NUM",
+    "count": 3
+  },
+  {
+    "lemma": "ⲧⲁⲉⲓⲟ",
+    "upos": "NOUN",
+    "count": 3
+  },
+  {
+    "lemma": "ⲟⲩϫⲁⲓ",
+    "upos": "NOUN",
+    "count": 3
+  },
+  {
+    "lemma": "ⲡⲁⲣⲑⲉⲛⲟⲥ",
+    "upos": "NOUN",
+    "count": 3
+  },
+  {
+    "lemma": "ⲇⲓⲁⲕⲟⲛⲉⲓ",
+    "upos": "VERB",
+    "count": 3
+  },
+  {
+    "lemma": "ϫⲓⲛ",
+    "upos": "SCONJ",
+    "count": 3
+  },
+  {
+    "lemma": "ⲕⲱϩⲧ",
+    "upos": "NOUN",
+    "count": 3
+  },
+  {
+    "lemma": "ϣⲟϫⲛⲉ",
+    "upos": "NOUN",
+    "count": 3
+  },
+  {
+    "lemma": "ⲙⲡⲣⲧⲣⲉ",
+    "upos": "AUX",
+    "count": 3
+  },
+  {
+    "lemma": "ⲣϩⲙϩⲁⲗ",
+    "upos": "VERB",
+    "count": 3
+  },
+  {
+    "lemma": "ⲡⲱⲧⲛ",
+    "upos": "DET",
+    "count": 3
+  },
+  {
+    "lemma": "ⲥⲁⲣⲣⲁ",
+    "upos": "PROPN",
+    "count": 3
+  },
+  {
+    "lemma": "ϩⲣⲉⲃⲉⲕⲕⲁ",
+    "upos": "PROPN",
+    "count": 3
+  },
+  {
+    "lemma": "ⲯⲩⲭⲏ",
+    "upos": "NOUN",
+    "count": 3
+  },
+  {
+    "lemma": "ϭⲱⲡⲉ",
+    "upos": "VERB",
+    "count": 3
+  },
+  {
+    "lemma": "ⲙⲓⲗⲓⲟⲛ",
+    "upos": "NOUN",
+    "count": 3
+  },
+  {
+    "lemma": "ϩⲓⲉⲣⲟⲥⲟⲗⲩⲙⲁ",
+    "upos": "PROPN",
+    "count": 3
+  },
+  {
+    "lemma": "ⲓⲟⲣⲇⲁⲛⲏⲥ",
+    "upos": "PROPN",
+    "count": 3
+  },
+  {
+    "lemma": "ⲙⲟⲟⲩ",
+    "upos": "NOUN",
+    "count": 3
+  },
+  {
+    "lemma": "ⲁⲛⲇⲣⲉⲁⲥ",
+    "upos": "PROPN",
+    "count": 3
+  },
+  {
+    "lemma": "ⲍⲉⲃⲉⲇⲁⲓⲟⲥ",
+    "upos": "PROPN",
+    "count": 3
+  },
+  {
+    "lemma": "ⲉⲡⲓⲧⲓⲙⲁ",
+    "upos": "VERB",
+    "count": 3
+  },
+  {
+    "lemma": "ϫⲓⲟⲩⲁ",
+    "upos": "VERB",
+    "count": 3
+  },
+  {
+    "lemma": "ϫⲛ",
+    "upos": "CCONJ",
+    "count": 3
+  },
+  {
+    "lemma": "ϩⲓⲃⲟⲗ",
+    "upos": "ADV",
+    "count": 3
+  },
+  {
+    "lemma": "ϯⲟⲩⲱ",
+    "upos": "VERB",
+    "count": 3
+  },
+  {
+    "lemma": "ϯⲕⲁⲣⲡⲟⲥ",
+    "upos": "VERB",
+    "count": 3
+  },
+  {
+    "lemma": "ⲥⲁⲣⲕⲓⲕⲟⲥ",
+    "upos": "NOUN",
+    "count": 3
+  },
+  {
+    "lemma": "ⲥⲛⲧⲉ",
+    "upos": "NOUN",
+    "count": 3
+  },
+  {
+    "lemma": "ⲥⲱⲱϥ",
+    "upos": "VERB",
+    "count": 3
+  },
+  {
+    "lemma": "ⲣⲥⲟϭ",
+    "upos": "VERB",
+    "count": 3
+  },
+  {
+    "lemma": "ⲣⲣⲣⲟ",
+    "upos": "VERB",
+    "count": 3
+  },
+  {
+    "lemma": "ⲣⲱϣⲉ",
+    "upos": "VERB",
+    "count": 3
+  },
+  {
+    "lemma": "ϫⲱϩⲙ",
+    "upos": "NOUN",
+    "count": 3
+  },
+  {
+    "lemma": "ⲙⲉⲉⲣⲉ",
+    "upos": "NOUN",
+    "count": 3
+  },
+  {
+    "lemma": "ϣⲏⲓ",
+    "upos": "NOUN",
+    "count": 3
+  },
+  {
+    "lemma": "ϩⲙ",
+    "upos": "ADP",
+    "count": 3
+  },
+  {
+    "lemma": "ⲱⲃϣ",
+    "upos": "NOUN",
+    "count": 3
+  },
+  {
+    "lemma": "ⲕⲁⲛⲱⲛ",
+    "upos": "NOUN",
+    "count": 3
+  },
+  {
+    "lemma": "ϫⲟⲓ",
+    "upos": "NOUN",
+    "count": 3
+  },
+  {
+    "lemma": "ⲣϩⲱⲧ",
+    "upos": "VERB",
+    "count": 3
+  },
+  {
+    "lemma": "ⲁⲧⲙⲟⲟⲩ",
+    "upos": "NOUN",
+    "count": 3
+  },
+  {
+    "lemma": "ⲉⲡⲓⲑⲩⲙⲉⲓ",
+    "upos": "VERB",
+    "count": 3
+  },
+  {
+    "lemma": "ϩⲓⲉⲣⲁⲝ",
+    "upos": "PROPN",
+    "count": 3
+  },
+  {
+    "lemma": "ⲁⲛⲁⲅⲕⲏ",
+    "upos": "NOUN",
+    "count": 2
+  },
+  {
+    "lemma": "ⲣⲭⲣⲉⲓⲁ",
+    "upos": "VERB",
+    "count": 2
+  },
+  {
+    "lemma": "ⲧⲱϣ",
+    "upos": "VERB",
+    "count": 2
+  },
+  {
+    "lemma": "ϩⲓⲧⲟⲩⲛ",
+    "upos": "ADP",
+    "count": 2
+  },
+  {
+    "lemma": "ϣⲱⲗ",
+    "upos": "VERB",
+    "count": 2
+  },
+  {
+    "lemma": "ⲟⲣⲅⲏ",
+    "upos": "NOUN",
+    "count": 2
+  },
+  {
+    "lemma": "ⲁⲛⲟⲙⲓⲁ",
+    "upos": "NOUN",
+    "count": 2
+  },
+  {
+    "lemma": "ⲧⲱⲧ",
+    "upos": "VERB",
+    "count": 2
+  },
+  {
+    "lemma": "ⲥⲁϩⲟⲩ",
+    "upos": "NOUN",
+    "count": 2
+  },
+  {
+    "lemma": "ⲭⲁⲣⲧⲏⲥ",
+    "upos": "NOUN",
+    "count": 2
+  },
+  {
+    "lemma": "ϣⲱⲕϩ",
+    "upos": "VERB",
+    "count": 2
+  },
+  {
+    "lemma": "ⲡⲁⲑⲟⲥ",
+    "upos": "NOUN",
+    "count": 2
+  },
+  {
+    "lemma": "ⲡⲁⲗⲓⲛ",
+    "upos": "ADV",
+    "count": 2
+  },
+  {
+    "lemma": "ⲣⲟⲩⲟⲉⲓⲛ",
+    "upos": "VERB",
+    "count": 2
+  },
+  {
+    "lemma": "ϫⲓϫⲣⲟⲡ",
+    "upos": "VERB",
+    "count": 2
+  },
+  {
+    "lemma": "ⲡⲁⲣⲣⲏⲥⲓⲁ",
+    "upos": "NOUN",
+    "count": 2
+  },
+  {
+    "lemma": "ⲡⲉⲧⲟⲩⲁⲁⲃ",
+    "upos": "NOUN",
+    "count": 2
+  },
+  {
+    "lemma": "ⲧⲙⲙⲟ",
+    "upos": "VERB",
+    "count": 2
+  },
+  {
+    "lemma": "ϩⲉⲑⲛⲓⲕⲟⲥ",
+    "upos": "NOUN",
+    "count": 2
+  },
+  {
+    "lemma": "ⲁⲅⲁⲑⲟⲥ",
+    "upos": "NOUN",
+    "count": 2
+  },
+  {
+    "lemma": "ⲙⲛⲧⲁⲅⲁⲑⲟⲥ",
+    "upos": "NOUN",
+    "count": 2
+  },
+  {
+    "lemma": "ⲧⲱⲱⲃⲉ",
+    "upos": "VERB",
+    "count": 2
+  },
+  {
+    "lemma": "ϣⲟⲣⲡ",
+    "upos": "ADV",
+    "count": 2
+  },
+  {
+    "lemma": "ⲁⲣⲏⲩ",
+    "upos": "ADV",
+    "count": 2
+  },
+  {
+    "lemma": "ⲣⲱ",
+    "upos": "ADV",
+    "count": 2
+  },
+  {
+    "lemma": "ϣⲙⲙⲟ",
+    "upos": "NOUN",
+    "count": 2
+  },
+  {
+    "lemma": "ⲙⲁⲓⲛⲟⲩⲧⲉ",
+    "upos": "NOUN",
+    "count": 2
+  },
+  {
+    "lemma": "ϩⲟⲧⲁⲛ",
+    "upos": "CCONJ",
+    "count": 2
+  },
+  {
+    "lemma": "ⲙⲛⲧϫⲱⲱⲣⲉ",
+    "upos": "NOUN",
+    "count": 2
+  },
+  {
+    "lemma": "ⲥⲁⲁⲛϣ",
+    "upos": "VERB",
+    "count": 2
+  },
+  {
+    "lemma": "ⲱϩⲥ",
+    "upos": "NOUN",
+    "count": 2
+  },
+  {
+    "lemma": "ⲛⲁϩⲣⲛ",
+    "upos": "ADP",
+    "count": 2
+  },
+  {
+    "lemma": "ⲙⲛⲧⲙⲟⲛⲁⲭⲟⲥ",
+    "upos": "NOUN",
+    "count": 2
+  },
+  {
+    "lemma": "ⲡⲁⲓⲇⲉⲥ",
+    "upos": "NOUN",
+    "count": 2
+  },
+  {
+    "lemma": "ⲩϣⲏ",
+    "upos": "NOUN",
+    "count": 2
+  },
+  {
+    "lemma": "ϩⲓⲟⲩⲉ",
+    "upos": "VERB",
+    "count": 2
+  },
+  {
+    "lemma": "ⲟⲩⲉ",
+    "upos": "NOUN",
+    "count": 2
+  },
+  {
+    "lemma": "ⲗⲉⲅⲓⲱⲛ",
+    "upos": "PROPN",
+    "count": 2
+  },
+  {
+    "lemma": "ⲁⲅⲉⲗⲏ",
+    "upos": "NOUN",
+    "count": 2
+  },
+  {
+    "lemma": "ⲣⲓⲣ",
+    "upos": "NOUN",
+    "count": 2
+  },
+  {
+    "lemma": "ϩⲟⲓⲧⲉ",
+    "upos": "NOUN",
+    "count": 2
+  },
+  {
+    "lemma": "ⲡⲱⲱⲛⲉ",
+    "upos": "VERB",
+    "count": 2
+  },
+  {
+    "lemma": "ⲛⲁ",
+    "upos": "VERB",
+    "count": 2
+  },
+  {
+    "lemma": "ⲇⲉⲕⲁⲡⲟⲗⲓⲥ",
+    "upos": "NOUN",
+    "count": 2
+  },
+  {
+    "lemma": "ⲉⲣⲉ_ⲛⲧⲟⲕ",
+    "upos": "PRON",
+    "count": 2
+  },
+  {
+    "lemma": "ⲡⲏⲅⲏ",
+    "upos": "NOUN",
+    "count": 2
+  },
+  {
+    "lemma": "ⲥⲧⲱⲧ",
+    "upos": "VERB",
+    "count": 2
+  },
+  {
+    "lemma": "ⲛⲟⲩϩⲙ",
+    "upos": "VERB",
+    "count": 2
+  },
+  {
+    "lemma": "ⲥⲁϩ",
+    "upos": "NOUN",
+    "count": 2
+  },
+  {
+    "lemma": "ⲡⲉⲧⲣⲟⲥ",
+    "upos": "PROPN",
+    "count": 2
+  },
+  {
+    "lemma": "ⲥⲱⲛⲉ",
+    "upos": "NOUN",
+    "count": 2
+  },
+  {
+    "lemma": "ⲙⲛⲧⲁⲧⲛⲁϩⲧⲉ",
+    "upos": "NOUN",
+    "count": 2
+  },
+  {
+    "lemma": "ϭⲉⲣⲱⲃ",
+    "upos": "NOUN",
+    "count": 2
+  },
+  {
+    "lemma": "ⲛⲟⲩϩⲉ",
+    "upos": "VERB",
+    "count": 2
+  },
+  {
+    "lemma": "ⲉⲛⲉⲣⲅⲉⲓ",
+    "upos": "VERB",
+    "count": 2
+  },
+  {
+    "lemma": "ϣⲧⲉⲕⲟ",
+    "upos": "NOUN",
+    "count": 2
+  },
+  {
+    "lemma": "ⲫⲓⲗⲓⲡⲡⲟⲥ",
+    "upos": "PROPN",
+    "count": 2
+  },
+  {
+    "lemma": "ⲧⲙⲁⲓⲟ",
+    "upos": "VERB",
+    "count": 2
+  },
+  {
+    "lemma": "ⲁⲛⲁⲓ",
+    "upos": "NOUN",
+    "count": 2
+  },
+  {
+    "lemma": "ⲡⲁϣⲉ",
+    "upos": "NOUN",
+    "count": 2
+  },
+  {
+    "lemma": "ⲃⲁⲡⲧⲓⲥⲧⲏⲥ",
+    "upos": "NOUN",
+    "count": 2
+  },
+  {
+    "lemma": "ⲡⲓⲛⲁⲝ",
+    "upos": "NOUN",
+    "count": 2
+  },
+  {
+    "lemma": "ⲧⲥⲧⲟ",
+    "upos": "VERB",
+    "count": 2
+  },
+  {
+    "lemma": "ⲛⲁϣⲱ",
+    "upos": "VERB",
+    "count": 2
+  },
+  {
+    "lemma": "ⲉ",
+    "upos": "SCONJ",
+    "count": 2
+  },
+  {
+    "lemma": "ⲥⲣϥⲉ",
+    "upos": "VERB",
+    "count": 2
+  },
+  {
+    "lemma": "ⲣϣⲟⲣⲡ",
+    "upos": "VERB",
+    "count": 2
+  },
+  {
+    "lemma": "ⲁⲣⲭⲉⲓ",
+    "upos": "VERB",
+    "count": 2
+  },
+  {
+    "lemma": "ϣⲉ",
+    "upos": "VERB",
+    "count": 2
+  },
+  {
+    "lemma": "ⲟⲩⲟⲉⲓ",
+    "upos": "NOUN",
+    "count": 2
+  },
+  {
+    "lemma": "ϯⲙⲉ",
+    "upos": "NOUN",
+    "count": 2
+  },
+  {
+    "lemma": "ⲧⲟⲟⲩ",
+    "upos": "VERB",
+    "count": 2
+  },
+  {
+    "lemma": "ⲥⲓ",
+    "upos": "VERB",
+    "count": 2
+  },
+  {
+    "lemma": "ⲥϭⲏⲣ",
+    "upos": "VERB",
+    "count": 2
+  },
+  {
+    "lemma": "ϩⲁⲗⲁⲥⲥⲁ",
+    "upos": "NOUN",
+    "count": 2
+  },
+  {
+    "lemma": "ⲡⲁⲣⲁⲅⲉ",
+    "upos": "VERB",
+    "count": 2
+  },
+  {
+    "lemma": "ϣⲱⲛⲉ",
+    "upos": "NOUN",
+    "count": 2
+  },
+  {
+    "lemma": "ⲁⲅⲟⲣⲁ",
+    "upos": "NOUN",
+    "count": 2
+  },
+  {
+    "lemma": "ϩⲱⲣⲡ",
+    "upos": "VERB",
+    "count": 2
+  },
+  {
+    "lemma": "ⲏⲥⲁⲓⲁⲥ",
+    "upos": "PROPN",
+    "count": 2
+  },
+  {
+    "lemma": "ⲇⲱⲣⲟⲛ",
+    "upos": "NOUN",
+    "count": 2
+  },
+  {
+    "lemma": "ϭⲓⲛⲟⲩⲱⲙ",
+    "upos": "NOUN",
+    "count": 2
+  },
+  {
+    "lemma": "ⲉⲧ",
+    "upos": "SCONJ",
+    "count": 2
+  },
+  {
+    "lemma": "ⲥⲓⲇⲱⲛ",
+    "upos": "NOUN",
+    "count": 2
+  },
+  {
+    "lemma": "ⲥⲩⲣⲓⲁ",
+    "upos": "PROPN",
+    "count": 2
+  },
+  {
+    "lemma": "ⲥⲉ",
+    "upos": "PART",
+    "count": 2
+  },
+  {
+    "lemma": "ⲧⲣⲁⲡⲉⲍⲁ",
+    "upos": "NOUN",
+    "count": 2
+  },
+  {
+    "lemma": "ⲁⲗ",
+    "upos": "NOUN",
+    "count": 2
+  },
+  {
+    "lemma": "ⲙⲡⲟ",
+    "upos": "NOUN",
+    "count": 2
+  },
+  {
+    "lemma": "ⲗⲁⲥ",
+    "upos": "NOUN",
+    "count": 2
+  },
+  {
+    "lemma": "ⲥⲟⲉⲓⲧ",
+    "upos": "NOUN",
+    "count": 2
+  },
+  {
+    "lemma": "ⲭⲁⲣⲓⲥ",
+    "upos": "NOUN",
+    "count": 2
+  },
+  {
+    "lemma": "ϣⲡϩⲙⲟⲧ",
+    "upos": "VERB",
+    "count": 2
+  },
+  {
+    "lemma": "ⲣⲣⲙⲙⲁⲟ",
+    "upos": "VERB",
+    "count": 2
+  },
+  {
+    "lemma": "ⲥⲟⲟⲩⲛ",
+    "upos": "NOUN",
+    "count": 2
+  },
+  {
+    "lemma": "ⲧⲁϫⲣⲟ",
+    "upos": "VERB",
+    "count": 2
+  },
+  {
+    "lemma": "ⲕⲏⲫⲁⲥ",
+    "upos": "PROPN",
+    "count": 2
+  },
+  {
+    "lemma": "ⲡⲱϣ",
+    "upos": "VERB",
+    "count": 2
+  },
+  {
+    "lemma": "ⲥⲧⲁⲩⲣⲟⲥ",
+    "upos": "NOUN",
+    "count": 2
+  },
+  {
+    "lemma": "ⲙⲛⲧⲥⲁⲃⲉ",
+    "upos": "NOUN",
+    "count": 2
+  },
+  {
+    "lemma": "ϩⲉⲑⲛⲟⲥ",
+    "upos": "NOUN",
+    "count": 2
+  },
+  {
+    "lemma": "ⲙⲛⲧϭⲱⲃ",
+    "upos": "NOUN",
+    "count": 2
+  },
+  {
+    "lemma": "ⲇⲓⲕⲁⲓⲟⲥⲩⲛⲏ",
+    "upos": "NOUN",
+    "count": 2
+  },
+  {
+    "lemma": "ϩⲱⲱ_ⲁⲛⲟⲕ",
+    "upos": "PRON",
+    "count": 2
+  },
+  {
+    "lemma": "ⲡⲉⲓⲑⲉ",
+    "upos": "NOUN",
+    "count": 2
+  },
+  {
+    "lemma": "ⲉⲛⲉ",
+    "upos": "SCONJ",
+    "count": 2
+  },
+  {
+    "lemma": "ⲉⲣⲉ_ⲁⲛⲟⲛ",
+    "upos": "PRON",
+    "count": 2
+  },
+  {
+    "lemma": "ⲡⲛⲉⲩⲙⲁⲧⲓⲕⲟⲛ",
+    "upos": "NOUN",
+    "count": 2
+  },
+  {
+    "lemma": "ⲇⲟⲕⲓⲙⲁⲍⲉ",
+    "upos": "VERB",
+    "count": 2
+  },
+  {
+    "lemma": "ϣⲗⲟϥ",
+    "upos": "NOUN",
+    "count": 2
+  },
+  {
+    "lemma": "ϭⲛⲁⲣⲓⲕⲉ",
+    "upos": "VERB",
+    "count": 2
+  },
+  {
+    "lemma": "ⲕⲟⲧⲥ",
+    "upos": "NOUN",
+    "count": 2
+  },
+  {
+    "lemma": "ⲡⲉⲛ",
+    "upos": "NOUN",
+    "count": 2
+  },
+  {
+    "lemma": "ⲇⲓⲱⲅⲙⲟⲥ",
+    "upos": "NOUN",
+    "count": 2
+  },
+  {
+    "lemma": "ϩⲁⲣⲉϩ",
+    "upos": "NOUN",
+    "count": 2
+  },
+  {
+    "lemma": "ⲁⲛⲟⲛ",
+    "upos": "ADV",
+    "count": 2
+  },
+  {
+    "lemma": "ⲙⲛⲧⲣⲙⲙⲁⲟ",
+    "upos": "NOUN",
+    "count": 2
+  },
+  {
+    "lemma": "ⲗⲏⲥⲧⲏⲥ",
+    "upos": "NOUN",
+    "count": 2
+  },
+  {
+    "lemma": "ϣⲗⲏⲗ",
+    "upos": "NOUN",
+    "count": 2
+  },
+  {
+    "lemma": "ⲣⲟⲉⲓⲥ",
+    "upos": "NOUN",
+    "count": 2
+  },
+  {
+    "lemma": "ⲥⲟⲩⲟ",
+    "upos": "NOUN",
+    "count": 2
+  },
+  {
+    "lemma": "ⲧⲱⲧ",
+    "upos": "NOUN",
+    "count": 2
+  },
+  {
+    "lemma": "ⲕⲁⲓ",
+    "upos": "CCONJ",
+    "count": 2
+  },
+  {
+    "lemma": "ⲁⲣⲛⲁ",
+    "upos": "VERB",
+    "count": 2
+  },
+  {
+    "lemma": "ⲕⲱϩ",
+    "upos": "NOUN",
+    "count": 2
+  },
+  {
+    "lemma": "ⲟⲩⲟⲓ",
+    "upos": "PART",
+    "count": 2
+  },
+  {
+    "lemma": "ϫⲓⲟⲩⲉ",
+    "upos": "VERB",
+    "count": 2
+  },
+  {
+    "lemma": "ϩⲁⲅⲓⲟⲥ",
+    "upos": "NOUN",
+    "count": 2
+  },
+  {
+    "lemma": "ⲥⲟⲩ",
+    "upos": "NOUN",
+    "count": 2
+  },
+  {
+    "lemma": "ⲡⲁⲣⲙⲟⲩⲧⲉ",
+    "upos": "PROPN",
+    "count": 2
+  },
+  {
+    "lemma": "ⲥⲱⲣⲙ",
+    "upos": "VERB",
+    "count": 2
+  },
+  {
+    "lemma": "ⲙⲁⲁⲃⲧⲏ",
+    "upos": "NUM",
+    "count": 2
+  },
+  {
+    "lemma": "ⲙⲁⲧⲟⲓ",
+    "upos": "NOUN",
+    "count": 2
+  },
+  {
+    "lemma": "ⲡⲁⲅⲁⲛⲱⲥ",
+    "upos": "NOUN",
+    "count": 2
+  },
+  {
+    "lemma": "ⲥⲏϥⲉ",
+    "upos": "NOUN",
+    "count": 2
+  },
+  {
+    "lemma": "ϫⲣⲟ",
+    "upos": "NOUN",
+    "count": 2
+  },
+  {
+    "lemma": "ⲡⲟⲗⲉⲙⲟⲥ",
+    "upos": "NOUN",
+    "count": 2
+  },
+  {
+    "lemma": "ⲥⲧⲣⲁⲧⲉⲩⲙⲁ",
+    "upos": "NOUN",
+    "count": 2
+  },
+  {
+    "lemma": "ϣⲱⲣⲡ",
+    "upos": "VERB",
+    "count": 2
+  },
+  {
+    "lemma": "ⲑⲣⲟⲛⲟⲥ",
+    "upos": "NOUN",
+    "count": 2
+  },
+  {
+    "lemma": "ϩⲣⲱⲙⲁⲓⲟⲥ",
+    "upos": "NOUN",
+    "count": 2
+  },
+  {
+    "lemma": "ϣⲏⲩⲉ",
+    "upos": "NOUN",
+    "count": 2
+  },
+  {
+    "lemma": "ⲗⲓⲃⲁⲛⲟⲥ",
+    "upos": "NOUN",
+    "count": 2
+  },
+  {
+    "lemma": "ϫⲉⲣⲟ",
+    "upos": "VERB",
+    "count": 2
+  },
+  {
+    "lemma": "ⲕⲉⲣⲱⲛ",
+    "upos": "NOUN",
+    "count": 2
+  },
+  {
+    "lemma": "ϩⲧⲟ",
+    "upos": "NOUN",
+    "count": 2
+  },
+  {
+    "lemma": "ⲟⲩⲃⲁϣ",
+    "upos": "VERB",
+    "count": 2
+  },
+  {
+    "lemma": "ⲕⲗⲟⲙ",
+    "upos": "NOUN",
+    "count": 2
+  },
+  {
+    "lemma": "ⲉⲩϩⲁⲓⲟⲥ",
+    "upos": "PROPN",
+    "count": 2
+  },
+  {
+    "lemma": "ⲡⲉⲓⲑⲉ",
+    "upos": "VERB",
+    "count": 2
+  },
+  {
+    "lemma": "ϣⲁ",
+    "upos": "NOUN",
+    "count": 2
+  },
+  {
+    "lemma": "ⲭⲁⲣⲓⲥⲙⲁ",
+    "upos": "NOUN",
+    "count": 2
+  },
+  {
+    "lemma": "ⲥⲟⲩⲉⲛ",
+    "upos": "NOUN",
+    "count": 2
+  },
+  {
+    "lemma": "ⲟⲣⲇⲓⲛⲟⲛ",
+    "upos": "NOUN",
+    "count": 2
+  },
+  {
+    "lemma": "ⲉⲣϣⲁⲛ_ⲛⲧⲱⲧⲛ",
+    "upos": "PRON",
+    "count": 2
+  },
+  {
+    "lemma": "ⲥⲱ",
+    "upos": "VERB",
+    "count": 2
+  },
+  {
+    "lemma": "ⲁⲣⲓⲥⲧⲟⲛ",
+    "upos": "NOUN",
+    "count": 2
+  },
+  {
+    "lemma": "ϩⲙⲟⲙ",
+    "upos": "VERB",
+    "count": 2
+  },
+  {
+    "lemma": "ϩⲃⲥⲱ",
+    "upos": "NOUN",
+    "count": 2
+  },
+  {
+    "lemma": "ϩⲧⲟⲟⲩ",
+    "upos": "NOUN",
+    "count": 2
+  },
+  {
+    "lemma": "ⲱⲧⲡ",
+    "upos": "VERB",
+    "count": 2
+  },
+  {
+    "lemma": "ⲭⲱⲣⲓⲥ",
+    "upos": "PART",
+    "count": 2
+  },
+  {
+    "lemma": "ⲙⲏⲏⲛⲉ",
+    "upos": "NOUN",
+    "count": 2
+  },
+  {
+    "lemma": "ⲕⲏⲕⲁϩⲏⲩ",
+    "upos": "VERB",
+    "count": 2
+  },
+  {
+    "lemma": "ϥⲧⲟⲟⲩ",
+    "upos": "NUM",
+    "count": 2
+  },
+  {
+    "lemma": "ϭⲁⲙⲟⲩⲗ",
+    "upos": "NOUN",
+    "count": 2
+  },
+  {
+    "lemma": "ⲥⲧⲉⲓⲱϩⲉ",
+    "upos": "NOUN",
+    "count": 2
+  },
+  {
+    "lemma": "ϭⲟⲗ",
+    "upos": "NOUN",
+    "count": 2
+  },
+  {
+    "lemma": "ⲙⲁⲗⲓⲥⲧⲁ",
+    "upos": "ADV",
+    "count": 2
+  },
+  {
+    "lemma": "ⲙⲛⲧⲁⲧⲥⲟⲟⲩⲛ",
+    "upos": "NOUN",
+    "count": 2
+  },
+  {
+    "lemma": "ⲁϣⲁⲓ",
+    "upos": "NOUN",
+    "count": 2
+  },
+  {
+    "lemma": "ⲓⲱⲥⲏⲫ",
+    "upos": "PROPN",
+    "count": 2
+  },
+  {
+    "lemma": "ⲃⲉⲛⲓⲁⲙⲓⲛ",
+    "upos": "PROPN",
+    "count": 2
+  },
+  {
+    "lemma": "ϣⲟⲩϣⲧ",
+    "upos": "NOUN",
+    "count": 2
+  },
+  {
+    "lemma": "ⲙⲁⲕⲁⲣⲓⲁ",
+    "upos": "NOUN",
+    "count": 2
+  },
+  {
+    "lemma": "ϩⲏⲏⲧⲉ",
+    "upos": "NOUN",
+    "count": 2
+  },
+  {
+    "lemma": "ⲓⲟⲩⲇⲁⲓⲁ",
+    "upos": "PROPN",
+    "count": 2
+  },
+  {
+    "lemma": "ⲃⲱⲗ",
+    "upos": "VERB",
+    "count": 2
+  },
+  {
+    "lemma": "ⲙⲟⲩⲥ",
+    "upos": "NOUN",
+    "count": 2
+  },
+  {
+    "lemma": "ⲡⲁⲣⲁⲇⲓⲇⲟⲩ",
+    "upos": "VERB",
+    "count": 2
+  },
+  {
+    "lemma": "ⲟⲩⲱϩⲉ",
+    "upos": "NOUN",
+    "count": 2
+  },
+  {
+    "lemma": "ϣⲛⲉ",
+    "upos": "NOUN",
+    "count": 2
+  },
+  {
+    "lemma": "ⲕⲁⲫⲁⲣⲛⲁⲟⲩⲙ",
+    "upos": "PROPN",
+    "count": 2
+  },
+  {
+    "lemma": "ⲣⲏ",
+    "upos": "NOUN",
+    "count": 2
+  },
+  {
+    "lemma": "ⲑⲉⲣⲁⲡⲟⲩ",
+    "upos": "VERB",
+    "count": 2
+  },
+  {
+    "lemma": "ϣⲓⲃⲉ",
+    "upos": "VERB",
+    "count": 2
+  },
+  {
+    "lemma": "ⲙⲁⲣⲟ",
+    "upos": "VERB",
+    "count": 2
+  },
+  {
+    "lemma": "ⲟⲩⲏⲏⲃ",
+    "upos": "NOUN",
+    "count": 2
+  },
+  {
+    "lemma": "ϩⲱⲥⲧⲉ",
+    "upos": "CCONJ",
+    "count": 2
+  },
+  {
+    "lemma": "ⲙⲟⲕⲙⲉⲕ",
+    "upos": "VERB",
+    "count": 2
+  },
+  {
+    "lemma": "ⲕⲁⲛⲟⲃⲉ",
+    "upos": "VERB",
+    "count": 2
+  },
+  {
+    "lemma": "ⲡⲗϭⲉ",
+    "upos": "NOUN",
+    "count": 2
+  },
+  {
+    "lemma": "ⲣⲱⲧ",
+    "upos": "VERB",
+    "count": 2
+  },
+  {
+    "lemma": "ϩⲁⲧⲉ",
+    "upos": "ADP",
+    "count": 2
+  },
+  {
+    "lemma": "ϩⲁⲗⲏⲧ",
+    "upos": "NOUN",
+    "count": 2
+  },
+  {
+    "lemma": "ⲡⲉⲧⲣⲁ",
+    "upos": "NOUN",
+    "count": 2
+  },
+  {
+    "lemma": "ⲉⲧⲉ",
+    "upos": "SCONJ",
+    "count": 2
+  },
+  {
+    "lemma": "ⲡⲏ",
+    "upos": "DET",
+    "count": 2
+  },
+  {
+    "lemma": "ϣⲓ",
+    "upos": "NOUN",
+    "count": 2
+  },
+  {
+    "lemma": "ϣⲓ",
+    "upos": "VERB",
+    "count": 2
+  },
+  {
+    "lemma": "ϭⲣⲟϭ",
+    "upos": "NOUN",
+    "count": 2
+  },
+  {
+    "lemma": "ⲣⲟ_ⲛⲧⲟ",
+    "upos": "PRON",
+    "count": 2
+  },
+  {
+    "lemma": "ⲃⲉⲕⲉ",
+    "upos": "NOUN",
+    "count": 2
+  },
+  {
+    "lemma": "ⲡⲁⲣⲁ",
+    "upos": "ADP",
+    "count": 2
+  },
+  {
+    "lemma": "ⲟⲓⲕⲟⲛⲟⲙⲟⲥ",
+    "upos": "NOUN",
+    "count": 2
+  },
+  {
+    "lemma": "ⲉⲗⲁⲭⲓⲥⲧⲟⲛ",
+    "upos": "NOUN",
+    "count": 2
+  },
+  {
+    "lemma": "ϭⲉⲡⲏ",
+    "upos": "VERB",
+    "count": 2
+  },
+  {
+    "lemma": "ϩⲛⲁⲩ",
+    "upos": "NOUN",
+    "count": 2
+  },
+  {
+    "lemma": "ⲙⲡϣⲁ",
+    "upos": "NOUN",
+    "count": 2
+  },
+  {
+    "lemma": "ⲁⲧⲥⲃⲱ",
+    "upos": "NOUN",
+    "count": 2
+  },
+  {
+    "lemma": "ⲉϩⲟⲩⲉ",
+    "upos": "ADP",
+    "count": 2
+  },
+  {
+    "lemma": "ⲓⲥⲣⲁⲏⲗ",
+    "upos": "PROPN",
+    "count": 2
+  },
+  {
+    "lemma": "ⲥⲓϣⲉ",
+    "upos": "VERB",
+    "count": 2
+  },
+  {
+    "lemma": "ϩⲗⲟϭ",
+    "upos": "VERB",
+    "count": 2
+  },
+  {
+    "lemma": "ⲟⲩⲉⲓ",
+    "upos": "NUM",
+    "count": 2
+  },
+  {
+    "lemma": "ⲧⲱⲧⲉ",
+    "upos": "NOUN",
+    "count": 2
+  },
+  {
+    "lemma": "ⲙⲡϣⲁ",
+    "upos": "VERB",
+    "count": 2
+  },
+  {
+    "lemma": "ⲧⲁϭⲥⲉ",
+    "upos": "NOUN",
+    "count": 2
+  },
+  {
+    "lemma": "ⲕⲱⲗϩ",
+    "upos": "VERB",
+    "count": 2
+  },
+  {
+    "lemma": "ⲗⲟⲟⲩ",
+    "upos": "NOUN",
+    "count": 2
+  },
+  {
+    "lemma": "ϫⲓⲥⲙⲟⲩ",
+    "upos": "VERB",
+    "count": 2
+  },
+  {
+    "lemma": "ⲗⲟⲓⲡⲟⲛ",
+    "upos": "ADV",
+    "count": 2
+  },
+  {
+    "lemma": "ⲡⲁⲙⲟⲩⲛ",
+    "upos": "PROPN",
+    "count": 2
+  },
+  {
+    "lemma": "ⲡⲟⲣⲕ",
+    "upos": "NOUN",
+    "count": 2
+  },
+  {
+    "lemma": "ⲁⲩⲁⲛ",
+    "upos": "NOUN",
+    "count": 2
+  },
+  {
+    "lemma": "ⲉⲗⲁⲭⲓⲥⲧⲟⲥ",
+    "upos": "NOUN",
+    "count": 2
+  },
+  {
+    "lemma": "ⲡⲣⲱ",
+    "upos": "NOUN",
+    "count": 2
+  },
+  {
+    "lemma": "ϣⲱⲙ",
+    "upos": "NOUN",
+    "count": 2
+  },
+  {
+    "lemma": "ϣⲓⲛⲉ",
+    "upos": "NOUN",
+    "count": 2
+  },
+  {
+    "lemma": "ϯϩⲓⲥⲉ",
+    "upos": "VERB",
+    "count": 2
+  },
+  {
+    "lemma": "ⲣⲙⲛⲥⲁⲣⲝ",
+    "upos": "NOUN",
+    "count": 2
+  },
+  {
+    "lemma": "ⲙⲟⲩⲓ",
+    "upos": "NOUN",
+    "count": 2
+  },
+  {
+    "lemma": "ⲥⲕⲟⲣⲕⲣ",
+    "upos": "VERB",
+    "count": 2
+  },
+  {
+    "lemma": "ⲗⲁⲃⲁⲛ",
+    "upos": "PROPN",
+    "count": 2
+  },
+  {
+    "lemma": "ⲟⲛⲟⲣⲓⲟⲥ",
+    "upos": "PROPN",
+    "count": 2
+  },
+  {
+    "lemma": "ⲣⲙⲏ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ⲃⲁⲩⲕⲁⲗⲓⲟⲛ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ϣⲟϣⲟⲩ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ϩⲗⲗⲱ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲣϩⲁϩ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ϩⲓⲟⲛⲉ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲡⲗⲏⲅⲏ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ϫⲣⲟⲡ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲙⲛⲧⲣⲉϥϩⲓⲗⲁ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲙⲛⲧⲣⲉϥⲧⲱϩ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲣⲁⲥⲟⲩ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲙⲛⲧϣⲁϥⲧⲉ",
+    "upos": "NUM",
+    "count": 1
+  },
+  {
+    "lemma": "ϩⲟϫϩϫ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ⲉⲓ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲉ",
+    "upos": "X",
+    "count": 1
+  },
+  {
+    "lemma": "ⲛⲁⲉⲓⲁⲧ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ⲉⲧⲃⲉ",
+    "upos": "PART",
+    "count": 1
+  },
+  {
+    "lemma": "ⲇⲓⲕⲁⲓⲟⲛ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ϩⲏⲏⲛⲉ",
+    "upos": "PART",
+    "count": 1
+  },
+  {
+    "lemma": "ϫⲉⲣⲱ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ϭⲓⲛϭⲗⲱ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ϣⲁϩ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲛⲟⲩϫ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ⲛⲁⲓⲁⲧ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ϩⲩⲡⲟⲧⲁⲅⲏ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲙⲛⲧⲥⲧⲙⲏⲧ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲙⲛⲧⲁⲧⲥⲱⲧⲙ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲙⲛⲧⲁⲧⲥⲃⲱ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲉⲓⲃⲉ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ⲙⲛⲧⲛⲟⲩⲧⲉ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲙⲛⲧⲁⲧⲛⲟⲩⲧⲉ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲁⲧⲛⲟⲩⲧⲉ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ϣϥⲉ",
+    "upos": "NUM",
+    "count": 1
+  },
+  {
+    "lemma": "ⲟⲩⲱϩⲙ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ⲙⲛⲧⲧⲉⲗⲓⲟⲥ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲕⲟⲓⲛⲱⲛⲟⲥ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲓⲥⲁⲕ",
+    "upos": "PROPN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲡⲉⲗϭⲉ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ϣⲃⲛⲛⲉ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ϯⲛⲧⲟⲗⲏ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ⲣⲓ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲧⲁⲓⲟ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ⲕⲁⲥⲓⲁⲛⲟⲥ",
+    "upos": "PROPN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲥⲩⲛⲕⲗⲏⲧⲓⲕⲟⲥ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲙⲛⲧⲁⲡⲟⲧⲁⲕⲧⲓⲕⲟⲥ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲑⲃⲃⲓⲟ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲃⲁⲥⲓⲙⲟⲥ",
+    "upos": "PROPN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲙⲛⲧⲥⲩⲛⲕⲗⲏⲧⲓⲕⲟⲥ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲥⲟⲣⲙⲉ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ⲅⲉⲣⲁⲥⲏⲛⲟⲥ",
+    "upos": "PROPN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲫⲱϭⲉ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ⲧⲱⲙⲛⲧ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ⲥⲗⲡ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ⲟⲩⲉϭⲡ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ⲧⲟⲩⲓⲏ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲃⲁⲥⲁⲛⲓⲍⲉ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ϫⲕϩⲁϩ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ϣⲱⲱⲙⲉ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲟⲩⲱ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲣⲉϥϣⲟⲟⲣ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ϫⲓⲟⲟⲣ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ⲓⲁⲉⲓⲣⲟⲥ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲉⲣⲉ_ⲛⲧⲟⲥ",
+    "upos": "PRON",
+    "count": 1
+  },
+  {
+    "lemma": "ⲥⲁⲉⲓⲛ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲧϩⲟ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲉⲣϣⲁⲛ_ⲁⲛⲟⲕ",
+    "upos": "PRON",
+    "count": 1
+  },
+  {
+    "lemma": "ϯϩⲟⲓ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ⲟⲩⲛⲣⲟ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ⲥⲱⲃⲉ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ⲧⲁⲗⲉⲓⲑⲁ",
+    "upos": "PROPN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲕⲟⲩⲙ",
+    "upos": "X",
+    "count": 1
+  },
+  {
+    "lemma": "ⲟⲩⲁϩⲙⲉ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ⲉ_ⲛⲧⲟ",
+    "upos": "PRON",
+    "count": 1
+  },
+  {
+    "lemma": "ϣⲡⲏⲣⲉ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ϭⲟⲧ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ϩⲁⲙϣⲉ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲙⲁⲣⲓⲁ",
+    "upos": "PROPN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲓⲱⲥⲏ",
+    "upos": "PROPN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲓⲟⲩⲇⲁ",
+    "upos": "PROPN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲥⲩⲅⲅⲉⲛⲏⲥ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲧⲟⲟⲧ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲧⲙⲉ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲡⲏⲣⲁ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ϩⲟⲙⲛⲧ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲙⲟϫϩ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲥⲁⲛⲇⲁⲗⲓⲟⲛ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲱⲧϩ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ⲥⲛⲧⲉ",
+    "upos": "NUM",
+    "count": 1
+  },
+  {
+    "lemma": "ϣⲟⲉⲓϣ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ϩⲉⲛ",
+    "upos": "ADP",
+    "count": 1
+  },
+  {
+    "lemma": "ⲧⲱϩⲥ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ϯⲥⲟⲉⲓⲧ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ϩⲏⲗⲉⲓⲁⲥ",
+    "upos": "PROPN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲡⲓⲑⲉ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ϩⲟⲩⲙⲓⲥⲉ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲇⲓⲡⲛⲟⲛ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲙⲉⲅⲓⲥⲧⲁⲛⲟⲥ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲭⲓⲗⲓⲁⲣⲭⲟⲥ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲟⲣⲭⲉ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ⲁⲛⲁⲩϣ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲥⲡⲉⲕⲟⲩⲗⲁⲧⲱⲣ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲧⲁⲟⲩⲟ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ϣⲱⲥ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲟⲩⲟⲧⲟⲩⲉⲧ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ⲡⲉϣⲛⲟⲉⲓⲕ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ⲡⲟϣ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ⲕⲟⲧ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲗⲁⲕⲙ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ϭⲓⲥ",
+    "upos": "NUM",
+    "count": 1
+  },
+  {
+    "lemma": "ⲁⲛⲁⲅⲕⲁⲍⲉ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ⲃⲏⲑⲥⲁⲓⲇⲁ",
+    "upos": "PROPN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲙⲏⲏϣⲉ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ⲁⲡⲟⲥⲧⲁⲥⲥⲉ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ⲙⲉϩϥⲧⲟⲟⲩ",
+    "upos": "NUM",
+    "count": 1
+  },
+  {
+    "lemma": "ⲫⲁⲛⲧⲁⲥⲙⲁ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲉⲓⲱⲣϩ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ⲧⲏⲙ",
+    "upos": "ADV",
+    "count": 1
+  },
+  {
+    "lemma": "ⲅⲉⲛⲛⲏⲥⲁⲣⲉⲧ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲡⲉ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ⲧⲟⲡ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲉⲓⲁ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ⲓⲟⲩⲇⲁⲓ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲓⲁ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ϭⲉϣϭⲱϣ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ⲁⲡⲟⲧ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲝⲉⲥⲧⲏⲥ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲭⲁⲗⲕⲓⲛ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲧⲱⲗⲙ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ⲡⲣⲟⲫⲏⲧⲉⲩⲉ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ϩⲩⲡⲟⲕⲣⲓⲧⲏⲥ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲥⲡⲟⲧⲟⲩ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲁⲑⲉⲧⲓ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ϯⲧⲁⲉⲓⲟ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ⲕⲟⲣⲃⲁⲛ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ϩⲛ_ⲁⲛⲟⲕ",
+    "upos": "PRON",
+    "count": 1
+  },
+  {
+    "lemma": "ⲛⲁⲓ",
+    "upos": "DET",
+    "count": 1
+  },
+  {
+    "lemma": "[..]",
+    "upos": "X",
+    "count": 1
+  },
+  {
+    "lemma": "ⲛⲧⲉ",
+    "upos": "ADV",
+    "count": 1
+  },
+  {
+    "lemma": "ⲣⲙⲉⲓⲏ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲕⲁⲑⲁⲣⲓⲍⲉ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ⲡⲟⲣⲛⲉⲓⲁ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ϩⲱⲧⲃ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲙⲛⲧⲛⲟⲉⲓⲕ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲙⲛⲧⲙⲁⲓⲧⲟ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲙⲛⲧⲣⲉϥϫⲱϩⲙ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲙⲛⲧⲣⲉϥϫⲓⲟⲩⲁ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲙⲛⲧϫⲁⲥⲓϩⲏⲧ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲙⲛⲧⲁⲧϩⲏⲧ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲉⲧⲣⲉ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ⲣⲙ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲫⲟⲓⲛⲓⲕⲏ",
+    "upos": "PROPN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲥⲉⲓ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ⲟⲩϩⲟⲟⲣ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲟⲩϩⲟⲣ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲥⲣⲉϥⲣⲓϥⲉ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲟⲩⲧⲉ",
+    "upos": "ADP",
+    "count": 1
+  },
+  {
+    "lemma": "ⲧⲏⲏⲃⲉ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲛⲉϫⲧⲁϥ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ⲁϣⲁϩⲟⲙ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ⲉⲡⲫⲁⲑⲁ",
+    "upos": "X",
+    "count": 1
+  },
+  {
+    "lemma": "ⲙⲣⲣⲉ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲥⲱⲥⲑⲉⲛⲏⲥ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲕⲟⲣⲓⲛⲑⲟⲥ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲉⲡⲓⲕⲁⲗⲉⲓ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ϭⲱⲗⲡ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲕⲟⲓⲛⲱⲛⲓⲁ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲡⲱⲣϫ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲅⲛⲱⲙⲏ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲭⲗⲟⲏ",
+    "upos": "PROPN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲕⲣⲓⲥⲡⲟⲥ",
+    "upos": "PROPN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲅⲁⲓⲟⲥ",
+    "upos": "PROPN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲥⲧⲉⲫⲁⲛⲁ",
+    "upos": "PROPN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲉⲩⲁⲅⲅⲉⲗⲓⲍⲉ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ⲁⲑⲉⲧⲉⲓ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ⲥⲩⲛⲍⲏⲧⲏⲧⲏⲥ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲧⲟⲩϫⲟ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ⲙⲁⲉⲓⲛ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲥⲕⲁⲛⲇⲁⲗⲟⲛ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲧⲱϩⲙ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲇⲩⲛⲁⲧⲟⲥ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲉⲩⲅⲉⲛⲏⲥ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ϭⲱⲃ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲥⲱϣϥ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ⲕⲁⲧⲁⲣⲅⲉⲓ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ⲥⲱⲧⲉ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲧⲉⲗⲉⲓⲟⲥ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲟⲩⲱⲥϥ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ϩⲟⲧϩⲧ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ⲭⲁⲣⲓⲍⲉ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ϯⲥⲃⲱ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ϣⲱⲛϥ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲯⲩⲭⲓⲕⲟⲥ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲡⲛⲉⲩⲙⲁⲧⲓⲕⲱⲥ",
+    "upos": "ADV",
+    "count": 1
+  },
+  {
+    "lemma": "ⲇⲟⲅⲙⲁⲧⲓⲍⲉ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ϫⲓϯⲡⲉ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ϭⲗⲟⲙⲗⲙ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ⲕⲟⲓⲛⲱⲛⲉⲓ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ⲕⲟⲥⲙⲟⲕⲣⲁⲧⲱⲣ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲡⲁⲛϩⲟⲡⲗⲓⲁ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ϫⲓⲥⲃⲱ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ⲡⲣⲁⲝⲓⲥ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲙⲛⲧϩⲁⲣϣϩⲏⲧ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲁⲧⲧⲁⲕⲟ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ϩⲩⲡⲁⲣⲭⲟⲛⲧⲁ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲉⲓⲉ",
+    "upos": "ADV",
+    "count": 1
+  },
+  {
+    "lemma": "ⲛⲏⲥⲧⲉⲓⲁ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ϣⲱϣ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲙⲛⲧⲡⲁⲣⲑⲉⲛⲟⲥ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲥⲡⲟⲩⲇⲁⲍⲉ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ⲙⲁⲣⲅⲁⲣⲓⲧⲏⲥ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲉⲓⲉ",
+    "upos": "CCONJ",
+    "count": 1
+  },
+  {
+    "lemma": "ⲉⲡⲓⲃⲟⲩⲗⲉⲩⲉ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ⲙⲓϣⲉ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ϯⲧⲱⲛ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ⲕⲣⲙⲣⲙ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ⲕⲁⲧⲁⲗⲁⲗⲉⲓ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ⲙⲛⲧϣⲙⲙⲟ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲛⲟϥⲣⲉ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲕⲛⲁⲁⲩ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲣⲛⲟⲉⲓⲧ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ⲱϩⲥ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ⲕⲗⲏⲣⲟⲥ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲣⲙⲡϣⲁ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ⲥⲱⲧⲙ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ϫⲓⲛ",
+    "upos": "ADV",
+    "count": 1
+  },
+  {
+    "lemma": "ϭⲛⲭⲣⲏⲙⲁ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ⲱⲃϣ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ϣⲉⲉⲓ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ϯⲥⲟ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ϩⲱ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ϯϩⲓⲛⲏⲃ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ⲣⲉⲕⲣⲓⲕⲉ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ⲃⲟⲩϩⲉ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲡⲉⲓⲣⲁⲥⲙⲟⲥ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲫⲑⲟⲛⲉⲓ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ⲙⲛⲧϩⲏⲧ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ϭⲙⲡϣⲓⲛⲉ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲕⲣⲓⲙⲁ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲇⲓⲁⲑⲏⲕⲏ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲣⲙⲛⲧⲣⲉ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ⲛⲟⲩϫ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲡⲁⲗⲓⲛ",
+    "upos": "CCONJ",
+    "count": 1
+  },
+  {
+    "lemma": "ⲟⲩⲟⲧⲟⲩⲉⲧ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲧⲟⲡⲟⲥ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲙⲁⲣⲧⲩⲣⲓⲁ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲙⲁⲣⲧⲩⲣⲟⲥ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ϥⲁⲓⲕⲗⲟⲙ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲁⲅⲱⲛ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ϫⲟⲩⲱⲧⲥⲁϣϥ",
+    "upos": "NUM",
+    "count": 1
+  },
+  {
+    "lemma": "ⲛⲧⲉ",
+    "upos": "PART",
+    "count": 1
+  },
+  {
+    "lemma": "ⲙⲉϩϣⲟⲙⲧⲉ",
+    "upos": "NUM",
+    "count": 1
+  },
+  {
+    "lemma": "ⲉⲓⲇⲱⲗⲟⲛ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲙⲟⲩⲛⲕ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲥⲩⲙⲃⲟⲩⲗⲉⲩⲉ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ϯⲣⲁⲛ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ϣⲉϩⲙⲉ",
+    "upos": "NUM",
+    "count": 1
+  },
+  {
+    "lemma": "ⲏⲡⲉ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲧⲱϭⲉ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ⲥϩⲁⲓ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ϩⲣⲱⲙⲁⲛⲓⲁ",
+    "upos": "PROPN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲣⲏⲥ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲡⲉⲗⲁⲕ",
+    "upos": "PROPN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲕⲟⲙⲉⲥ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲉⲡⲓⲥⲕⲟⲡⲟⲥ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲇⲓⲁⲕⲟⲛⲟⲥ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲁⲛⲁⲅⲛⲱⲥⲧⲏⲥ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲣⲙϩⲉ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ϯⲙⲉⲉⲩⲉ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ϩⲛ",
+    "upos": "PART",
+    "count": 1
+  },
+  {
+    "lemma": "ⲥⲩⲛⲕⲗⲓϯⲕⲟⲥ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲉⲣⲉ",
+    "upos": "AUX",
+    "count": 1
+  },
+  {
+    "lemma": "ⲛⲁϣⲧⲉ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ϯϭⲟⲙ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ⲕⲁⲧⲁⲡⲟⲛϯⲍⲉ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ⲛⲃⲗ",
+    "upos": "ADP",
+    "count": 1
+  },
+  {
+    "lemma": "ⲕⲩⲣⲓⲝ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲣⲑⲩⲥⲓⲁⲍⲉ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ⲃⲟⲙⲱⲥ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ϣⲟⲩⲣⲏ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲥⲧⲩⲗⲗⲟⲥ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲥⲁⲙⲓⲧ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲕⲟⲛϯⲧⲟⲛ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲥⲱⲕ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ⲱⲛⲕ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ϩⲓⲥⲱⲛ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲁⲝⲓⲱⲙⲁ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲙⲛⲧⲥⲧⲣⲁⲧⲏⲗⲁⲧⲏⲥ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲡⲱⲣϣ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ϣⲉ",
+    "upos": "ADP",
+    "count": 1
+  },
+  {
+    "lemma": "ⲕⲣⲁⲧⲟⲥ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲑⲩⲥⲓⲁ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲡⲣⲟⲧⲉⲕⲧⲱⲣ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲛⲟⲉⲓⲛ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ⲁⲫⲟⲣⲙⲏ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲣⲁⲡⲟⲡⲛⲓⲅⲉ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ⲥⲧⲟⲓ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ϣⲟⲩϩⲏⲛⲉ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ϩⲟϫϩϫ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ϣⲟ",
+    "upos": "NUM",
+    "count": 1
+  },
+  {
+    "lemma": "ϩⲣⲟⲕⲉⲩⲉ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ⲟⲩⲱ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ⲁⲣⲧⲉⲙⲓⲥ",
+    "upos": "PROPN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲙⲛⲧⲯⲓⲧⲉ",
+    "upos": "NUM",
+    "count": 1
+  },
+  {
+    "lemma": "ⲥⲉⲏⲣⲡ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ⲧⲟⲃⲧⲃ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ϩⲁⲣⲙⲁ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲁⲛⲁϣ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲕⲁϩⲏⲩ",
+    "upos": "ADV",
+    "count": 1
+  },
+  {
+    "lemma": "ⲙⲁⲛⲓⲁⲕⲏⲥ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲙⲁⲥⲡⲟⲣⲕ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ϭⲱⲙ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ϭⲓⲛⲟⲩⲏⲗ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲡⲗⲉⲁ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ϩⲩⲡⲉⲣⲉⲥⲓⲁ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲅⲉⲛⲛⲁⲓⲟⲥ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲉⲝⲉⲇⲣⲁ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲙⲛⲧⲏ",
+    "upos": "NUM",
+    "count": 1
+  },
+  {
+    "lemma": "ⲥⲩⲛⲁⲝⲓⲥ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ϣⲙⲛⲧϣⲉⲥⲉⲧⲏ",
+    "upos": "NUM",
+    "count": 1
+  },
+  {
+    "lemma": "ⲁⲕⲁⲑⲁⲣⲧⲟⲥ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲙⲁⲗⲁⲕⲟⲥ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲣⲉϥⲛⲕⲟⲧⲕ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ϩⲣⲱ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲕⲟⲗⲁⲍⲉ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ⲁⲙⲛⲧⲉ",
+    "upos": "PROPN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲉⲓⲉ",
+    "upos": "PART",
+    "count": 1
+  },
+  {
+    "lemma": "ⲧⲟⲩ",
+    "upos": "X",
+    "count": 1
+  },
+  {
+    "lemma": "ⲁⲩⲧⲟⲩ",
+    "upos": "X",
+    "count": 1
+  },
+  {
+    "lemma": "ⲱⲥⲕ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ⲥⲱⲛⲧ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲙⲟⲣⲫⲏ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ϫⲡⲉϩⲟⲟⲩ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ϣⲱⲣⲡ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲭⲉⲓⲙⲏⲧⲓ",
+    "upos": "X",
+    "count": 1
+  },
+  {
+    "lemma": "ϩⲟⲧⲡ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ϣⲣⲡⲉⲓⲙⲉ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ⲟⲩⲱⲛϣ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲥⲉⲛⲟⲩⲑⲓⲟⲩ",
+    "upos": "X",
+    "count": 1
+  },
+  {
+    "lemma": "ⲉⲡⲓⲥⲧⲟⲗⲏ",
+    "upos": "X",
+    "count": 1
+  },
+  {
+    "lemma": "ⲙⲛⲧϩⲗⲗⲟ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲙⲛⲧϩⲗⲗⲱ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "[.....]",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲙⲉⲣⲟⲥ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ϯⲙⲧⲟⲛ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ⲕⲗⲏⲣⲟⲛⲟⲙⲓⲁ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲓⲥⲙⲁⲏⲗ",
+    "upos": "PROPN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲣⲱ",
+    "upos": "PART",
+    "count": 1
+  },
+  {
+    "lemma": "ⲟⲓ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ⲧⲱⲃϩ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ⲁⲓⲧⲏⲙⲁ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲗⲓⲁ",
+    "upos": "PROPN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲍⲉⲗⲫⲁ",
+    "upos": "PROPN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲃⲁⲗⲗⲁ",
+    "upos": "PROPN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲟⲩⲱⲗⲥ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ⲡⲁ[…]ϥⲟϭⲉ",
+    "upos": "X",
+    "count": 1
+  },
+  {
+    "lemma": "ⲡ[…]ⲡⲟⲥ",
+    "upos": "X",
+    "count": 1
+  },
+  {
+    "lemma": "ϩⲏ[..]ⲉ",
+    "upos": "X",
+    "count": 1
+  },
+  {
+    "lemma": "ⲛⲟⲩϭⲥ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ϩⲱⲱ",
+    "upos": "ADV",
+    "count": 1
+  },
+  {
+    "lemma": "ⲡⲁⲥⲧⲁⲙⲱⲛ",
+    "upos": "PROPN",
+    "count": 1
+  },
+  {
+    "lemma": "ϫⲓϫⲱⲓ",
+    "upos": "PROPN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲟⲥⲉ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲛⲟⲩ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ϯⲙⲏ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲉⲓⲇⲟⲥ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ϭⲛⲙⲧⲟⲛ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ⲧⲣ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ϥⲉⲓⲣⲟⲟⲩϣ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ⲕⲁⲛ",
+    "upos": "CCONJ",
+    "count": 1
+  },
+  {
+    "lemma": "ⲙⲱⲛⲟⲛ",
+    "upos": "ADV",
+    "count": 1
+  },
+  {
+    "lemma": "ϣⲧⲟⲣⲧⲣ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲥⲁⲣⲁⲡⲓⲟⲛ",
+    "upos": "PROPN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲭⲏⲣⲁ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲟⲣⲫⲁⲛⲟⲥ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ϫⲱⲱⲙⲉ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲥⲩⲛⲕⲗⲏⲧⲓⲕⲏ",
+    "upos": "PROPN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲉⲛⲉ",
+    "upos": "PART",
+    "count": 1
+  },
+  {
+    "lemma": "ⲙⲛⲧⲁⲧϩⲛⲁⲁⲩ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ϩⲩⲡⲟⲙⲓⲛⲉ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ϩⲱⲙ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ϣⲱⲙ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ϫⲛⲁϩ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲙⲛⲧϩⲏⲕⲉ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ϩⲧⲟⲣ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ϩⲩⲡⲉⲣⲉⲭⲓⲟⲥ",
+    "upos": "PROPN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲁϩⲟ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ϩⲩⲗⲏ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲁⲧⲟⲩⲱ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲙⲧⲟⲛ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲫⲓⲗⲁⲅⲣⲓⲟⲥ",
+    "upos": "PROPN",
+    "count": 1
+  },
+  {
+    "lemma": "ϩⲱⲥⲟⲛ",
+    "upos": "CCONJ",
+    "count": 1
+  },
+  {
+    "lemma": "ⲁⲅⲱⲣⲁ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ϣⲥⲛⲉ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲃⲁⲗⲗⲁⲧⲓⲟⲛ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ϩⲟⲗⲟⲕⲟⲧⲧⲓⲛⲟⲥ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ϩⲁⲡⲥ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ⲟⲩⲱⲛ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ϣⲱⲥⲙ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ϩⲏⲏⲧⲉ",
+    "upos": "PART",
+    "count": 1
+  },
+  {
+    "lemma": "ⲥⲃⲧⲉ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ⲙⲟⲉⲓⲧ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲃⲁⲡⲧⲓⲥⲙⲁ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲙⲉⲧⲁⲛⲟⲓⲁ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲓⲉⲣⲟ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲉⲝⲟⲙⲟⲗⲟⲅⲉⲓ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ϥⲱ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲧⲟ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ⲙⲟϫ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ϣⲁⲁⲣ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ϯⲡⲉ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ϣϫⲉ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲉⲃⲓⲱ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ϩⲓⲕⲁⲛⲟⲥ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲧⲟⲟⲩⲉ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲛⲁⲍⲁⲣⲉⲑ",
+    "upos": "PROPN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲓⲱϩⲁⲛⲛⲏⲥ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ϭⲣⲟⲟⲙⲡⲉ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲥⲙⲏ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ϩⲙⲉ",
+    "upos": "NUM",
+    "count": 1
+  },
+  {
+    "lemma": "ⲡⲉⲓⲣⲁⲍⲉ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ⲑⲏⲣⲓⲟⲛ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲛⲟⲩϫϣⲛⲉ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ⲣⲉϥϭⲉⲡⲣⲱⲙⲉ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ϫⲁⲓⲃⲉⲕⲉ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲛⲁⲍⲱⲣⲁⲓⲟⲥ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲧⲙ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ϣⲱⲙⲉ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲧⲟⲩⲛⲟⲥ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ϩⲙⲟⲙ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ϩⲱⲧⲡ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ⲣⲉⲛⲇⲁⲓⲙⲱⲛⲓⲟⲛ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ⲧⲙⲙⲟ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲉⲣⲉ_ⲁⲛⲟⲕ",
+    "upos": "PRON",
+    "count": 1
+  },
+  {
+    "lemma": "ⲥⲱⲃϩ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ⲕⲱϩ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ⲥⲱⲃⲁϩ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲛⲉϣ",
+    "upos": "AUX",
+    "count": 1
+  },
+  {
+    "lemma": "ⲟⲩⲉϩⲥⲟⲓ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ϣⲟϫⲧ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ⲭⲁⲗⲁ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ϫⲛⲉ",
+    "upos": "CCONJ",
+    "count": 1
+  },
+  {
+    "lemma": "ⲗⲉⲟⲩⲉⲓ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ⲁⲗⲫⲁⲓⲟⲥ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲧⲉⲗⲱⲛⲓⲟⲛ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲁϩⲟⲩ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ⲥⲁⲓⲛ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲕⲁⲕⲱⲥ",
+    "upos": "ADV",
+    "count": 1
+  },
+  {
+    "lemma": "ϣⲁⲉⲓ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ϣⲁⲓ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲁⲥ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲡⲱⲛ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ⲉⲓⲱϩⲉ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲁⲣⲭⲓⲧⲗⲕϩⲙⲥ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ⲫⲁⲣⲣⲓⲥⲁⲓⲟⲥ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲇⲁⲩⲉⲓⲇ",
+    "upos": "PROPN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲁⲃⲓⲁⲑⲁⲣ",
+    "upos": "PROPN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲁⲣⲭⲓⲉⲣⲉⲩⲥ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲡⲣⲟⲑⲉⲥⲓⲥ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲡⲁⲣⲁⲧⲏⲣⲉⲓ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ⲕⲁⲧⲏⲅⲟⲣⲉⲓ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ⲧⲁⲛϩⲟ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ϩⲟ",
+    "upos": "ADP",
+    "count": 1
+  },
+  {
+    "lemma": "ⲧⲱⲙ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ϩⲏⲣⲱⲇⲓⲁⲛⲟⲥ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ϫⲓϣⲟϫⲛⲉ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ⲓⲇⲟⲩⲙⲁⲓⲁ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲥⲓⲇⲱⲛ",
+    "upos": "PROPN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲡⲣⲟⲥⲕⲁⲣⲧⲉⲣⲉⲓ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ⲡⲓⲛⲟⲩ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲓⲱϩⲁⲛⲏⲥ",
+    "upos": "PROPN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲃⲟⲁⲛⲏⲣⲅⲉⲥ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ϩⲣⲟⲩⲃⲃⲁⲉⲓ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲃⲁⲣⲑⲟⲗⲟⲙⲁⲓⲟⲥ",
+    "upos": "PROPN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲙⲁⲑⲁⲓⲟⲥ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲑⲱⲙⲁⲥ",
+    "upos": "PROPN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲁⲗⲫⲁⲓⲟⲥ",
+    "upos": "PROPN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲑⲁⲇⲇⲁⲓⲟⲥ",
+    "upos": "PROPN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲕⲁⲛⲁⲛⲁⲓⲟⲥ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲓⲟⲩⲇⲁⲥ",
+    "upos": "PROPN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲓⲥⲕⲁⲣⲓⲱⲧⲏⲥ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲃⲉⲉⲗⲍⲉⲃⲟⲩⲗ",
+    "upos": "PROPN",
+    "count": 1
+  },
+  {
+    "lemma": "ϩⲁⲏ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ϫⲱⲱⲣ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ϫⲟ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲟⲙ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ϣⲁ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ϩⲱϭⲃ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ϫⲉⲛⲟⲩⲛⲉ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ϣⲟⲟⲩⲉ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ⲟϭⲧ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ⲙⲛⲧⲥⲛⲟⲟⲩⲥ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲙⲏⲡⲱⲥ",
+    "upos": "SCONJ",
+    "count": 1
+  },
+  {
+    "lemma": "ⲡⲱⲥ",
+    "upos": "ADV",
+    "count": 1
+  },
+  {
+    "lemma": "ⲟⲩⲛⲟⲩ",
+    "upos": "ADV",
+    "count": 1
+  },
+  {
+    "lemma": "ⲣⲁϣⲉ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲛⲟⲩⲛⲉ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲡⲣⲟⲥⲟⲩⲟⲉⲓϣ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲣⲟⲟⲩϣ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲁⲡⲁⲧⲏ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲉⲡⲓⲑⲩⲙⲓⲁ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲱϭⲧ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ⲧⲁⲩⲉⲕⲁⲣⲡⲟⲥ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ⲗⲩⲭⲛⲓⲁ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ϩⲱⲃⲥ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ⲣⲛⲟϭ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ϩⲙⲥ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ϩⲙⲥ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ⲟϩⲥ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲧⲏ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲧⲛⲧⲛ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ⲃⲗⲃⲓⲗⲉ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ϣⲗⲧⲙ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲥⲃⲟⲕ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ϭⲣⲱϭ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲟⲩⲟⲟⲧⲉ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲕⲗⲁⲇⲟⲥ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ϣⲟⲩⲱϩ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ϩⲁⲉⲓⲃⲉⲥ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ϩⲁⲧⲏⲩ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ϩⲟⲉⲓⲙ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ϥⲱϭⲉ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ⲱⲙⲥ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ϣⲟⲧ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲛⲉϩⲥⲉ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ⲣⲣⲟⲟⲩϣ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ⲕⲁ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ϣⲧⲁⲙ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ϩⲣⲏϭ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ϫⲁⲙⲏ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ϭⲁⲃϩⲏⲧ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲕⲁⲡⲓⲥⲧⲓⲥ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ⲉⲣⲱⲧⲉ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ϩⲣⲉ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ϩⲟⲡⲟⲩ",
+    "upos": "ADV",
+    "count": 1
+  },
+  {
+    "lemma": "ⲇⲓⲁⲕⲱⲛ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ϣⲃⲣⲣϩⲱⲃ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲟⲩⲟⲉⲓⲉ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲕⲱⲧ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲁⲣⲭⲓⲧⲉⲕⲧⲱⲛ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲣⲟⲟⲩⲉ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲥⲁⲧⲉ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲣⲱⲕϩ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ϯⲟⲥⲉ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ⲉⲝⲁⲡⲁⲧⲁ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ⲙⲟⲕⲙⲉⲕ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ϩⲩⲡⲏⲣⲉⲧⲏⲥ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲟⲩⲇⲉ",
+    "upos": "SCONJ",
+    "count": 1
+  },
+  {
+    "lemma": "ⲧⲙⲁⲉⲓⲟ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ⲕⲣⲓⲛⲉ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ⲥⲃⲟ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ⲇⲓⲁⲕⲣⲓⲛⲉ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ϫⲓ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ϩⲁⲉ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲉⲡⲓⲑⲁⲛⲁⲧⲏⲥ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲑⲉⲁⲧⲣⲟⲛ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ϭⲃⲃⲉ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ⲱϥⲉ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ϯⲕⲗⲯ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ⲁⲛⲉⲭⲉ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ⲡⲉⲣⲓⲕⲁⲑⲁⲣⲙⲁ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲣϣϥⲉ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ⲕⲁⲛ",
+    "upos": "SCONJ",
+    "count": 1
+  },
+  {
+    "lemma": "ⲡⲁⲓⲇⲁⲅⲱⲅⲟⲥ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲧⲓⲙⲟⲑⲉⲟⲥ",
+    "upos": "PROPN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲛⲁ",
+    "upos": "PART",
+    "count": 1
+  },
+  {
+    "lemma": "ⲙⲛⲧⲣⲙⲣⲁϣ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲕⲁⲙⲁ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ⲁⲡⲟⲫⲁⲥⲓⲥ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ϩⲱⲥ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲡⲱⲣϣ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲕⲗⲁϥⲧ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲟⲩⲱⲙ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲇⲓⲁⲕⲟⲛⲓⲁ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲧⲟⲉ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ϯϭⲱⲛⲧ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ⲗⲩⲡⲉⲓ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ⲕⲱⲗⲩⲉ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ⲟⲩⲣⲟⲧ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ϭⲱⲛⲧ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲁⲅⲅⲓⲟⲛ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲙⲛⲧⲣⲉϥϯϭⲱⲛⲧ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲟⲓⲕⲟⲩⲙⲉⲛⲏ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ϯⲛⲟⲩϭⲥ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ⲥⲁⲛϣ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ϣⲟⲡϣⲡ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ⲥⲗⲁⲁⲧⲉ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ⲉϩⲟⲩⲉ",
+    "upos": "ADV",
+    "count": 1
+  },
+  {
+    "lemma": "ⲁⲛⲥⲙⲙⲉ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲗⲩⲡⲏ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ϣⲓⲕⲉ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ⲟⲩⲱϭⲡ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ⲣⲕⲁⲕⲉ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ⲧⲓⲙⲱⲣⲓⲁ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲟⲩ",
+    "upos": "ADV",
+    "count": 1
+  },
+  {
+    "lemma": "ⲙⲟⲛⲟⲛ",
+    "upos": "X",
+    "count": 1
+  },
+  {
+    "lemma": "ϯϩⲉ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ϫⲏⲣ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲥⲱ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲙⲛⲧⲣⲉϥϣⲙϣⲉⲉⲓⲇⲱⲗⲟⲛ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲕⲁⲕⲓⲁ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲫⲑⲟⲛⲟⲥ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲙⲉⲥⲧⲉ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲁⲧⲥⲱⲧⲙ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲡⲗⲁⲛⲁ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ⲡⲉⲧϣⲟⲩⲉⲓⲧ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲁⲗⲗⲟⲧⲣⲓⲟⲥ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲧⲱⲛ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲣϩⲱⲃ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲁⲕⲁⲑⲁⲣⲥⲓⲁ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲥⲧⲱⲧ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ϫⲱⲕ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲧⲛϩ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲕⲁⲓⲣⲟⲥ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲱϫⲛ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ⲥⲃⲟ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ϩⲟⲥⲟⲛ",
+    "upos": "ADV",
+    "count": 1
+  },
+  {
+    "lemma": "ⲧⲥⲁⲛⲟ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ⲛⲏⲫⲉ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ϩⲱⲱⲕ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲡⲟⲗⲓⲧⲉⲓⲁ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲧⲉⲗⲓⲟⲥ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ϩⲓⲥⲧⲟⲣⲓⲍⲉ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ⲥⲟⲩϣⲙⲟⲩⲛ",
+    "upos": "NUM",
+    "count": 1
+  },
+  {
+    "lemma": "ⲉⲡⲏⲡ",
+    "upos": "PROPN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲥⲕⲉⲡⲁⲍⲉ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ϩⲓⲗⲗⲁⲣⲓⲁ",
+    "upos": "PROPN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲍⲏⲛⲱⲛ",
+    "upos": "PROPN",
+    "count": 1
+  },
+  {
+    "lemma": "ϩⲟⲣⲟⲙⲁ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲱⲕⲉⲁⲛⲟⲥ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲁⲛⲁⲭⲱⲣⲏⲧⲏⲥ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲥⲁϣ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲁⲛⲧⲱⲛⲓⲟⲥ",
+    "upos": "PROPN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲙⲉϩⲥⲛⲁⲩ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲕⲁⲧⲁⲅⲁⲓⲟⲛ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲁⲧϣⲁⲩ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲣϣⲃⲏⲣ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ⲁⲟⲩⲏⲣ",
+    "upos": "PRON",
+    "count": 1
+  },
+  {
+    "lemma": "ⲙⲛⲧϣⲙⲏⲛ",
+    "upos": "NUM",
+    "count": 1
+  },
+  {
+    "lemma": "ⲧⲣⲟⲫⲏ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ϣⲏⲛ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲃⲛⲛⲉ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ϣⲱⲡⲉ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲕⲩⲣⲓⲟⲥ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲡⲟⲣⲫⲩⲣⲁ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ϣⲱⲗⲙ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ⲥϯⲛⲟⲩϥⲉ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲁⲥⲡⲁⲍⲉ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ⲉⲓⲉ",
+    "upos": "SCONJ",
+    "count": 1
+  },
+  {
+    "lemma": "ⲱϭⲃ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ⲥⲱϣⲙ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ϫⲟⲩⲱⲧⲉ",
+    "upos": "NUM",
+    "count": 1
+  },
+  {
+    "lemma": "ϩⲙⲙⲉ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲕⲣⲁⲥⲓⲥ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲁⲏⲣ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲥⲟⲩⲗⲟⲩⲱⲗ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ϩⲁⲡ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲥϣ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲉⲡⲉⲓ",
+    "upos": "SCONJ",
+    "count": 1
+  },
+  {
+    "lemma": "ⲙⲉϣⲁⲕ",
+    "upos": "ADV",
+    "count": 1
+  },
+  {
+    "lemma": "ⲁⲡⲁⲛⲧⲁ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ⲁⲡⲟⲗⲁⲩⲉ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ⲃⲏⲙⲁ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲁⲃⲃⲁⲕⲟⲩⲙ",
+    "upos": "PROPN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲇⲁⲛⲓⲏⲗ",
+    "upos": "PROPN",
+    "count": 1
+  },
+  {
+    "lemma": "ϩⲟⲣⲙⲏ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲙⲟⲅⲓⲥ",
+    "upos": "ADV",
+    "count": 1
+  },
+  {
+    "lemma": "ⲡⲟⲛ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ⲣϣⲡⲏⲏⲣⲉ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ⲡⲁⲧⲣⲓⲁⲣⲭⲏⲥ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲙⲉⲥⲟⲡⲟⲧⲁⲙⲓⲁ",
+    "upos": "PROPN",
+    "count": 1
+  },
+  {
+    "lemma": "ϣⲱⲧⲉ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲑⲉⲟⲇⲱⲥⲓⲟⲥ",
+    "upos": "PROPN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲁⲣⲕⲁⲇⲓⲟⲥ",
+    "upos": "PROPN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲣⲙⲟⲛⲁⲭⲟⲥ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ϫⲓⲛϭⲟⲛⲥ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲁϣⲁⲓ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ⲡⲁⲣⲁⲛⲟⲙⲉⲓ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ϭⲟⲛⲥ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲣⲓⲕⲉ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ⲧⲁⲣⲉ",
+    "upos": "AUX",
+    "count": 1
+  },
+  {
+    "lemma": "ϭⲛⲣⲱⲙⲉ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ⲉⲣⲏⲙⲁ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲥⲟⲗⲥⲗ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ⲕⲉⲧ",
+    "upos": "NOUN",
+    "count": 1
+  },
+  {
+    "lemma": "ⲁⲗⲟ",
+    "upos": "VERB",
+    "count": 1
+  },
+  {
+    "lemma": "ϣϭⲟⲙ",
+    "upos": "NOUN",
+    "count": 1
+  }
+]

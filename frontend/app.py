@@ -7,10 +7,36 @@ import streamlit as st
 
 API_URL = os.environ.get("COPTIC_API_URL", "http://localhost:8000")
 
-st.set_page_config(page_title="Coptic AI Translator", page_icon="✝")
+st.set_page_config(page_title="Coptic AI Translator", page_icon="𓂀")
+
+# Load a real Coptic-Unicode font (Noto Sans Coptic) and apply it only to
+# the translation output. NOTE: decorative "Coptic-style" fonts you might
+# find elsewhere (fancy bubble-letter styles etc.) are usually just
+# restyled LATIN letters and can't render actual Coptic Unicode text
+# (U+2C80-U+2CFF) - they'd silently fall back to a plain system font for
+# our output. Noto Sans Coptic actually covers the Coptic Unicode block
+# and has a traditional, legible look.
+# https://fonts.google.com/noto/specimen/Noto+Sans+Coptic
+st.markdown(
+    """
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Coptic&display=swap');
+    .coptic-text {
+        font-family: 'Noto Sans Coptic', serif;
+        font-size: 1.8rem;
+        line-height: 1.6;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True,
+)
 
 st.title("Coptic AI Translator")
-st.caption("Phase 1 MVP — baseline neural model only, no retrieval/validation yet.")
+st.caption(
+    "Minimal dev prototype. For the full Ancient-Egyptian/Coptic-styled "
+    "interface (Translator, Lexicon, Manuscripts, Lab Notes), run the API "
+    "and open http://localhost:8000/app/coptic_translator.html instead."
+)
 
 direction_label = st.radio(
     "Direction", ["English → Coptic", "Coptic → English"], horizontal=True
@@ -35,7 +61,29 @@ if st.button("Translate", type="primary") and text.strip():
             st.error(f"Request failed: {exc}")
         else:
             st.subheader("Translation")
-            st.write(data["output_text"])
+            if direction == "en2cop":
+                st.markdown(
+                    f'<div class="coptic-text">{data["output_text"]}</div>',
+                    unsafe_allow_html=True,
+                )
+            else:
+                st.write(data["output_text"])
             st.caption(f"Model: {data['model']}")
-            if data.get("confidence") is not None:
-                st.caption(f"Confidence: {data['confidence']:.0%}")
+
+            col1, col2 = st.columns(2)
+            with col1:
+                if data.get("confidence") is not None:
+                    st.metric("Model confidence", f"{data['confidence']:.0%}")
+                else:
+                    st.metric("Model confidence", "n/a")
+            with col2:
+                if data.get("dictionary_coverage") is not None:
+                    st.metric("Dictionary coverage", f"{data['dictionary_coverage']:.0%}")
+                else:
+                    st.metric("Dictionary coverage", "n/a")
+
+            st.caption(
+                "These are two independent, uncalibrated signals - not a combined "
+                "accuracy score. Low coverage just means our small starter lexicon "
+                "doesn't recognize those words yet, not that the translation is wrong."
+            )
