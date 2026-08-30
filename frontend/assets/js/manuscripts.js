@@ -17,8 +17,6 @@
   let activeDialect = "all";
 
   function prettySourceName(source) {
-    // Source strings are sometimes filenames or long provenance notes -
-    // keep the card readable without inventing details we don't have.
     const trimmed = source.length > 60 ? source.slice(0, 57) + "…" : source;
     return trimmed
       .replace(/[_-]+/g, " ")

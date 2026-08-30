@@ -1,26 +1,4 @@
-"""
-Phase 4: Coptic corpus ingestion.
-
-Loads annotated Coptic sentences (tokenized/glossed) from data/corpus/*.json
-and provides basic keyword search over them. This is deliberately simple -
-naive keyword overlap, no embeddings - because real semantic retrieval is
-Phase 5 (backend/retrieval). This module's job is just to get real corpus
-data into the system in a structured, queryable form.
-
-Getting real data: Coptic SCRIPTORIUM (https://copticscriptorium.org/) is
-the primary source described in ARCHITECTURE.md. Their corpora are
-released as TEI XML / PAULA XML per-text, browsable at
-https://data.copticscriptorium.org/ and https://copticscriptorium.org/download.html
-There is no bulk single-file export - you pull individual annotated texts
-and convert them into this module's simpler schema (see
-CorpusSentence below) with a script under training/preprocessing/.
-This module ships with a few hand-written illustrative sentences so the
-plumbing is testable before you've done that conversion - replace/extend
-data/corpus/*.json with real converted SCRIPTORIUM texts as you go.
-
-Important: data/corpus may also contain auxiliary files such as
-lemma_frequencies.json. Those are not sentence corpora and are ignored.
-"""
+"""Coptic corpus ingestion and keyword search over data/corpus/*.json."""
 
 from __future__ import annotations
 
@@ -116,18 +94,8 @@ class Corpus:
         logger.info("Loaded %d corpus sentences from %s", len(sentences), directory)
         return cls(sentences)
 
-    # -- search -----------------------------------------------------------
-
     def search_english(self, query: str, top_k: int = 5) -> list[CorpusSentence]:
-        """Naive keyword-overlap search over English glosses.
-
-        This is intentionally simple (bag-of-words overlap, no embeddings)
-        so Phase 4 (getting corpus data in) doesn't depend on Phase 5
-        (semantic retrieval) being built yet. Swap for
-        sentence-transformers + FAISS similarity in backend/retrieval/
-        when you get to Phase 5 - this method's signature can stay the
-        same so callers don't need to change.
-        """
+        """Naive keyword-overlap search over English glosses."""
         query_words = {w.lower() for w in _WORD_RE.findall(query)}
         if not query_words:
             return []

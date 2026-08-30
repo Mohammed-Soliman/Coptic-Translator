@@ -1,10 +1,4 @@
-"""FastAPI backend for the Coptic translator.
-
-Also serves the linked Ancient-Egyptian/Coptic-styled web frontend
-(frontend/pages/*.html + frontend/assets/) as static files, so the whole
-app runs from a single `uvicorn backend.api.main:app` process with no
-separate dev server or CORS setup required.
-"""
+"""FastAPI backend for the Coptic translator. Also serves the frontend as static files."""
 
 import logging
 from dataclasses import asdict
@@ -51,9 +45,6 @@ app = FastAPI(
     version="0.2.0",
 )
 
-# Loosen for local dev; tighten before deploying publicly. Since the
-# frontend is now served from this same app, cross-origin requests are
-# only relevant for the Streamlit dev prototype and direct API use.
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
@@ -84,25 +75,22 @@ def translate(request: TranslationRequest) -> TranslationResponse:
             direction=request.direction,
             dialect=request.dialect,
         )
-    except Exception as exc:  # noqa: BLE001 - surface as a clean 500 for now
+    except Exception as exc:
         logger.exception("Translation failed")
         raise HTTPException(status_code=500, detail=str(exc)) from exc
 
-    model_used = EN2COP_MODEL_NAME if request.direction == "en2cop" else COP2EN_MODEL_NAME
+    model_used = (
+        EN2COP_MODEL_NAME if request.direction == "en2cop" else COP2EN_MODEL_NAME
+    )
 
-    # Phase 3: dictionary coverage is only meaningful over the English side
-    # of the exchange (input for en2cop, output for cop2en).
     english_text = request.text if request.direction == "en2cop" else result.text
     coptic_text = result.text if request.direction == "en2cop" else request.text
     coverage = get_lexicon().english_coverage(english_text)
 
     retrieval_hits = [
-        RetrievalHit(**asdict(hit))
-        for hit in retriever.search(request.text, top_k=5)
+        RetrievalHit(**asdict(hit)) for hit in retriever.search(request.text, top_k=5)
     ]
 
-    # Phase 7: combine model confidence with the lexicon/grammar/retrieval
-    # signals above into one transparent breakdown for the UI.
     breakdown = scorer.score(
         query_text=request.text,
         english_text=english_text,
@@ -126,7 +114,7 @@ def translate(request: TranslationRequest) -> TranslationResponse:
 
 @app.get("/retrieve")
 def retrieve(q: str, top_k: int = 5) -> list[dict]:
-    """Phase 5 semantic retrieval over corpus + lexicon."""
+    """Semantic retrieval over corpus + lexicon."""
     retriever = get_retriever()
     return [asdict(hit) for hit in retriever.search(q, top_k=top_k)]
 
@@ -139,10 +127,7 @@ def grammar_check(q: str, dialect: str = "bohairic") -> GrammarCheckResponse:
 
 @app.get("/corpus/search")
 def corpus_search(q: str, top_k: int = 5) -> list[dict]:
-    """Phase 4: naive keyword search over the ingested corpus.
-
-    Example: GET /corpus/search?q=Jesus%20Christ
-    """
+    """Naive keyword search over the ingested corpus."""
     corpus = get_corpus()
     results = corpus.search_english(q, top_k=top_k)
     return [
@@ -264,12 +249,8 @@ def create_lab_note(note: LabNoteCreate) -> LabNote:
     return LabNote(**created)
 
 
-# --- Frontend static hosting -------------------------------------------
-# Mounted last so it never shadows the API routes above.
 if (FRONTEND_DIR / "assets").exists():
-    app.mount(
-        "/assets", StaticFiles(directory=FRONTEND_DIR / "assets"), name="assets"
-    )
+    app.mount("/assets", StaticFiles(directory=FRONTEND_DIR / "assets"), name="assets")
 if (FRONTEND_DIR / "pages").exists():
     app.mount(
         "/app", StaticFiles(directory=FRONTEND_DIR / "pages", html=True), name="app"

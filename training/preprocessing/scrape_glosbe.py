@@ -1,13 +1,4 @@
-﻿"""Glosbe scraping helper for candidate Coptic-English dictionary entries.
-
-This script is intentionally conservative:
-- it only fetches public pages
-- it respects a configurable delay
-- it writes raw and cleaned JSON separately
-- it does not try to bypass anti-bot protections
-
-Use this as a source of Silver / needs_review candidates, not Gold data.
-"""
+﻿"""Glosbe scraping helper for candidate Coptic-English dictionary entries."""
 
 from __future__ import annotations
 
@@ -117,7 +108,19 @@ class _GlosbeHTMLParser(HTMLParser):
                 self.meta[name or prop] = content
             return
 
-        if tag.lower() in {"br", "p", "div", "section", "article", "li", "tr", "td", "h1", "h2", "h3"}:
+        if tag.lower() in {
+            "br",
+            "p",
+            "div",
+            "section",
+            "article",
+            "li",
+            "tr",
+            "td",
+            "h1",
+            "h2",
+            "h3",
+        }:
             self.text_parts.append("\n")
 
     def handle_endtag(self, tag: str) -> None:
@@ -186,7 +189,9 @@ def _extract_json_scripts(raw_html: str) -> list[str]:
     return candidates
 
 
-def _collect_interesting_strings(value: Any, out: list[str], key: str | None = None) -> None:
+def _collect_interesting_strings(
+    value: Any, out: list[str], key: str | None = None
+) -> None:
     if isinstance(value, dict):
         for child_key, child_value in value.items():
             child_key_str = str(child_key).lower()
@@ -259,7 +264,9 @@ def _split_candidate_pair(text: str) -> tuple[str | None, str | None]:
     return None, None
 
 
-def _extract_candidate_pairs(visible_text: str, json_strings: list[str]) -> list[dict[str, str]]:
+def _extract_candidate_pairs(
+    visible_text: str, json_strings: list[str]
+) -> list[dict[str, str]]:
     candidates: list[dict[str, str]] = []
     seen: set[tuple[str, str]] = set()
 
@@ -293,7 +300,9 @@ def _extract_candidate_pairs(visible_text: str, json_strings: list[str]) -> list
     return candidates
 
 
-def scrape_glosbe_page(query: str, base_url_template: str, timeout: int = 30) -> RawGlosbePage:
+def scrape_glosbe_page(
+    query: str, base_url_template: str, timeout: int = 30
+) -> RawGlosbePage:
     encoded_query = quote(query.strip(), safe="")
     url = base_url_template.format(query=encoded_query, raw_query=query.strip())
 
@@ -333,7 +342,9 @@ def scrape_glosbe_page(query: str, base_url_template: str, timeout: int = 30) ->
 
     visible_text = parser.visible_text()
     json_strings = _extract_json_scripts(body)
-    extracted_pairs = _extract_candidate_pairs(visible_text, _parse_json_payloads(json_strings))
+    extracted_pairs = _extract_candidate_pairs(
+        visible_text, _parse_json_payloads(json_strings)
+    )
 
     sha256 = hashlib.sha256(body.encode("utf-8", errors="ignore")).hexdigest()
 
@@ -440,7 +451,9 @@ def write_json(path: Path, payload: Any) -> None:
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser(description="Scrape Glosbe candidate Coptic entries.")
+    parser = argparse.ArgumentParser(
+        description="Scrape Glosbe candidate Coptic entries."
+    )
     parser.add_argument(
         "--seed-file",
         type=Path,

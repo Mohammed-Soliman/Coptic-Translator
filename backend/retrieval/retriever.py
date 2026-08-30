@@ -1,12 +1,4 @@
-"""Phase 5 retrieval layer.
-
-This module combines:
-- semantic retrieval over corpus + lexicon when sentence-transformers/FAISS are available
-- keyword fallback so the API still works in lightweight environments
-
-The retrieval layer is intentionally read-only and side-effect free.
-It can be used by translation, validation, or a standalone /retrieve endpoint.
-"""
+"""Semantic (embedding) retrieval over corpus + lexicon, with a keyword fallback."""
 
 from __future__ import annotations
 
@@ -22,18 +14,18 @@ from backend.lexicon.lexicon import get_lexicon
 logger = logging.getLogger(__name__)
 
 try:
-    import faiss  # type: ignore
-except Exception:  # pragma: no cover - optional dependency
+    import faiss
+except Exception:
     faiss = None
 
 try:
-    import numpy as np  # type: ignore
-except Exception:  # pragma: no cover - optional dependency
+    import numpy as np
+except Exception:
     np = None
 
 try:
-    from sentence_transformers import SentenceTransformer  # type: ignore
-except Exception:  # pragma: no cover - optional dependency
+    from sentence_transformers import SentenceTransformer
+except Exception:
     SentenceTransformer = None
 
 
@@ -152,7 +144,9 @@ class RetrievalEngine:
             self._embedder = SentenceTransformer(self.embedding_model_name)
             return self._embedder
         except Exception:
-            logger.exception("Failed to load embedding model: %s", self.embedding_model_name)
+            logger.exception(
+                "Failed to load embedding model: %s", self.embedding_model_name
+            )
             return None
 
     def _encode(self, texts: list[str]):
@@ -174,18 +168,24 @@ class RetrievalEngine:
 
     def _build_indexes(self) -> None:
         if faiss is None or np is None:
-            logger.warning("FAISS or NumPy unavailable; retrieval will use keyword fallback.")
+            logger.warning(
+                "FAISS or NumPy unavailable; retrieval will use keyword fallback."
+            )
             return
 
         if self._corpus_docs:
-            corpus_vectors = self._encode([doc.search_text for doc in self._corpus_docs])
+            corpus_vectors = self._encode(
+                [doc.search_text for doc in self._corpus_docs]
+            )
             if corpus_vectors is not None and len(corpus_vectors) > 0:
                 self._corpus_embeddings = corpus_vectors
                 self._corpus_index = faiss.IndexFlatIP(corpus_vectors.shape[1])
                 self._corpus_index.add(corpus_vectors)
 
         if self._lexicon_docs:
-            lexicon_vectors = self._encode([doc.search_text for doc in self._lexicon_docs])
+            lexicon_vectors = self._encode(
+                [doc.search_text for doc in self._lexicon_docs]
+            )
             if lexicon_vectors is not None and len(lexicon_vectors) > 0:
                 self._lexicon_embeddings = lexicon_vectors
                 self._lexicon_index = faiss.IndexFlatIP(lexicon_vectors.shape[1])
@@ -296,13 +296,21 @@ class RetrievalEngine:
 
         if self._corpus_docs:
             if self._corpus_index is not None:
-                hits.extend(self._vector_search(query, self._corpus_docs, self._corpus_index, top_k))
+                hits.extend(
+                    self._vector_search(
+                        query, self._corpus_docs, self._corpus_index, top_k
+                    )
+                )
             else:
                 hits.extend(self._keyword_search(query, self._corpus_docs, top_k))
 
         if self._lexicon_docs:
             if self._lexicon_index is not None:
-                hits.extend(self._vector_search(query, self._lexicon_docs, self._lexicon_index, top_k))
+                hits.extend(
+                    self._vector_search(
+                        query, self._lexicon_docs, self._lexicon_index, top_k
+                    )
+                )
             else:
                 hits.extend(self._keyword_search(query, self._lexicon_docs, top_k))
 
@@ -310,7 +318,9 @@ class RetrievalEngine:
         hits.sort(key=lambda hit: hit.score, reverse=True)
         return hits[:top_k]
 
-    def context_for(self, query: str, top_k: int = 5) -> dict[str, list[dict[str, Any]]]:
+    def context_for(
+        self, query: str, top_k: int = 5
+    ) -> dict[str, list[dict[str, Any]]]:
         hits = self.search(query, top_k=top_k)
         return {
             "query": query,

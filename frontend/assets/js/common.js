@@ -1,6 +1,3 @@
-// Shared helpers for the Coptic Lab frontend. Served from the same
-// FastAPI app as the API itself (see backend/api/main.py's StaticFiles
-// mounts), so every call below is same-origin - no base URL, no CORS.
 (function (global) {
   "use strict";
 

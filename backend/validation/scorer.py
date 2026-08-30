@@ -1,25 +1,4 @@
-"""
-Phase 7: confidence scoring.
-
-Combines several independent, uncalibrated signals into one transparent
-breakdown for a given translation:
-
-- model_confidence     - raw score reported by the baseline HF model
-- dictionary_coverage  - Phase 3 lexicon coverage of the English side
-- grammar_score        - Phase 6 rule-based grammar/surface-form score
-                          for the Coptic side
-- retrieval_support    - Phase 5 signal for how much relevant corpus/
-                          lexicon context we found to ground the translation
-
-Per ARCHITECTURE.md: never present a single number as a calibrated
-probability. This module is a documented, fixed-weight heuristic - each
-component stays visible in the breakdown so the UI can show *why* a score
-is low (e.g. "no dictionary coverage" vs. "grammar issues") instead of
-collapsing everything into one opaque figure. Any component that isn't
-available for a given request (e.g. grammar_score when there's no Coptic
-text yet) is simply left out of the weighted average rather than being
-treated as zero.
-"""
+"""Combines model confidence, dictionary coverage, grammar score, and retrieval support into one confidence breakdown."""
 
 from __future__ import annotations
 
@@ -31,7 +10,6 @@ from backend.grammar.checker import get_grammar_checker
 from backend.lexicon.lexicon import get_lexicon
 from backend.retrieval.retriever import get_retriever
 
-# Fixed weights, not learned/calibrated - see module docstring.
 _WEIGHTS: dict[str, float] = {
     "model_confidence": 0.40,
     "dictionary_coverage": 0.25,
@@ -39,7 +17,6 @@ _WEIGHTS: dict[str, float] = {
     "retrieval_support": 0.10,
 }
 
-# Labels are coarse buckets for display, not precise probability bands.
 _LABEL_THRESHOLDS = [
     (0.80, "High"),
     (0.55, "Moderate"),
@@ -98,7 +75,6 @@ class ConfidenceScorer:
         retrieval_support: Optional[float] = None
         if query_text.strip():
             hits = self.retriever.search(query_text, top_k=5)
-            # Normalize hit count into 0-1: 5+ relevant hits = full support.
             retrieval_support = min(1.0, len(hits) / 5) if hits else 0.0
 
         components = {

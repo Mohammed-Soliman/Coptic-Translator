@@ -1,28 +1,18 @@
-# --- Core API ---
 fastapi>=0.111
 uvicorn[standard]>=0.30
 pydantic>=2.7
 
-# --- Translation model ---
 torch>=2.2
-# Pinned below v5: the megalaa Coptic models rely on a custom pipeline handler
-# (trust_remote_code=True) that transformers v5 no longer loads the same way,
-# which silently falls back to the generic pipeline and breaks translation.
+# transformers<5.0: v5 breaks megalaa's trust_remote_code=True pipeline handler.
 transformers>=4.42,<5.0.0
 sentencepiece>=0.2.0
 
-# --- Frontend (Phase 1 prototype) ---
 streamlit>=1.36
 
-# --- Retrieval (Phase 5) ---
 sentence-transformers>=3.0
 faiss-cpu>=1.8
 
-# --- Data / storage ---
 pandas>=2.2
-# sqlalchemy>=2.0            # uncomment once you move off flat files to Postgres (Phase 6+)
-# psycopg2-binary>=2.9       # uncomment alongside sqlalchemy
 
-# --- Testing ---
 pytest>=8.2
 httpx>=0.27

@@ -1,15 +1,4 @@
-"""Phase 6: grammar and surface-form validation.
-
-This is intentionally rule-based and lightweight. It does not try to "judge"
-translation quality; it only flags obvious surface-level issues such as:
-
-- mixed Latin/Coptic scripts
-- unsupported characters
-- unknown Coptic tokens
-- dialect mismatches for known lexicon entries
-
-The validation output is designed to feed the later confidence-scoring layer.
-"""
+"""Rule-based grammar and surface-form validation for Coptic text."""
 
 from __future__ import annotations
 
@@ -77,9 +66,7 @@ class GrammarChecker:
             return False
         return True
 
-    def _check_dialect_mismatch(
-        self, token: str, dialect: str
-    ) -> list[GrammarIssue]:
+    def _check_dialect_mismatch(self, token: str, dialect: str) -> list[GrammarIssue]:
         issues: list[GrammarIssue] = []
         matches = self.lexicon.lookup_coptic(token)
         if not matches:

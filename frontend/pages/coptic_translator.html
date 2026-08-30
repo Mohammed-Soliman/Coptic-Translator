@@ -8,9 +8,6 @@
 <link href="https://fonts.googleapis.com/css2?family=Domine:wght@400;700&amp;family=Arimo:wght@400;500;700&amp;family=JetBrains+Mono:wght@500&amp;display=swap" rel="stylesheet"/>
 <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
 <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
-<!-- Noto Sans Coptic actually covers the Coptic Unicode block (U+2C80-U+2CFF);
-     decorative "Coptic-style" fonts elsewhere are usually restyled Latin
-     letters and silently fall back for real Coptic text. -->
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Coptic&amp;display=swap" rel="stylesheet"/>
 <script id="tailwind-config">
         tailwind.config = {
@@ -153,10 +150,8 @@
     </style>
 </head>
 <body class="min-h-screen flex flex-col font-body-md text-body-md">
-<!-- TopAppBar -->
 <header class="bg-surface border-b-2 border-outline-variant docked full-width top-0 sticky z-40 flex justify-between items-center px-margin-desktop h-20 ml-64">
 <div class="text-headline-md font-headline-md text-primary">Akhmim Coptic Archive</div>
-<!-- Dialect Toggle (Centered) -->
 <div class="flex items-center space-x-unit border border-outline-variant p-1 bg-surface-container-low">
 <button class="px-4 py-1 text-label-caps font-label-caps bg-terracotta text-white transition-colors uppercase" data-dialect="bohairic" id="dialect-bohairic-btn">Bohairic</button>
 <button class="px-4 py-1 text-label-caps font-label-caps text-on-surface-variant hover:bg-surface-variant transition-colors uppercase" data-dialect="sahidic" id="dialect-sahidic-btn">Sahidic</button>
@@ -166,7 +161,6 @@
 <button class="hover:text-tertiary p-2"><span class="material-symbols-outlined" data-icon="history">history</span></button>
 </div>
 </header>
-<!-- SideNavBar -->
 <nav class="bg-primary text-on-primary w-64 h-screen fixed left-0 top-0 bg-primary border-r-2 border-on-primary-fixed-variant flex flex-col py-gutter h-full z-50">
 <div class="px-4 mb-8 text-center">
 <img alt="Scholarly Profile Avatar" class="w-16 h-16 mx-auto mb-4 border border-on-primary-fixed-variant p-1 object-cover" data-alt="A highly detailed, flat-shaded minimalist vector illustration of an ancient Egyptian scribe palette in terracotta and sandstone tones, set against a pristine white background. The composition is symmetrical and archival, evoking a modern museum catalog aesthetic." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCb2E1wEjaczD4Mz9YwE1OwjYhiemAasdPaXaGKB6F9nr29gqUsSYd0EvLOf8_C2eRPHb2QsulFkauLFRz4f5Bjcy9LwmEs6DVy-b8YHTm-ccRCKqaOPLHwtxY9awnHDTrhX0Av4WqF0Mq2nkACPkroSDwnWHqs98kPTi0pqBoIqdaF4v8BaksGYlwVcQkrCNLPy4DEXqy5vnF9dOC-sbKrarxQM2s8DbKIWzbBOS7vZ-noEXfly4tX"/>
@@ -198,12 +192,9 @@
 </a>
 </div>
 </nav>
-<!-- Main Content Area -->
 <main class="flex-grow ml-64 p-margin-desktop bg-papyrus flex flex-col items-center justify-center">
 <div class="w-full max-w-container-max relative">
-<!-- 2-Column CSS Grid Panel -->
 <div class="grid grid-cols-2 gap-0 relative bg-sandstone border-2 border-terracotta guilloche-border h-[500px]">
-<!-- Left: Source Panel -->
 <div class="p-8 flex flex-col h-full border-r border-terracotta/30">
 <div class="flex justify-between items-center mb-6">
 <span class="text-label-caps font-label-caps text-terracotta uppercase tracking-widest" id="source-label">Source (English)</span>
@@ -214,7 +205,6 @@
 </div>
 <textarea class="w-full flex-grow bg-transparent border-none resize-none text-headline-md font-headline-md text-charcoal focus:ring-0 p-0 placeholder-outline-variant" id="source-input" placeholder="Enter text to translate..."></textarea>
 </div>
-<!-- Right: Target Panel -->
 <div class="p-8 flex flex-col h-full bg-sandstone/50">
 <div class="flex justify-between items-center mb-6">
 <span class="text-label-caps font-label-caps text-lapis uppercase tracking-widest" id="target-label">Target (Coptic)</span>
@@ -225,12 +215,10 @@
 </div>
 <div class="w-full flex-grow text-script-display font-script-display text-lapis coptic-glyphs" id="target-output"></div>
 </div>
-<!-- Central Swap Icon -->
 <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-papyrus border-2 border-terracotta p-2 hover:bg-surface-variant cursor-pointer transition-colors z-10 rounded-none" id="swap-btn">
 <span class="material-symbols-outlined text-terracotta" data-icon="swap_horiz">swap_horiz</span>
 </div>
 </div>
-<!-- Confidence Bar -->
 <div class="mt-8 bg-sandstone border border-terracotta p-4 flex items-center justify-between">
 <div class="flex items-center space-x-4 w-full">
 <span class="text-label-caps font-label-caps text-charcoal uppercase tracking-widest whitespace-nowrap">Translation Confidence</span>
@@ -242,7 +230,6 @@
 </div>
 </div>
 </main>
-<!-- Footer -->
 <footer class="bg-surface-container-low w-full py-8 ml-64 border-t border-outline-variant flex flex-col items-center justify-center gap-unit px-margin-desktop">
 <p class="text-label-caps font-label-caps text-on-surface-variant uppercase tracking-widest text-center">
             © 2024 Institute of Coptic Studies. Archaeological Sources: UNESCO &amp; Coptic Museum Cairo.

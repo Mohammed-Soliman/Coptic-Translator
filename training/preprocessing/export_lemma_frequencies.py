@@ -1,21 +1,4 @@
-"""
-Phase 4: export lemma/POS frequency stats from the treebank.
-
-This is NOT a dictionary - the treebank only has sentence-level English
-translations, not word-level glosses, so we cannot responsibly generate
-English meanings for these lemmas without a real word-alignment step
-(e.g. giza/fast_align over the parallel sentences, or manual annotation).
-That's future work - see the TODO in ARCHITECTURE.md.
-
-What this DOES give us: a frequency-ranked list of real, attested Coptic
-lemmas with their part of speech, useful for:
-  - prioritizing which words to manually gloss first for the lexicon
-  - grammar/coverage validation (Phase 7) - "is this a known Coptic word
-    at all", independent of whether we know its English meaning
-
-Usage:
-    python -m training.preprocessing.export_lemma_frequencies
-"""
+"""Export lemma/POS frequency stats from the treebank."""
 
 from __future__ import annotations
 
@@ -26,10 +9,7 @@ from pathlib import Path
 from backend.corpus.conllu import Corpus
 
 OUTPUT_PATH = (
-    Path(__file__).resolve().parents[2]
-    / "data"
-    / "corpus"
-    / "lemma_frequencies.json"
+    Path(__file__).resolve().parents[2] / "data" / "corpus" / "lemma_frequencies.json"
 )
 
 

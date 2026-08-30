@@ -1,8 +1,4 @@
-﻿"""Basic smoke tests for the FastAPI app.
-
-Note: these will download the HF models on first run of a /translate test,
-so they're slow the first time. The health check test doesn't require that.
-"""
+﻿"""Basic smoke tests for the FastAPI app."""
 
 from dataclasses import dataclass
 from fastapi.testclient import TestClient
@@ -70,7 +66,11 @@ def test_translate_endpoint_includes_retrieval_hits(monkeypatch):
     client = TestClient(api_main.app)
     response = client.post(
         "/translate",
-        json={"text": "The king is good.", "direction": "en2cop", "dialect": "bohairic"},
+        json={
+            "text": "The king is good.",
+            "direction": "en2cop",
+            "dialect": "bohairic",
+        },
     )
 
     assert response.status_code == 200

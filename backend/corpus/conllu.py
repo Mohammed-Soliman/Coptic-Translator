@@ -1,27 +1,4 @@
-"""
-Phase 4: corpus ingestion.
-
-Parses the UD Coptic Scriptorium treebank (CoNLL-U format) into a simple
-in-memory list of sentences, each with the original Coptic text, its
-English translation (where present), and per-token annotations (lemma,
-POS, morphological features).
-
-Data source: https://github.com/UniversalDependencies/UD_Coptic-Scriptorium
-License: CC BY 4.0. Cite: Zeldes, Amir & Abrams, Mitchell (2018). "The
-Coptic Universal Dependency Treebank". Proceedings of the Universal
-Dependencies Workshop 2018, Brussels, Belgium, 192-201.
-
-Only dev.conllu and test.conllu are bundled in data/corpus/ - the full
-train.conllu is much larger. Download it yourself if you need it:
-
-    curl -o data/corpus/ud_coptic_scriptorium/train.conllu \\
-      https://raw.githubusercontent.com/UniversalDependencies/UD_Coptic-Scriptorium/master/cop_scriptorium-ud-train.conllu
-
-Not every sentence has an English translation (`# text_en = ...`) - many
-do, since large parts of this treebank are Biblical/patristic texts with
-published translations, but check `token.get("text_en")` for None before
-relying on it.
-"""
+"""Parses the UD Coptic Scriptorium treebank (CoNLL-U format) into in-memory sentences."""
 
 from __future__ import annotations
 
@@ -39,11 +16,11 @@ DEFAULT_CORPUS_DIR = (
 
 @dataclass
 class Token:
-    id: str  # CoNLL-U ID field - can be "3" or a range like "3-5" for multi-word tokens
+    id: str
     form: str
     lemma: str
-    upos: str  # universal POS tag, e.g. NOUN, VERB
-    xpos: str  # Coptic Scriptorium's native fine-grained tag
+    upos: str
+    xpos: str
     feats: str
     misc: str
 
@@ -98,12 +75,9 @@ def parse_conllu_file(path: Path) -> list[CorpusSentence]:
 
             fields = line.split("\t")
             if len(fields) != 10:
-                continue  # malformed line, skip rather than crash the whole file
+                continue
             token_id = fields[0]
             if "-" in token_id or "." in token_id:
-                # Multi-word token range line (e.g. "3-5") or empty node
-                # ("3.1") - skip; the individual sub-tokens are on their
-                # own lines right after.
                 continue
             tok = Token(
                 id=token_id,
@@ -116,7 +90,7 @@ def parse_conllu_file(path: Path) -> list[CorpusSentence]:
             )
             tokens.append(tok)
 
-    flush()  # in case the file doesn't end with a trailing blank line
+    flush()
     return sentences
 
 
@@ -144,8 +118,7 @@ class Corpus:
 
     @property
     def translated_sentences(self) -> list[CorpusSentence]:
-        """Only sentences that have an English translation - useful subset
-        for building parallel training/retrieval data."""
+        """Only sentences that have an English translation."""
         return [s for s in self.sentences if s.english_text]
 
     def stats(self) -> dict:

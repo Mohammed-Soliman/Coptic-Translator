@@ -202,7 +202,6 @@
     </style>
 </head>
 <body class="bg-background text-on-surface font-body-md antialiased min-h-screen flex">
-<!-- SideNavBar -->
 <nav class="bg-primary text-on-primary w-64 h-screen fixed left-0 top-0 border-r-2 border-on-primary-fixed-variant flex flex-col py-gutter z-50">
 <div class="px-6 mb-8 flex flex-col gap-2">
 <div class="w-12 h-12 rounded-full overflow-hidden mb-2">
@@ -236,9 +235,7 @@
 </a>
 </div>
 </nav>
-<!-- Main Content Area -->
 <main class="flex-1 ml-64 min-h-screen flex flex-col papyrus-bg relative z-0">
-<!-- TopAppBar -->
 <header class="bg-surface text-primary border-b-2 border-outline-variant flex justify-between items-center px-margin-desktop h-20 sticky top-0 z-40">
 <h2 class="text-headline-md font-headline-md">Akhmim Coptic Archive</h2>
 <div class="flex-1 max-w-xl mx-8 relative flex items-center justify-center">
@@ -254,20 +251,17 @@
 </button>
 </div>
 </header>
-<!-- Filters -->
 <section class="px-margin-desktop py-8 flex justify-center gap-4 border-b border-outline-variant/30" id="manuscripts-filters">
 <button class="px-4 py-1.5 text-label-caps font-label-caps bg-surface-tint text-on-primary border border-outline-variant recessed hover:bg-primary-container transition-colors" data-dialect="all">ALL DIALECTS</button>
 <button class="px-4 py-1.5 text-label-caps font-label-caps bg-surface-tint/10 text-on-surface border border-outline-variant recessed hover:bg-surface-tint/20 transition-colors" data-dialect="sahidic">SAHIDIC</button>
 <button class="px-4 py-1.5 text-label-caps font-label-caps bg-surface-tint/10 text-on-surface border border-outline-variant recessed hover:bg-surface-tint/20 transition-colors" data-dialect="bohairic">BOHAIRIC</button>
 <button class="px-4 py-1.5 text-label-caps font-label-caps bg-surface-tint/10 text-on-surface border border-outline-variant recessed hover:bg-surface-tint/20 transition-colors" data-dialect="akhmimic">AKHMIMIC</button>
 </section>
-<!-- Gallery Grid -->
 <section class="flex-1 p-margin-desktop max-w-[1400px] mx-auto w-full">
 <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-8" id="manuscripts-grid">
 <p class="text-body-md font-body-md text-on-surface-variant col-span-4">Loading manuscripts…</p>
 </div>
 </section>
-<!-- Footer -->
 <footer class="bg-surface-container-low text-on-surface-variant w-full py-8 mt-auto border-t border-outline-variant flex flex-col items-center justify-center gap-unit px-margin-desktop relative z-10">
 <div class="text-label-caps font-label-caps uppercase tracking-widest text-primary mb-2">Akhmim Coptic Archive</div>
 <p class="text-label-caps font-label-caps text-center max-w-2xl opacity-70">© 2024 Institute of Coptic Studies. Archaeological Sources: UNESCO &amp; Coptic Museum Cairo.</p>

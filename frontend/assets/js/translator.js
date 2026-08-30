@@ -15,7 +15,7 @@
   const copyTargetBtn = document.getElementById("copy-target-btn");
 
   const state = {
-    direction: "en2cop", // 'en2cop' | 'cop2en'
+    direction: "en2cop",
     dialect: "bohairic",
   };
 
@@ -111,9 +111,6 @@
     state.direction = state.direction === "en2cop" ? "cop2en" : "en2cop";
     setLabelsForDirection();
 
-    // Swap the visible text between the two panels so the user's last
-    // translation becomes the new starting point, mirroring most
-    // translator UIs' swap behavior.
     const previousOutput = targetOutput.textContent;
     sourceInput.value = previousOutput;
     targetOutput.textContent = "";

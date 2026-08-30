@@ -49,7 +49,10 @@ class TranslationRequest(BaseModel):
 
 
 class ConfidenceBreakdown(BaseModel):
-    overall: float = Field(..., description="Weighted combination of the components below, 0-1. A documented heuristic, not a calibrated probability.")
+    overall: float = Field(
+        ...,
+        description="Weighted combination of the components below, 0-1. A documented heuristic, not a calibrated probability.",
+    )
     label: Literal["High", "Moderate", "Low", "Very Low"]
     model_confidence: Optional[float] = None
     dictionary_coverage: Optional[float] = None

@@ -112,7 +112,6 @@
         
         .recessed-inner { box-shadow: inset 0 0 0 1px #8a726b; }
         
-        /* Custom scrollbar for webkit */
         ::-webkit-scrollbar { width: 8px; }
         ::-webkit-scrollbar-track { background: #EDE0C8; }
         ::-webkit-scrollbar-thumb { background: #8a726b; border-radius: 4px; }
@@ -120,7 +119,6 @@
     </style>
 </head>
 <body class="papyrus-bg text-on-surface font-body-md min-h-screen flex selection:bg-tertiary-fixed selection:text-on-tertiary-fixed">
-<!-- SideNavBar -->
 <nav class="bg-primary dark:bg-primary-container text-on-primary dark:text-on-primary-container text-headline-md font-headline-md w-64 h-screen fixed left-0 top-0 border-r-2 border-on-primary-fixed-variant flex flex-col py-gutter h-full z-50">
 <div class="px-6 mb-8 flex flex-col gap-2">
 <span class="text-headline-md font-headline-md text-on-primary dark:text-on-primary-fixed-variant tracking-tight">Coptic Lab</span>
@@ -162,13 +160,10 @@
 </a>
 </div>
 </nav>
-<!-- Main Content Wrapper -->
 <div class="ml-64 flex-1 flex flex-col min-h-screen">
-<!-- TopAppBar -->
 <header class="bg-surface dark:bg-surface-dim text-primary dark:text-primary-fixed-dim docked full-width top-0 sticky z-40 border-b-2 border-outline-variant flex justify-between items-center px-margin-desktop h-20">
 <h1 class="text-headline-md font-headline-md text-primary dark:text-primary-fixed-dim">Akhmim Coptic Archive</h1>
 <div class="flex items-center gap-6">
-<!-- Search on right -->
 <div class="relative group">
 <input class="bg-transparent border-0 border-b-2 border-outline-variant focus:ring-0 focus:border-primary text-body-md font-body-md text-on-surface placeholder:text-on-surface-variant py-1 px-0 w-64 transition-colors" placeholder="Search archive..." type="text"/>
 <span class="material-symbols-outlined absolute right-0 top-1/2 -translate-y-1/2 text-on-surface-variant group-focus-within:text-primary pointer-events-none">search</span>
@@ -183,11 +178,8 @@
 </div>
 </div>
 </header>
-<!-- Main Canvas -->
 <main class="flex-1 p-margin-desktop max-w-container-max mx-auto w-full">
-<!-- Page Header Controls -->
 <div class="flex flex-col items-center mb-12 gap-8">
-<!-- New Note Cartouche Button -->
 <button class="bg-secondary text-on-secondary px-8 py-3 rounded-none relative group border border-transparent overflow-hidden hover:bg-on-secondary-container transition-colors duration-300" id="new-note-btn">
 <div class="absolute inset-x-2 top-1 border-t-2 border-tertiary-fixed opacity-50"></div>
 <div class="absolute inset-x-2 bottom-1 border-b-2 border-tertiary-fixed opacity-50"></div>
@@ -196,7 +188,6 @@
 <span class="text-label-caps font-label-caps tracking-widest text-on-secondary uppercase">New Log Entry</span>
 </div>
 </button>
-<!-- New Note Form (hidden until the button above is clicked) -->
 <form class="sandstone-bg guilloche-border p-6 w-full max-w-2xl flex flex-col gap-4 hidden" id="new-note-form">
 <div class="flex gap-4">
 <input class="flex-1 bg-transparent border-0 border-b-2 border-outline-variant focus:ring-0 focus:border-primary text-body-md font-body-md py-1" id="new-note-title" placeholder="Entry title" required type="text"/>
@@ -217,7 +208,6 @@
 <button class="bg-secondary text-on-secondary px-4 py-1 text-label-caps font-label-caps uppercase hover:bg-tertiary transition-colors" type="submit">Save Entry</button>
 </div>
 </form>
-<!-- Symmetrical Filter Chips -->
 <div class="flex gap-4 justify-center flex-wrap" id="note-filters">
 <button class="bg-surface-tint text-on-primary px-4 py-1 text-label-caps font-label-caps uppercase rounded-none border border-outline-variant hover:bg-primary-container transition-colors recessed-inner" data-category="all">All Notes</button>
 <button class="sandstone-bg text-on-surface-variant px-4 py-1 text-label-caps font-label-caps uppercase rounded-none border border-outline-variant hover:bg-surface-variant transition-colors" data-category="Model">Model Analysis</button>
@@ -226,12 +216,10 @@
 <button class="sandstone-bg text-on-surface-variant px-4 py-1 text-label-caps font-label-caps uppercase rounded-none border border-outline-variant hover:bg-surface-variant transition-colors" data-category="Eval">Eval Metrics</button>
 </div>
 </div>
-<!-- Grid Content -->
 <div class="grid grid-cols-1 md:grid-cols-2 gap-gutter" id="notes-grid">
 <p class="text-body-md font-body-md text-on-surface-variant col-span-2">Loading notes…</p>
 </div>
 </main>
-<!-- Footer -->
 <footer class="bg-surface-container-low dark:bg-surface-container-highest w-full py-8 border-t border-outline-variant flex flex-col items-center justify-center gap-unit px-margin-desktop mt-auto z-10">
 <p class="text-on-surface-variant font-body-md text-body-md text-center max-w-2xl opacity-80 mb-4">
                 © 2024 Institute of Coptic Studies. Archaeological Sources: UNESCO &amp; Coptic Museum Cairo.

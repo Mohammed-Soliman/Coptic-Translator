@@ -1,4 +1,4 @@
-"""Minimal Streamlit prototype UI for the Coptic translator (Phase 1)."""
+"""Minimal Streamlit prototype UI for the Coptic translator."""
 
 import os
 
@@ -9,14 +9,6 @@ API_URL = os.environ.get("COPTIC_API_URL", "http://localhost:8000")
 
 st.set_page_config(page_title="Coptic AI Translator", page_icon="𓂀")
 
-# Load a real Coptic-Unicode font (Noto Sans Coptic) and apply it only to
-# the translation output. NOTE: decorative "Coptic-style" fonts you might
-# find elsewhere (fancy bubble-letter styles etc.) are usually just
-# restyled LATIN letters and can't render actual Coptic Unicode text
-# (U+2C80-U+2CFF) - they'd silently fall back to a plain system font for
-# our output. Noto Sans Coptic actually covers the Coptic Unicode block
-# and has a traditional, legible look.
-# https://fonts.google.com/noto/specimen/Noto+Sans+Coptic
 st.markdown(
     """
     <style>
@@ -78,7 +70,9 @@ if st.button("Translate", type="primary") and text.strip():
                     st.metric("Model confidence", "n/a")
             with col2:
                 if data.get("dictionary_coverage") is not None:
-                    st.metric("Dictionary coverage", f"{data['dictionary_coverage']:.0%}")
+                    st.metric(
+                        "Dictionary coverage", f"{data['dictionary_coverage']:.0%}"
+                    )
                 else:
                     st.metric("Dictionary coverage", "n/a")
 

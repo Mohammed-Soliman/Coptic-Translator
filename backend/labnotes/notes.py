@@ -1,12 +1,4 @@
-"""
-Lab Notes: a small persistent log of model/corpus/grammar/eval notes.
-
-This isn't in ARCHITECTURE.md's original data model - it exists purely to
-back the Lab Notes UI page with something real to read and write, instead
-of the page's hardcoded mockup content. Kept intentionally simple (one
-flat JSON file, a lock for concurrent writes) to match the rest of the
-Phase 1-6 modules' "flat files for now, move to Postgres later" approach.
-"""
+"""Persistent JSON-backed log of model/corpus/grammar/eval notes for the Lab Notes page."""
 
 from __future__ import annotations
 
@@ -25,8 +17,6 @@ DEFAULT_NOTES_PATH = Path(__file__).resolve().parents[2] / "data" / "lab_notes.j
 
 CATEGORIES = ["Model", "Corpus", "Grammar", "Eval"]
 
-# Seed content so the page isn't empty on a fresh checkout - illustrative
-# only, replace/delete freely once real notes accumulate.
 _SEED_NOTES: list[dict] = [
     {
         "id": 1,

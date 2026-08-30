@@ -1,9 +1,4 @@
-# -*- coding: utf-8 -*-
-"""Crum dictionary scraper using query-based search.
-
-Mirrors like remnqymi.com/crum/ use query parameters instead of crawlable links.
-This scraper builds requests from query terms and optionally dialects.
-"""
+"""Crum dictionary scraper using query-based search."""
 
 from __future__ import annotations
 
@@ -188,7 +183,9 @@ def scrape_crum_search(
     try:
         status_code, body = _fetch_url(url, timeout=timeout)
     except (HTTPError, URLError) as exc:
-        logger.warning("Request failed for query=%s dialect=%s: %s", query, dialect, exc)
+        logger.warning(
+            "Request failed for query=%s dialect=%s: %s", query, dialect, exc
+        )
         return RawCrumPage(
             url=url,
             query=query,
@@ -256,7 +253,9 @@ def build_clean_entries(raw_pages: list[RawCrumPage]) -> list[CleanDictionaryEnt
                         coptic=lemma,
                         lemma=lemma,
                         english=[gloss],
-                        dialect=[page.dialect] if page.dialect != "unknown" else ["unknown"],
+                        dialect=(
+                            [page.dialect] if page.dialect != "unknown" else ["unknown"]
+                        ),
                         part_of_speech=None,
                         gender=None,
                         sources=[
@@ -285,7 +284,9 @@ def write_json(path: Path, payload: Any) -> None:
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser(description="Scrape Crum using query-based search.")
+    parser = argparse.ArgumentParser(
+        description="Scrape Crum using query-based search."
+    )
     parser.add_argument(
         "--queries",
         nargs="*",
@@ -371,7 +372,9 @@ def main() -> None:
 
     logger.info("Wrote raw output to %s", args.raw_output)
     logger.info("Wrote clean output to %s", args.clean_output)
-    logger.info("Scraped %d queries, extracted %d entries", len(raw_pages), len(clean_entries))
+    logger.info(
+        "Scraped %d queries, extracted %d entries", len(raw_pages), len(clean_entries)
+    )
 
 
 if __name__ == "__main__":
