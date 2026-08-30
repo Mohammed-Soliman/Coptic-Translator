@@ -168,6 +168,4 @@ grow the working lexicon.
 
 ## License
 
-Choose a license appropriate for your use (e.g. MIT for code; check licensing
-terms separately for any corpus/dictionary data you incorporate, since some
-Coptic corpora have their own usage terms).
+MIT License.
